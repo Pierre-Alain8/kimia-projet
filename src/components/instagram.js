@@ -13,16 +13,22 @@ class Instagram extends React.Component {
 
             <div className="instagramFeed">
 
-                <div> 
+                <div className="postInstagram"> 
+
                     <img  />
+
                 </div>
 
-                <div> 
+                <div  className="postInstagram"> 
+
                     <img  />
+
                 </div>
 
-                <div> 
+                <div className="postInstagram"> 
+
                     <img  />
+
                 </div>
             </div>
         </div>

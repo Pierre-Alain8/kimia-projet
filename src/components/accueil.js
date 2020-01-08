@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
+import '../css/accueil.css';
 // navbar Ricado
 // header Diane
 // instagram PA

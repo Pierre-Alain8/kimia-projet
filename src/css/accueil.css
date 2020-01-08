@@ -11,6 +11,26 @@
 
 
 /* instagram */
+.instagramContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: blue;
+}
+
+.instagramFeed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+} 
+
+.postInstagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
 
 
 
