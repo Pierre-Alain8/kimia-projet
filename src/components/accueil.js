@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
+import Header from './header'
 // navbar Ricado
 // header Diane
 // instagram PA
@@ -13,7 +14,7 @@ class Accueil extends React.Component {
     render() {
         return (
             <div>
-            <h1> hello</h1>
+            <Header />
             </div>
         )
     }
