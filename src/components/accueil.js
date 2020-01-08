@@ -3,6 +3,7 @@ import { withRouter} from 'react-router-dom';
 // navbar Ricado
 // header Diane
 // instagram PA
+import Instagram from './instagram';
 // contact Diane
 // footer PA
 
@@ -13,7 +14,7 @@ class Accueil extends React.Component {
     render() {
         return (
             <div>
-            <h1> hello</h1>
+                <Instagram />
             </div>
         )
     }
