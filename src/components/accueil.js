@@ -5,8 +5,10 @@ import '../css/accueil.css';
 // header Diane
 // instagram PA
 import Instagram from './instagram';
+// Actualité PA
+import Actualité from './actualité';
 // contact Diane
-// footer PA
+// footer Ricardo
 
 class Accueil extends React.Component {
 
@@ -14,9 +16,12 @@ class Accueil extends React.Component {
 
     render() {
         return (
-            <div>
+
+            <section id="Accueil">
+                {/* <Actualité /> */}
                 <Instagram />
-            </div>
+            </section>
+            
         )
     }
 
