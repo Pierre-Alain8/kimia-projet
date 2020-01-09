@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import logo from '../img/pousse-verte.jpg';
+import logo from '../img/logo.jpg';
 import imgun from '../img/headerimg.jpg';
 
 
@@ -12,15 +12,18 @@ class Header extends React.Component {
         return (
             <section className="header">
 
-                    <div className="blocun">
-                        <img src={imgun} alt="image_kimia" />
-                    </div>
-                    <div className="blocdeux">
+                    <div className="headertrois">
 
+                        <div className="blocun">
+                            <img src={imgun} alt="image_kimia" />
+                        </div>
+                        <div className="blocdeux">
+                            <p>Bienvenue chez vous</p>
+                        </div>
+                    
                     </div>
-                    <div className="logo">
-                        <img src={logo} alt="logo" />
-                    </div>
+
+                    <img className="taillelogo" src={logo} alt="logo" />
 
             </section>
         )
