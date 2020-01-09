@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Navbar{
+  
+  /* background: goldenrod; */
+}
+
+h1{
+  font-family: standardtt;
+  margin-bottom: 0.5rem;
+  margin-left: 3.5rem;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  margin-left: 188vh;
+  margin-top: -11vh;
+  padding: 0.8rem;
+}
+
+li{
+  margin:0.5rem;
+}
+a{
+  text-decoration: none;
 }
