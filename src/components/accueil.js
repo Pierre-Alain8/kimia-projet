@@ -1,8 +1,8 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import Header from './header';
+import Header from './Header';
 import '../css/accueil.css';
-import Pdpcol from './pdp_col';
+import Pdpcol from './Pdp_col';
 // navbar Ricado
 // instagram PA
 // contact Diane
