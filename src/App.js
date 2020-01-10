@@ -1,8 +1,9 @@
 import React from 'react';
 import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
-import Accueil from './components/Accueil';
+import Accueil from './components/Accueil'
 import Navbar  from './components/navbar'
+
 
 
 class App extends React.Component {

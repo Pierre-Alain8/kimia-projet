@@ -1,13 +1,17 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
+import '../css/accueil.css';
+// navbar Ricado
 import Navbar from './navbar';
 import '../index'
-
 // header Diane
 // instagram PA
-import Instagram from './instagram';
+import Instagram from './Instagram';
+// Actualité PA
+import Actualité from './Actualité';
 // contact Diane
-// footer PA
+// footer Ricardo
+
 
 class Accueil extends React.Component {
 
@@ -15,9 +19,14 @@ class Accueil extends React.Component {
 
     render() {
         return (
-            <div>
+
+            <section id="Accueil">
                 {<Navbar className='Navbar'/>}
-            </div>
+                {/* <Actualité />
+                <Instagram /> */} 
+                
+            </section>
+            
         )
     }
 
