@@ -10,6 +10,7 @@ import Actualité from './Actualité';
 // contact Diane
 // footer Ricardo
 
+
 class Accueil extends React.Component {
 
 
@@ -18,8 +19,9 @@ class Accueil extends React.Component {
         return (
 
             <section id="Accueil">
-                <Actualité />
-                <Instagram />
+                {/* <Actualité />
+                <Instagram /> */} 
+                
             </section>
             
         )
