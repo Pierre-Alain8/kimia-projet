@@ -1,13 +1,12 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
+import Navbar from './Navbar';
 import Header from './Header';
-import '../css/accueil.css';
 import Pdpcol from './Pdp_col';
-import '../css/accueil.css';
-import Navbar from './navbar';
-import '../index'
 import Instagram from './Instagram';
 import Actualité from './Actualité';
+import '../index';
+import '../css/accueil.css';
 // contact Diane
 // footer Ricardo
 
@@ -20,12 +19,11 @@ class Accueil extends React.Component {
         return (
 
              <section id="Accueil">
-                {<Navbar className='Navbar'/>}
+                <Navbar />
                 <Header />
+                <Actualité />
+                <Instagram />
                 <Pdpcol />
-                {/* <Actualité />
-                <Instagram /> */} 
-                
             </section>
             
 
