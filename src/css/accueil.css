@@ -92,10 +92,70 @@
 
 
 
-/* contact */
+/* pied de page */
+
+.pdpcol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+}
+
+.divpdp {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    height: 50%;
+    width: 90%;
+}
 
 
 
+.pdpcolun {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    width: 100%;
+    flex-direction: column;
+}
+
+.pdpcolun p {
+    text-align: center;
+}
+
+.divinput {
+    display: flex;
+    justify-content: center;
+}
+
+.divinput button {
+    border: none;
+}
+
+.pdpcoldeux {
+    background-color: grey;
+    width: 100%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.pdpcoldeux p {
+    padding: 8px;
+    text-align: center;
+}
+
+.pdpcoltrois {
+    background-color: pink;
+    width: 100%;
+}
+
+.pdpcoltrois p {
+    text-align: center;
+}
 
 
 /* footer */
