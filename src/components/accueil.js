@@ -4,9 +4,9 @@ import '../css/accueil.css';
 // navbar Ricado
 // header Diane
 // instagram PA
-import Instagram from './instagram';
+import Instagram from './Instagram';
 // Actualité PA
-import Actualité from './actualité';
+import Actualité from './Actualité';
 // contact Diane
 // footer Ricardo
 
@@ -18,8 +18,8 @@ class Accueil extends React.Component {
         return (
 
             <section id="Accueil">
-                {/* <Actualité /> */}
-                <Instagram />
+                <Actualité />
+                {/* <Instagram /> */}
             </section>
             
         )

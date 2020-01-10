@@ -1,10 +1,25 @@
 import React from 'react';
+import articleNews from '../article';
+import Article from './Article';
 
-import Actualité1 from '../img/kimia-actualite-1.jpg';
-import Actualité2 from '../img/kimia-actualite-2.jpg';
-import Actualité3 from '../img/kimia-actualite-3.jpg';
 
 class Actualité extends React.Component {
+    
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             articleNews:[]
+        }
+    }
+    
+    componentWillMount() {
+        this.setState({
+            articleNews 
+        }) 
+        
+    }
+
     render() {
         return (
             <section id="news">
@@ -14,7 +29,44 @@ class Actualité extends React.Component {
                         <h1 className="title">ACTUALITÉ</h1>
 
                     <div className="articlesContenair">
-                        <article className="newsArticles">
+
+                        {
+                            this.state.articleNews
+                                
+                                .map((article) => (
+
+                            
+                                    <Article
+
+                                        key={article.id}
+                                        articleId={article.id}
+                                        articleImg={article.img}
+                                        articleTitle={article.title}
+                                        articleContent={article.content}
+
+                                    />
+                                
+                                ))
+                        }
+
+
+
+                    </div>
+                    
+                </div>
+
+            </section>
+                
+            
+        )
+    }
+}
+
+export default (Actualité)
+
+
+
+                        /* <article className="newsArticles">
 
                             <img src={Actualité1} alt="actualité" />
 
@@ -35,7 +87,7 @@ class Actualité extends React.Component {
 
                             <p className="newsContent"> 
                                 Venez retirer vos contreparties ou bénéficier gratuitement de vos prestation sélectionnées 
-                                lors du financement participatif à tous moment au Kimia café!
+                                lors du financement participatif à tous moment au Kimia café !
                             </p>
 
                         </article>
@@ -51,20 +103,7 @@ class Actualité extends React.Component {
                                 vous faisiez vous même vos produits ménagers? Nous vous proposons des astuces simples, rapides et efficaces à tous les coups!
                             </p>
 
-                        </article>
-
-                    </div>
-                    
-                </div>
-
-            </section>
-                
-            
-        )
-    }
-}
-
-export default (Actualité)
+                        </article> */
 
 
 
