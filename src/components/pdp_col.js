@@ -1,5 +1,8 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 class Pdpcol extends React.Component {
 
@@ -31,10 +34,10 @@ class Pdpcol extends React.Component {
                     </div>
                     <div className="pdpcoltrois">
                         <p>Ne manquez rien de l'envers du décor</p>
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div className="icons">
+                            <div><FontAwesomeIcon icon={faFacebook} /></div>
+                            <div><FontAwesomeIcon icon={faInstagram} /></div>
+                            <div><FontAwesomeIcon icon={faEnvelope} /></div>
                         </div>
                     </div>
 
