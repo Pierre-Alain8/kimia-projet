@@ -19,7 +19,7 @@ class Accueil extends React.Component {
 
             <section id="Accueil">
                 <Actualité />
-                {/* <Instagram /> */}
+                <Instagram />
             </section>
             
         )

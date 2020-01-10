@@ -13,7 +13,7 @@ class Actualité extends React.Component {
         }
     }
     
-    componentWillMount() {
+    componentDidMount() {
         this.setState({
             articleNews 
         }) 
