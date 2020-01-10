@@ -15,8 +15,7 @@ class Accueil extends React.Component {
     render() {
         return (
             <div>
-            <h1> kimia</h1>
-            <Navbar className='Navbar'/>
+                {<Navbar className='Navbar'/>}
             </div>
         )
     }

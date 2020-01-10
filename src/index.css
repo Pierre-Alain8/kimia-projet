@@ -14,20 +14,21 @@ code {
 }
 
 .Navbar{
-  
-  /* background: goldenrod; */
+  background: goldenrod;
+}
+.navbar-brand{
+  margin-top: 8vh;
+  /* background: red; */
+  position: absolute;
+  left: 5rem;
+  margin-top: 1.3rem;
 }
 
-h1{
-  font-family: standardtt;
-  margin-bottom: 0.5rem;
-  margin-left: 3.5rem;
-}
 ul{
   display: flex;
   list-style-type: none;
-  margin-left: 188vh;
-  margin-top: -11vh;
+  margin-left: 100vh;
+  margin-top: 8vh;
   padding: 0.8rem;
 }
 

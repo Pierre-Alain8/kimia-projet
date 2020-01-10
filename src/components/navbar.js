@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 class Navabar extends React.Component {
@@ -7,14 +8,15 @@ class Navabar extends React.Component {
         <div className="Navbar">
             <header id="header" role="banner" className="main-header">
                 <nav className="header-nav">
+                <div className="navbar-brand">Kimia</div>
                     <ul>
-                        <li><a href="#">Cantine</a></li>
-                        <li><a href="#">Epicerie</a></li>
-                        <li><a href="#">Enfants</a></li>
-                        <li><a href="#">Association</a></li>
-                        <li><a href="#">Evénements</a></li>
-                        <li><a href="#">Equipe</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to="/">Cantine</Link></li>
+                        <li><Link to="/">Epicerie</Link></li>
+                        <li><Link to="/">Enfants</Link></li>
+                        <li><Link to="/">Association</Link></li>
+                        <li><Link to="/">Evénements</Link></li>
+                        <li><Link to="/">Equipe</Link></li>
+                        <li><Link to="/">Contact</Link></li>
                     </ul>
                 </nav>
             </header>
