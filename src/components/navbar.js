@@ -1,13 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Accueil from '../components/Accueil';
-import Cantine from '../components/Cantine';
-import Epicerie from '../components/Epicerie'; 
-import Enfants from '../components/Enfants'; 
-import Association from '../components/Association';
-import Evenements from '../components/Evenements';
-import Equipe from '../components/Equipe';
-import Contact from '../components/Contact';
+import Cantine from './Cantine';
+import Epicerie from './Epicerie'; 
+import Enfants from './Enfants'; 
+import Association from './Association';
+import Evenements from './Evenements';
+import Equipe from './Equipe';
+import Contact from './Contact';
 
 
 
@@ -36,7 +35,7 @@ class Navabar extends React.Component {
             </section>
 
             <Switch>
-                <Route exact path="/Accueil" component={Accueil}/>
+                <Route exact path="/"/>
 
                 <Route path="/Cantine" component={Cantine} />
             

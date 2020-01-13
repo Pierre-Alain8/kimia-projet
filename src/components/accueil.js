@@ -5,6 +5,7 @@ import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
 import Actualité from './Actualité';
+import Cantine from './Cantine'
 import '../index';
 import '../../src/accueil.css'
 // contact Diane
@@ -19,14 +20,15 @@ class Accueil extends React.Component {
         return (
 
              <section id="Accueil">
-                <Navbar />
-                <Header />
-                <Actualité />
+                <Navbar /> 
+                <Cantine />
+                {/* <Header />
+                <Actualité /> */}
 
-                <section className="pdp">
+                {/* <section className="pdp">
                     <Instagram />
                     <Pdpcol />
-                </section>
+                </section> */}
 
             </section>
             
