@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter} from 'react-router-dom';
 import '../css/accueil.css';
 // navbar Ricado
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import '../index'
 // header Diane
 // instagram PA
@@ -22,8 +22,8 @@ class Accueil extends React.Component {
 
             <section id="Accueil">
                 {<Navbar className='Navbar'/>}
-                {/* <Actualité />
-                <Instagram /> */} 
+                <Actualité />
+                <Instagram /> 
                 
             </section>
             
