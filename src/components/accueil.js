@@ -22,8 +22,12 @@ class Accueil extends React.Component {
                 <Navbar />
                 <Header />
                 <Actualité />
-                <Instagram />
-                <Pdpcol />
+
+                <section className="pdp">
+                    <Instagram />
+                    <Pdpcol />
+                </section>
+
             </section>
             
 

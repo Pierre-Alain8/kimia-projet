@@ -1,14 +1,39 @@
-
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 /* navbar */
 
 .Navbar {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#nav .main-header {
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
 .navbar-brand{
+    width: 80%;
+    /* height: 28vh; */
     margin-top: 8vh;
     /* background: red; */
-    position: absolute;
+    /* position: absolute; */
     left: 5rem;
     margin-top: 0.1rem;
   }
@@ -16,17 +41,20 @@
   ul{
     display: flex;
     list-style-type: none;
-    margin-left: 100vh;
-    margin-top: 8vh;
-    margin-bottom: 6rem;
+    /* margin-left: 100vh; */
+    width: 80%;
+    /* margin-top: 8vh; */
+    /* margin-bottom: 6rem; */
     padding: 0.8rem;
   }
   
   li{
+   
     font-family: 'EB Garamond', serif;
     font-size: 19.4px;
-    margin:0.5rem;
+    padding: 0.5rem;
   }
+
   a{
     text-decoration: none;
   }
@@ -117,6 +145,7 @@
 /* Actualité */
 
 #news {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,6 +247,10 @@
 
 }
 
+
+.pdp {
+    height: 100vh;
+}
 /* instagram */
 
 .instagram {

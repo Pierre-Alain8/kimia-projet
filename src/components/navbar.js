@@ -7,7 +7,7 @@ class Navabar extends React.Component {
         return(
         <Router>
             <div className="Navbar">
-                <header id="header" role="banner" className="main-header">
+                <header id="nav" role="banner" className="main-header">
                     <nav className="header-nav">
                     <div className="navbar-brand"><h3>Kimia</h3></div>
                         <ul>
