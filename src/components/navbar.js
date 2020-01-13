@@ -1,5 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import Accueil from '../components/Accueil';
+import Cantine from '../components/Cantine';
+import Epicerie from '../components/Epicerie'; 
+import Enfants from '../components/Enfants'; 
+import Association from '../components/Association';
+import Evenements from '../components/Evenements';
+import Equipe from '../components/Equipe';
+import Contact from '../components/Contact';
+
+
+
 
 
 class Navabar extends React.Component {
@@ -23,30 +34,25 @@ class Navabar extends React.Component {
                     </nav>
                 </header>
             </section>
-            <Route exact path="/Accueil" render = { () =>{
-                return <h1>Accueil</h1>
-            }} />
-            <Route path="/Cantine" render = { () =>{
-                return <h1>Cantine</h1>
-            }} />
-            <Route path="/Epicerie" render = { () =>{
-                return <h1>Epicerie</h1>
-            }} />
-            <Route path="/Enfants" render = { () =>{
-                return <h1>Enfants</h1>
-            }} />
-            <Route path="/Association" render = { () =>{
-                return <h1>Association</h1>
-            }} />
-            <Route path="/Evénements" render = { () =>{
-                return <h1>Evénements</h1>
-            }} />
-            <Route path="/Equipe" render = { () =>{
-                return <h1>Equipe</h1>
-            }} />
-            <Route path="/Contact" render = { () =>{
-                return <h1>Contact</h1>
-            }} />
+
+            <Switch>
+                <Route exact path="/Accueil" component={Accueil}/>
+
+                <Route path="/Cantine" component={Cantine} />
+            
+                <Route path="/Epicerie" component={Epicerie}/>
+                
+                <Route path="/Enfants" component={Enfants} />
+
+                <Route path="/Association" component={Association}/>
+
+                <Route path="/Evénements" component={Evenements}/>
+
+                <Route path="/Equipe" component={Equipe} />
+                
+                <Route path="/Contact" component={Contact}/> 
+            </Switch>
+
         </Router>
         )
     }
