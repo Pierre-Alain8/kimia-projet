@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import Navabar from './Navbar';
+import Navbar from './Navbar';
 import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
@@ -19,7 +19,7 @@ class Accueil extends React.Component {
         return (
 
              <section id="Accueil">
-                <Navabar />
+                <Navbar />
                 <Header />
                 <Actualité />
 
