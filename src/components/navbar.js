@@ -6,10 +6,10 @@ class Navabar extends React.Component {
     render () {
         return(
         <Router>
-            <nav className="Navbar">
-                {/* <header id="nav" role="banner" className="main-header"> */}
-                    <section className="header-nav">
-                        <div className="navbar-brand"><h3>Kimia</h3></div>
+            <section className="Navbar">
+                <header id="nav" role="banner" className="main-header">
+                    <nav className="header-nav">
+                    <div className="navbar-brand"><h3>Kimia</h3></div>
                         <ul>
                             <li><Link to="/Accueil">Accueil</Link></li>
                             <li><Link to="/Cantine">Cantine</Link></li>
@@ -20,9 +20,9 @@ class Navabar extends React.Component {
                             <li><Link to="/Equipe">Equipe</Link></li>
                             <li><Link to="/Contact">Contact</Link></li>
                         </ul>
-                    </section>
-                {/* </header> */}
-            </nav>
+                    </nav>
+                </header>
+            </section>
             <Route exact path="/Accueil" render = { () =>{
                 return <h1>Accueil</h1>
             }} />

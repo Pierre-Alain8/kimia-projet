@@ -1,41 +1,60 @@
-
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 /* navbar */
 
 .Navbar {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 10vh;
-}
-.header-nav {
-    width: 90%;
-    display: flex;
+    align-items: center;
 }
 
+#nav .main-header {
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
 .navbar-brand{
+    width: 80%;
+    /* height: 28vh; */
     margin-top: 8vh;
     /* background: red; */
+    /* position: absolute; */
     left: 5rem;
     margin-top: 0.1rem;
-    width: 20%;
-    display: flex;
-    justify-content: flex-end;
   }
   
   ul{
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
     /* margin-left: 100vh; */
-    /* padding: 0.8rem; */
     width: 80%;
+    /* margin-top: 8vh; */
+    /* margin-bottom: 6rem; */
+    padding: 0.8rem;
   }
   
   li{
+   
     font-family: 'EB Garamond', serif;
     font-size: 19.4px;
-    /* margin:0.5rem; */
+    padding: 0.5rem;
   }
+
   a{
     text-decoration: none;
   }
@@ -126,10 +145,11 @@
 /* Actualité */
 
 #news {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 84vh;
     width: 100%;
     /* background-color: lightgreen; */
 }
@@ -227,6 +247,10 @@
 
 }
 
+
+.pdp {
+    height: 100vh;
+}
 /* instagram */
 
 .instagram {
