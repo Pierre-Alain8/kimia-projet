@@ -1,41 +1,62 @@
-
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 /* navbar */
 
 .Navbar {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
 }
 
+.main-header {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
 .navbar-brand{
-    margin-top: 8vh;
-    /* background: red; */
-    position: absolute;
-    left: 5rem;
+    width: 10%;
     margin-top: 0.1rem;
   }
   
   ul{
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
-    margin-left: 100vh;
-    margin-top: 8vh;
-    margin-bottom: 6rem;
-    padding: 0.8rem;
+    width: 90%;
   }
   
   li{
+   
     font-family: 'EB Garamond', serif;
     font-size: 19.4px;
-    margin:0.5rem;
+    padding: 0.5rem;
   }
+
   a{
     text-decoration: none;
+    color: grey;
   }
  
   h3{
     /* font-family: 'Old Standard TT'; */
     font-family: 'EB Garamond', serif;
     /* font-style: italic; */
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20.4px;
   }
   h1{
@@ -117,6 +138,7 @@
 /* Actualité */
 
 #news {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,18 +164,18 @@
 
 .articlesContenair {
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .newsArticles {
     display: flex;
     flex-direction: column;
-    margin: 28px; 
-    justify-content: center;
+    margin-top: 28px; 
     align-items: center;
-    Width: 25%;
+    width: 32%;
 
 }
 
@@ -192,11 +214,11 @@
         height: 36vh;
     }
         
-    .articlesContenair {
+    /* .articlesContenair {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-    }
+    } */
 
     .newsArticles {
         margin: 10px; 
@@ -218,6 +240,10 @@
 
 }
 
+
+.pdp {
+    height: 100vh;
+}
 /* instagram */
 
 .instagram {
@@ -234,7 +260,7 @@
     align-items: center;
     justify-content: center;
     min-height: 27vh;
-    width: 90%;
+    width: 80%;
 }
 
 .instagramFeed {
@@ -284,7 +310,7 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     height: 50%;
-    width: 90%;
+    width: 80%;
 }
 
 

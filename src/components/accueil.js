@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter} from 'react-router-dom';
 import Navbar from './Navbar';
 import Header from './Header';
-import Pdpcol from './pdp_col';
+import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
 import Actualité from './Actualité';
 // import '../index';
@@ -22,8 +22,12 @@ class Accueil extends React.Component {
                 <Navbar />
                 <Header />
                 <Actualité />
-                <Instagram />
-                <Pdpcol />
+
+                <section className="pdp">
+                    <Instagram />
+                    <Pdpcol />
+                </section>
+
             </section>
             
 

@@ -10,7 +10,6 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div>
             <section className="header">
 
                     <div className="headertrois">
@@ -27,7 +26,6 @@ class Header extends React.Component {
                     <img className="taillelogo" src={logo} alt="logo" />
 
             </section>
-            </div>
         )
     }
 

@@ -6,8 +6,8 @@ class Navabar extends React.Component {
     render () {
         return(
         <Router>
-            <div className="Navbar">
-                <header id="header" role="banner" className="main-header">
+            <section className="Navbar">
+                <header id="nav" role="banner" className="main-header">
                     <nav className="header-nav">
                     <div className="navbar-brand"><h3>Kimia</h3></div>
                         <ul>
@@ -22,7 +22,7 @@ class Navabar extends React.Component {
                         </ul>
                     </nav>
                 </header>
-            </div>
+            </section>
             <Route exact path="/Accueil" render = { () =>{
                 return <h1>Accueil</h1>
             }} />
