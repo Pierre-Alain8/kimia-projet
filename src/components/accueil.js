@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
@@ -19,16 +19,15 @@ class Accueil extends React.Component {
     render() {
         return (
 
-             <section id="Accueil">
-                <Navbar /> 
-                <Cantine />
-                {/* <Header />
-                <Actualité /> */}
+            <section id="Accueil">
+                {/* <Navbar /> */}
+                <Header />
+                <Actualité />
 
-                {/* <section className="pdp">
-                    <Instagram />
-                    <Pdpcol />
-                </section> */}
+            <section className="pdp">
+                <Instagram />
+                <Pdpcol />
+            </section>
 
             </section>
             
