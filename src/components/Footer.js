@@ -8,6 +8,7 @@ export default class Footer extends Component {
         return (
             <div className="Footer">
                 <p> 2020 © Kimia</p>
+                <p>Diane MORENO</p>
             </div>
   
         )
