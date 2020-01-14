@@ -1,53 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 class Navabar extends React.Component {
     render () {
         return(
-        <Router>
             <section className="Navbar">
                 <header id="nav" role="banner" className="main-header">
                     <nav className="header-nav">
                     <div className="navbar-brand"><h3>Kimia</h3></div>
                         <ul>
-                            <li><Link to="/Accueil">Accueil</Link></li>
-                            <li><Link to="/Cantine">Cantine</Link></li>
-                            <li><Link to="/Epicerie">Epicerie</Link></li>
-                            <li><Link to="/Enfants">Enfants</Link></li>
-                            <li><Link to="/Association">Association</Link></li>
-                            <li><Link to="/Evénements">Evénements</Link></li>
-                            <li><Link to="/Equipe">Equipe</Link></li>
-                            <li><Link to="/Contact">Contact</Link></li>
+                            <li><NavLink to="/">Accueil</NavLink></li>
+                            <li><NavLink to="/Cantine">Cantine</NavLink></li>
+                            <li><NavLink to="/Epicerie">Epicerie</NavLink></li>
+                            <li><NavLink to="/Enfants">Enfants</NavLink></li>
+                            <li><NavLink to="/Association">Association</NavLink></li>
+                            <li><NavLink to="/Evénements">Evénements</NavLink></li>
+                            <li><NavLink to="/Equipe">Equipe</NavLink></li>
+                            <li><NavLink to="/Contact">Contact</NavLink></li>
                         </ul>
                     </nav>
                 </header>
             </section>
-            <Route exact path="/Accueil" render = { () =>{
-                return <h1>Accueil</h1>
-            }} />
-            <Route path="/Cantine" render = { () =>{
-                return <h1>Cantine</h1>
-            }} />
-            <Route path="/Epicerie" render = { () =>{
-                return <h1>Epicerie</h1>
-            }} />
-            <Route path="/Enfants" render = { () =>{
-                return <h1>Enfants</h1>
-            }} />
-            <Route path="/Association" render = { () =>{
-                return <h1>Association</h1>
-            }} />
-            <Route path="/Evénements" render = { () =>{
-                return <h1>Evénements</h1>
-            }} />
-            <Route path="/Equipe" render = { () =>{
-                return <h1>Equipe</h1>
-            }} />
-            <Route path="/Contact" render = { () =>{
-                return <h1>Contact</h1>
-            }} />
-        </Router>
+     
+
         )
     }
 }
