@@ -1,0 +1,100 @@
+.component-asso {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* background-color: red; */
+}
+
+.asso-content {
+    height: 85%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.asso-img {
+    height: 100%;
+    width: 45%;
+    /* background-color: green; */
+}
+
+.asso-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.asso-text {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: purple; */
+}
+
+.asso-titre {
+    height: 10%;
+    width: 100%;
+    /* background-color: #ffa500; */
+}
+
+.asso-titre h1 {
+    margin: 0;
+}
+
+.asso-pavtext {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+    /* background-color: pink; */
+}
+
+.asso-pavtext h2 {
+    text-align: center;
+}
+
+.asso-col {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: grey; */
+}
+
+.asso-col-un {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.asso-col-deux {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    /* background-color: beige; */
+}
+
+/* .asso-col-deux p {
+    margin: 15px;
+} */
+
+.onglet-contact {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: white; */
+}
+
+.onglet-contact p {
+    margin: 0;
+}
