@@ -4,8 +4,7 @@ import { withRouter} from 'react-router-dom';
 import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
-import Actualité from './Actualité';
-import Cantine from './Cantine'
+import Actualite from './Actualite';
 import '../index';
 import '../../src/accueil.css'
 // contact Diane
@@ -22,7 +21,7 @@ class Accueil extends React.Component {
             <section id="Accueil">
                 {/* <Navbar /> */}
                 <Header />
-                <Actualité />
+                <Actualite />
 
             <section className="pdp">
                 <Instagram />

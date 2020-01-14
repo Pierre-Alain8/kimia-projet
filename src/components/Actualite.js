@@ -3,7 +3,7 @@ import articleNews from '../article';
 import Article from './Article';
 
 
-class Actualité extends React.Component {
+class Actualite extends React.Component {
     
     constructor(props) {
         super(props)
@@ -62,7 +62,7 @@ class Actualité extends React.Component {
     }
 }
 
-export default (Actualité)
+export default Actualite
 
 
 
