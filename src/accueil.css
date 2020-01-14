@@ -449,6 +449,8 @@ body {
 
 
 .Footer{
+    display: flex;
+    justify-content: flex-end;
     width:80%;
     height: 20vh;
     margin: 0 auto;

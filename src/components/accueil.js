@@ -4,7 +4,7 @@ import { withRouter} from 'react-router-dom';
 import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
-import Actualité from './Actualité';
+import Actualite from './Actualite';
 import Footer from './Footer';
 import '../index';
 import '../../src/accueil.css'
@@ -22,11 +22,12 @@ class Accueil extends React.Component {
             <section id="Accueil">
                 {/* <Navbar /> */}
                 <Header />
-                <Actualité />
+                <Actualite />
 
             <section className="pdp">
                 <Instagram />
                 <Pdpcol />
+                <Footer />
             </section>
 
              </section>
