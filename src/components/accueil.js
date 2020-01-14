@@ -5,8 +5,8 @@ import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
 import Actualité from './Actualité';
-import '../index';
-import '../../src/accueil.css'
+// import '../index';
+import 'Accueil.css'
 // contact Diane
 // footer Ricardo
 
