@@ -19,7 +19,7 @@ class Cantine extends React.Component {
                         <h1>LA CANTINE  </h1>
                         <h2>Une cuisine saine et responsable</h2>
 
-                        <div>
+                        <div className="pTest">
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta  qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione. </p>
                         </div>
                     </div>
