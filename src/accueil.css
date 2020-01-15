@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 66px;
+    /* height: 66px; */
 }
 
 .main-header {
@@ -448,6 +448,71 @@ body {
 }
 
 
+
+
+/************************* Enfant **********************************/
+
+
+.bloc-content{
+    width: 90vw;
+    display:flex;
+    
+    margin: 0 auto;
+}
+/* .bloc-title{
+    background: greenyellow;
+} */
+.wrap-bloc{
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: column;
+}
+/* .title-bloc{
+    background: goldenrod;
+} */
+.bloc_1{
+   
+    padding: 0.9rem;
+}
+
+.bloc_2{
+    /* background:brown; */
+    display: flex;
+    height: 100%;
+}
+/* .bloc_3{
+    color:green;
+} */
+.text-content p{
+  
+    text-align: justify;
+    border-right: 0.05rem black solid;
+    padding: 0.9rem;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+.item3 p{
+    border-style: none;
+} 
+
+.pic-img{
+    width: 32vw;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/************************** Footer *********************************/
 .Footer{
     display: flex;
     justify-content: flex-end;
