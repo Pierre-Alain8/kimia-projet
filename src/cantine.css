@@ -1,0 +1,135 @@
+/* cantine */
+
+
+.component {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cantine {
+    height: 85%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cantine-content{
+
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cantine-title{
+    font-family: 'Old Standard TT';
+    height: 10%;
+    width: 100%;
+
+}
+
+.cantine-text p {
+    font-family: 'EB Garamond', serif;
+}
+
+.cantine-title h1 {
+    margin: 0
+}
+
+.cantine-description h2 {
+
+    font-family: 'Old Standard TT';
+    font-weight: 400;
+}
+
+
+.cantine-description {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+
+
+}
+
+.cantine-description p {
+   text-align: center;
+    word-break: break-all;
+}
+
+.cantine-description h2 {
+    text-align: center;
+}
+
+.col-cantine-mots-cles{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.col-cantine-1{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.col-cantine-1 p {
+
+    font-family: 'EB Garamond', serif;
+
+}
+
+.col-cantine-2 {
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+
+  
+}
+
+.col-cantine-2 p {
+
+    font-family: 'EB Garamond', serif;
+    word-break: break-all;
+    text-align: center;
+
+}
+
+.col-tab {
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
+.cantine-cover {
+    height: 100%;
+    width: 40%;
+
+}
+
+.cantine-cover img {
+    height: 100%;
+    width: 100%;
+}
+
+.onglet-epicerie{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

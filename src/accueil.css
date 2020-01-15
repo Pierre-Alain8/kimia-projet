@@ -241,7 +241,7 @@ body {
 
 
 .pdp {
-    height: 100vh;
+    height: 60vh;
 }
 /* instagram */
 
@@ -369,12 +369,6 @@ body {
 
 
 
-
-body {
-    width: 100%;
-    margin: 0;
-}
-
 #Accueil {
 
     display: flex;
@@ -382,112 +376,6 @@ body {
 }
 
 
-/* cantine */
-
-.sectionCantine {
-    
-    height: 91vh;
-    width: 100%;
-    display: flex; 
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: cyan;
-}
-
-
-.cantineContent {
-    height: 80%;
-    width: 40%;
-    background-color: red;
-}
-
-.pTest p {
-    object-fit: contain;
-}
-
-.contentContenair{
-    width: 100%;
-    background-color: violet;
-}
-
-.cantineCover {
-    height: 80%;
-    width: 40%;
-    background-color: yellowgreen;
-}
-
-
-/* l'équipe */
-.kimiaTeam {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   width: 100%;
-}
-
-.titleTeam{
-    font-size: 1.2em;
-    font-family: 'Old Standard TT', serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
-
-.teamContent{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 100%;
-
-}
-
-.teamArticle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
-    height: 90%;
-    width: 29%;
-}
-
-.teamDescription {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    width: 77%;
-}
-
-.teamDescription p {
-    font-family: 'EB Garamond', serif;  
-    font-size: 1.050em;
-    margin-top: 15px;
-    object-fit: contain;
-}
-
-.teamArticle img {
-    height: 40%;
-    width: 74%;
-}
-
-.teamFooter{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.teamFooter h3 {
-    font-family: 'Old Standard TT', serif;
-    font-size: 1.275em;
-}
 
 
 /* footer */

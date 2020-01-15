@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
-// import kimiaCantine from '../img/kimia-cantine.jpg'
-
+import kimiaCantine from '../img/kimia-cantine.jpg';
 
 class Cantine extends React.Component {
 
@@ -10,26 +9,60 @@ class Cantine extends React.Component {
     render() {
         return (
 
-            <section className="sectionCantine">
+        <section className="component">
+            
+            <section className="section-cantine">
 
-                <article className="cantineContent">
+                <article className="cantine-content">
 
-                    <div className="contentContenair">  
+                        <div className="cantine-description">
 
-                        <h1>LA CANTINE  </h1>
-                        <h2>Une cuisine saine et responsable</h2>
+                            <div className="cantine-title"> 
+                                <h1>LA CANTINE  </h1>
+                            </div>
 
-                        <div className="pTest">
-                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta  qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione. </p>
+                            <div className="cantine-text">
+                                <h2>Une cuisine saine et responsable</h2>
+
+                                <p> 
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione, nemo enim nkjblez:fnlzfen zijefihef e
+                                </p>
+                            </div>
                         </div>
-                    </div>
+
+                        <div className="col-cantine-mots-cles">
+
+                            <div className="col-cantine-1">
+                                <p>Produits locaux</p>
+                                <p>Produits revalorisés</p>
+                                <p>Cuisine faite maison</p>
+                            </div>
+
+                            <div className="col-tab"></div>
+
+                            <div className="col-cantine-2">
+                                <p> 
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione, nemo enim nkjblez:fnlzfen zijefihef e
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="onglet-epicerie" >
+                            <p>Découvrir l'épicerie</p>
+                        </div>
 
                 </article>
 
-                <article className="cantineCover">
+                <article className="cantine-cover">
+
+                    <img src={kimiaCantine} alt="kimia-cantine" />
 
                 </article>
+
+                
+
             </section>
+        </section>
         
         // <section className="cantine">
 

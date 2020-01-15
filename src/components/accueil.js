@@ -7,7 +7,7 @@ import Instagram from './Instagram';
 import Actualite from './Actualite';
 import Footer from './Footer';
 import '../index';
-import '../../src/accueil.css'
+// import '../../src/accueil.css'
 // contact Diane
 // footer Ricardo
 
