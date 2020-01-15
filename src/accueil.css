@@ -467,12 +467,10 @@ body {
     display: flex;
     flex-direction: column;
 }
-/* .title-bloc{
-    background: goldenrod;
-} */
+
 .bloc_1{
-   
-    padding: 0.9rem;
+    padding: 3rem;
+    text-align: justify;
 }
 
 .bloc_2{
@@ -480,14 +478,12 @@ body {
     display: flex;
     height: 100%;
 }
-/* .bloc_3{
-    color:green;
-} */
+
 .text-content p{
   
     text-align: justify;
     border-right: 0.05rem black solid;
-    padding: 0.9rem;
+    padding: 1rem;
 }
 h2{
     text-align: center;
@@ -501,8 +497,11 @@ h2{
 } 
 
 .pic-img{
-    width: 32vw;
-    height: 100%;
+    
+        margin-top: 9rem;
+        width: 32vw;
+        height: 78%;
+  
 }
 
 
@@ -516,7 +515,7 @@ h2{
 .Footer{
     display: flex;
     justify-content: flex-end;
-    width:80%;
+    width:90%;
     height: 20vh;
     margin: 0 auto;
     /* background: goldenrod; */
