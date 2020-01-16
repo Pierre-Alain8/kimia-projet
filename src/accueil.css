@@ -242,7 +242,7 @@ body {
 
 
 .pdp {
-    height: 100vh;
+    height: 60vh;
 }
 /* instagram */
 
@@ -454,56 +454,73 @@ body {
 
 
 .bloc-content{
-    width: 90vw;
+    width: 80%;
     display:flex;
-    
+    /* flex-wrap: wrap; */
     margin: 0 auto;
 }
 /* .bloc-title{
     background: greenyellow;
 } */
 .wrap-bloc{
+    /* background: blue; */
     font-family: 'EB Garamond', serif;
+    /* font-size: 1.275em; */
+    font-size: 0.99em;
     display: flex;
     flex-direction: column;
+    width: 43vw;
 }
 
 .bloc_1{
-    padding: 3rem;
+    /* background:goldenrod; */
+    padding: 2rem;
     text-align: justify;
+    /* margin: 0 auto; */
 }
 
 .bloc_2{
     /* background:brown; */
     display: flex;
-    height: 100%;
+    width: 44vw;
+}
+.bloc_3{
+    /* background:pink; */
+    align-self: center;
+   width: 45wv;
+   height: 80vh;
 }
 
 .text-content p{
-  
     text-align: justify;
     border-right: 0.05rem black solid;
-    padding: 1rem;
+    padding: 0.9rem;
 }
 h2{
     text-align: center;
     text-transform: capitalize;
-    font-family: 'EB Garamond', serif;
+    /* font-family: 'EB Garamond', serif; */
     font-weight: 400;
+    font-family: 'Old Standard TT', serif;
+    /* color: #C4C4C4; */
+    font-size: 0.95em;
 }
 
 .item3 p{
     border-style: none;
 } 
 
-.pic-img{
+.pic-img, img{
     
-        margin-top: 9rem;
-        width: 32vw;
-        height: 78%;
+        /* min-inline-size: -webkit-fill-available; */
+        width: 100%;
+        height: 80vh;
+        margin-left: 1rem;
   
 }
-
+.event{
+    text-align: center;
+}
 
 
 
@@ -514,8 +531,8 @@ h2{
 /************************** Footer *********************************/
 .Footer{
     display: flex;
-    justify-content: flex-end;
-    width:90%;
+    justify-content: flex-start;
+    width:80%;
     height: 20vh;
     margin: 0 auto;
     /* background: goldenrod; */

@@ -7,7 +7,7 @@ import Instagram from './Instagram';
 import Actualite from './Actualite';
 import Footer from './Footer';
 import '../index';
-import '../../src/accueil.css'
+// import '../../src/accueil.css'
 // contact Diane
 // footer Ricardo
 
@@ -27,7 +27,7 @@ class Accueil extends React.Component {
             <section className="pdp">
                 <Instagram />
                 <Pdpcol />
-                <Footer />
+                {/*<Footer />*/}
             </section>
 
              </section>

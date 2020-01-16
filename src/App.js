@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 import Accueil from './components/Accueil';
 import Navabar from './components/Navbar';
 import Cantine from './components/Cantine';
@@ -11,7 +11,7 @@ import Evenements from './components/Evenements';
 import Equipe from './components/Equipe';
 import Contact from './components/Contact';
 import Footer from './components/Footer'
-import Pdp_col from './components/Pdp_col'
+// import Pdp_col from './components/Pdp_col'
 
 
 class App extends React.Component {
@@ -31,7 +31,6 @@ class App extends React.Component {
                         <Route path="/Equipe" component={Equipe}/>
                         <Route path="/Contact" component={Contact}/>
                     </Switch>
-                    <Pdp_col />
                     <Footer />
                 </div>
           </BrowserRouter>
