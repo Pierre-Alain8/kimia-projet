@@ -1,0 +1,150 @@
+
+.component{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-contenair {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+}
+
+
+.contact-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: mediumpurple; */
+    width: 33%;
+    height: 80%;
+}
+
+.contact-content-1 h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.275em;
+    font-weight: 400;
+}
+
+.contact-form-kimia {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form-kimia form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 80%;
+}
+
+#submit-contact {
+
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+#submit-button {
+    height: 19%;
+}
+
+.contact-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: mediumpurple; */
+    border-right: 1px solid;
+    border-left: 1px solid;
+    width: 33%;
+    height: 80%;
+}
+
+.contact-content-2 h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.275em;
+    font-weight: 400;
+}
+
+.contact-adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-adresse p {
+    font-family: 'EB Garamond', serif;
+    font-size: 0,95em;
+    text-align: center;
+    margin: 0;
+    width: 80%;
+   
+}
+
+#adresse-2 {
+    margin-bottom: 5%;
+}
+
+.adresse-map{
+    height: 60%;
+    width: 60%;
+}
+
+.adresse-map img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: mediumpurple; */
+    width: 33%;
+    height: 80%;
+}
+
+.contact-content-3 h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.275em;
+    font-weight: 400;
+}
+
+.contact-horaire{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-horaire p {
+    font-family: 'EB Garamond', serif;
+    font-size: 0,95em;
+}
+
+.horaire-content-1 , .horaire-content-2 {
+    margin: 0;
+}
+
+
+.contact-recrutement{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recrutement-content {
+    margin: 0;
+    text-align: center;
+    width: 55%;
+}

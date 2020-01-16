@@ -42,7 +42,12 @@ class Cantine extends React.Component {
 
                             <div className="col-cantine-2">
                                 <p> 
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione, nemo enim nkjblez:fnlzfen zijefihef e
+                                    Lorem ipsum dolor, 
+                                    sit amet consectetur adipisicing elit. 
+                                    Tenetur soluta qui repellendus aspernatur. 
+                                    Ex ea, quod amet doloribus animi assumenda 
+                                    nihil ut delectus earum ratione, 
+                                    nemo enim nkjblez:fnlzfen zijefihef e
                                 </p>
                             </div>
                         </div>
@@ -64,53 +69,6 @@ class Cantine extends React.Component {
             </section>
         </section>
         
-        // <section className="cantine">
-
-        //     <section className="cantineContainer">
-
-        //         <article className ="articleCantine">
-
-        //             <div id="cantineContent" > 
-        //                 <h1 id="titleCantine">LA CANTINE </h1>
-                        
-        //                 <h2> Une cuisine saine et responsable </h2>
-                    
-
-        //                 <p>  
-        //                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta qui repellendus aspernatur. Ex ea, quod amet doloribus animi assumenda nihil ut delectus earum ratione.
-        //                 </p>
-        //             </div>
-
-        //             <div className="keysWord">
-                        
-        //                 <div id="mots-cles">
-
-        //                     <p>Produits locaux</p>
-        //                     <p>Produits relavisé</p>
-        //                     <p>Cuisine faite maison</p>
-        //                 </div>
-
-        //                 <div id="description">
-                           
-        //                       <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur soluta qui repellendus aspernatur. Ex ea, quod amet doloribus an.....</p>
-                           
-        //                 </div>
-
-        //             </div>
-
-        //         </article>
-
-        //         <article className ="cantineCover">
-
-        //             <img src={kimiaCantine} alt="kimia cantine"/>
-
-        //         </article>
-
-
-
-        //     </section>
-            
-        // </section>
             
         )
     }

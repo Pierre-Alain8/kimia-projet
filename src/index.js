@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './accueil.css';
 import './cantine.css';
 import './equipe.css';
+import './contact.css';
 import App from './App';
 
 
