@@ -43,7 +43,7 @@ body {
   li{
    
     font-family: 'EB Garamond', serif;
-    font-size: 19.4px;
+    font-size: 1.275em;
     padding: 0.5rem;
   }
 
@@ -57,7 +57,7 @@ body {
     font-family: 'EB Garamond', serif;
     /* font-style: italic; */
     font-weight: bold;
-    font-size: 20.4px;
+    /* font-size: 20.4px; */
   }
   h1{
     font-family: 'EB Garamond', serif;
@@ -463,7 +463,7 @@ body {
     display: flex;
     justify-content: flex-start;
     width:80%;
-    height: 20vh;
+    /* height: 20vh; */
     margin: 0 auto;
     /* background: goldenrod; */
     border-top: 1px solid #696969;

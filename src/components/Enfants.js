@@ -8,7 +8,7 @@ class Enfants extends React.Component{
             <section className="bloc-content">
                
                     
-                    
+              <article className="bloc-container">      
                 <div className="wrap-bloc">
                     <h1>Enfants</h1>
                     <div className="bloc_1">
@@ -36,7 +36,7 @@ class Enfants extends React.Component{
                     <div className="bloc_3">
                         <img src={Enfant} alt="enfant" className="pic-img" />
                     </div>  
-                    
+                    </article>
             </section>
         )
     }
