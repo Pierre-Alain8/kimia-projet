@@ -1,6 +1,7 @@
 import React from 'react';
 import Enfant from '../img/enfant.jpg'
 
+
 class Enfants extends React.Component{
     render() {
         return(
@@ -34,10 +35,7 @@ class Enfants extends React.Component{
                     </div>
                     <div className="bloc_3">
                         <img src={Enfant} alt="enfant" className="pic-img" />
-                    </div>
-                    
-                
-                    
+                    </div>  
                     
             </section>
         )
