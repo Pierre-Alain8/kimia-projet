@@ -1,15 +1,12 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-// import Navbar from './Navbar';
 import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
 import Actualite from './Actualite';
 import Footer from './Footer';
 import '../index';
-import '../../src/accueil.css'
-// contact Diane
-// footer Ricardo
+// import '../../src/accueil.css'
 
 
 class Accueil extends React.Component {
@@ -20,7 +17,6 @@ class Accueil extends React.Component {
         return (
 
             <section id="Accueil">
-                {/* <Navbar /> */}
                 <Header />
                 <Actualite />
 
