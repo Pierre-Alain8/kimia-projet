@@ -1,100 +1,75 @@
-.component-asso {
+.component {
     height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    width: 100%; 
     /* background-color: red; */
 }
 
-.asso-content {
-    height: 85%;
-    width: 80%;
+.component-conteneur {
+height: 95%;
+width: 80%; 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cols-space {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
 }
 
-.asso-img {
+.deux-cols-space {
     height: 100%;
     width: 45%;
-    /* background-color: green; */
 }
 
-.asso-img img {
+.deux-cols-space-img {
     width: 100%;
     height: 100%;
 }
 
-.asso-text {
-    height: 100%;
-    width: 45%;
+.col-text {
     display: flex;
     flex-direction: column;
-    /* background-color: purple; */
 }
 
-.asso-titre {
+.col-text-section {
     height: 10%;
     width: 100%;
-    /* background-color: #ffa500; */
 }
 
-.asso-titre h1 {
-    margin: 0;
-}
-
-.asso-pavtext {
-    height: 50%;
+.col-text-pavtext{
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: justify;
-    /* background-color: pink; */
 }
 
-.asso-pavtext h2 {
-    text-align: center;
-}
-
-.asso-col {
-    height: 30%;
+.col-text-tableau {
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* background-color: grey; */
 }
 
-.asso-col-un {
-    width: 45%;
+.cols {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: aquamarine; */
+    width: 100%;
 }
 
-.asso-col-deux {
-    width: 45%;
-    display: flex;
-    align-items: center;
-    /* background-color: beige; */
+.deux-cols {
+    height: 100%;
+    width: 50%;
 }
 
-/* .asso-col-deux p {
-    margin: 15px;
-} */
-
-.onglet-contact {
+.col-text-onglet {
     height: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* background-color: white; */
-}
-
-.onglet-contact p {
-    margin: 0;
 }
