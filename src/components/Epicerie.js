@@ -2,10 +2,10 @@ import React from 'react';
 import epicerie from '../img/Silos_epicerie.jpg'
 import  epicerie1 from '../img/epicerie-2.jpg'
 import  epicerie2 from '../img/epicerie-2.jpg';
-import  epicerie3 from '../img/epicerie-3.jpg';
-import  epicerie4 from '../img/epicerie-4.jpg';
-import  epicerie5 from '../img/epicerie-5.jpg';
-import  epicerie6 from '../img/epicerie-6.jpg';
+import  epicerie3 from '../img/epicerie-2.jpg';
+import  epicerie4 from '../img/epicerie-2.jpg';
+import  epicerie5 from '../img/epicerie-2.jpg';
+import  epicerie6 from '../img/epicerie-2.jpg';
 
 
 class Epicerie extends React.Component{

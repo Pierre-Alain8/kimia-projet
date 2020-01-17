@@ -1105,7 +1105,7 @@ width: 80%;
 
 .img-content{
   width: 40vw;
-  /* height: 78vh; */
+  height: 78vh;
   background: purple;
   border-radius: 2%;
 }
@@ -1155,7 +1155,7 @@ figcaption{
   z-index: 2;
   position: absolute;
   width: 5%;
-  top: 72%;
+  top: 84%;
   background: gray;
   border-radius: 12%;
   padding: 0;
@@ -1168,7 +1168,7 @@ figcaption{
   position: absolute;
   border-radius: 12%;
   background: white;
-  bottom: 23%;
+  bottom: 10%;
 }
 
 img figure{
@@ -1255,7 +1255,7 @@ h2{
 
 
 
-/* ************************ Epicerie ***************************** */
+
 
 
 
