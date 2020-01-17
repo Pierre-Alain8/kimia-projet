@@ -77,7 +77,7 @@ h1 {
 
 /* dimensions du conteneur dans le component */
 .component-conteneur {
-height: 95%;
+height: 85%;
 width: 80%; 
 }
 
@@ -105,10 +105,23 @@ width: 80%;
   width: 45%;
 }
 
+/* dimensions de 3 box/colonnes séparées par un espace */
+.trois-cols-space {
+  height: 100%;
+  width: 30%;
+}
+
 /* dimensions de 2 box/colonnes non séparées par un espace */
 .deux-cols {
   height: 100%;
   width: 50%;
+}
+
+/* dimensions de 3 box/colonnes non séparées par un espace */
+.trois-cols {
+  height: 100%;
+  width: 33%;
+  margin: 0;
 }
 
 /* adapter la taille d'une image à son conteneur */
@@ -156,7 +169,54 @@ width: 80%;
   align-items: flex-end;
 }
 
+/* gérer un contenu image et texte  */
+.col-text-content {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: space-between;
+}
 
+/* gérer image + titre + texte, dans le cas EQUIPE et ACTUALITE  */
+.col-text-itt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* dimensions de l'image dans .col-text-itt */
+.col-text-itt img{
+  height: 34vh;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+/* gérer le titre sous l'image  */
+.col-text-itt h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 0.95em;
+}
+
+/* gérer le paragraphe sous le titre  */
+.col-text-itt p {
+  color: #C4C4C4;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.275em;
+}
+
+/* ajouter une border sur le côté droit, dans le cas de 2 box/colonnes */
+.add-border-right {
+  border-right: 1px solid;
+  }
+
+/* ajouter une border côté droit et gache, dans le cas de 3 box/colonnes */
+.add-border-lr {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  }
 
 /* Footer */
 
