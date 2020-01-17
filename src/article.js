@@ -27,3 +27,83 @@ const articleNews = [
 
 
 export default (articleNews)
+
+
+// const evenements = {
+
+//     janvier: [
+//         {
+//         id:1, 
+//         title:"atelier manger bio", 
+//         img:'manger-bio.jpg', 
+//         content:"manger bio c'est trop cool...."
+//         }, 
+         
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+    
+//     ],
+
+//     fevrier: [
+//         {
+//         id:1, 
+//         title:"atelier manger bio", 
+//         img:'manger-bio.jpg', 
+//         content:"manger bio c'est trop cool...."
+//         }, 
+         
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+    
+//     ], 
+
+//     mars: [
+//         {
+//         id:1, 
+//         title:"atelier manger bio", 
+//         img:'manger-bio.jpg', 
+//         content:"manger bio c'est trop cool...."
+//         }, 
+         
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+
+//         {
+//             id:3, 
+//             title:"atelier manger bio", 
+//             img:'manger-bio.jpg', 
+//             content:"manger bio c'est trop cool...."
+//         },
+    
+//     ]
+
+
+// }
+
+// export default (evenements)

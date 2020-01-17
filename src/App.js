@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+<<<<<<< HEAD
 // import './App.css';
+=======
+>>>>>>> 1d3225d601fe349fb1523ce100dfa1447c594b70
 import Accueil from './components/Accueil';
 import Navabar from './components/Navbar';
 import Cantine from './components/Cantine';
@@ -21,8 +24,7 @@ class App extends React.Component {
                 <div>
                     <Navabar />
                     <Switch>
-                        <Route exact path="/" component={Accueil}
-                        />
+                        <Route exact path="/" component={Accueil}/>
                         <Route path="/Cantine" component={Cantine}  />
                         <Route path="/Epicerie" component={Epicerie}/>
                         <Route path="/Enfants" component={Enfants}/>
