@@ -17,7 +17,7 @@ class Association extends React.Component{
                             <div className="col-text-section" >
                                 <h1>L'ASSOCIATION</h1>
                             </div>
-                            <div className="col-text-pavtext" >
+                            <div className="col-text-pavtext col-text" >
                                 <h2>Remettre l'humain et la nature au centre de nos intérêts</h2>
                                 <p> en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de </p>
                             </div>
