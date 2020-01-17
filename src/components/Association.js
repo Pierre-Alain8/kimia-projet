@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../src/association.css';
 import assopic from '../../src/img/journée-internationale-personnes-âgées.jpg';
 
 class Association extends React.Component{
