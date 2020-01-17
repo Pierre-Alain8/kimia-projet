@@ -2,6 +2,22 @@ import React from 'react';
 import kimiaContact from '../img/kimia-contact.jpg';
 
 class Contact extends React.Component{
+
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             value: " "
+        }
+
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+        handleChange(event) {
+            this.setState({value: event.target.value});
+        }
+
+    
     render() {
         return(
            
@@ -19,25 +35,32 @@ class Contact extends React.Component{
 
                 <div className="contact-form-kimia"> 
                 
-                    <form action="mailto:?to=sarahnurancali@gmail.com?&body=" method="post">
+                    <form action="mailto:bonjour@kimiacafe.fr" method="post" encType="text/plain" >
 
                         <label>Nom :</label>
-                        <input type="text" id="nameInput" /> 
+                        <input type="text" name="Nom" id="nameInput" /> 
 
                         <label>Prénom :</label>
-                        <input type="text"  id="prenomInput"/> 
+                        <input type="text" name="Prenom"  id="prenomInput"/> 
                         
                 
 
                         <label>Email :</label>
-                        <input type="email" required  id="emailInput"/> 
+                        <input type="email" name="Email"  required  id="emailInput"/> 
                         
                         
                         <label>Téléphone :</label>
-                        <input type="text" />
+                        <input type="text" name="Telephone"  />
 
                         <label >Votre message </label>
-                        <textarea type="text" name=""  id="messageInput"/>
+
+                        <textarea id="messageInput" type="text" name="Message" 
+                        value={this.state.value } 
+                        onChange={this.handleChange}>
+
+        
+
+                        </textarea>
 
                         <span id="submit-contact">
                             <input type="submit" value="C'est parti" id="submit-button"></input>
