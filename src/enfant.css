@@ -15,7 +15,7 @@
 }
 
 .bloc_1{
-    width:75%;
+    width:83%;
     padding: 2rem;
     text-align: justify;
     margin: 0 auto;
@@ -26,8 +26,7 @@
     /* width: 44vw; */
 }
 .bloc_3{
-   /* align-self: center; */
-   /* width: 45wv; */
+   
    height: 90%;
 }
 
@@ -40,10 +39,10 @@ h2{
     text-align: center;
     text-transform: capitalize;
     /* font-family: 'EB Garamond', serif; */
-    /* font-weight: 400; */
+    font-weight: 400;
     font-family: 'Old Standard TT', serif;
     /* color: #C4C4C4; */
-    font-size: 0.95em;
+    font-size: 1.275em;
 }
 
 .item3 p{
@@ -55,8 +54,6 @@ h2{
         /* min-inline-size: -webkit-fill-available; */
         width: 100%;
         height: 100%;
-      
-  
 }
 .event{
     text-align: center;
@@ -71,4 +68,77 @@ h2{
     width: 80%;
     align-items: center;
     margin: 0 auto;
+}
+
+
+
+
+/* ************************ Epicerie ***************************** */
+
+
+.component{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    background: goldenrod;
+    width: 80%;
+    /* height: 100%; */
+    margin: 0 auto;
+}
+
+.item{
+
+    background: pink;
+    width: 8vw;
+    height: 20vh;
+    text-align: center;
+    border: 0.15em solid;
+    margin:0.1rem;
+}
+
+.img-content{
+    width: 40vw;
+    /* height: 78vh; */
+    background: purple;
+}
+.title-bloc{
+   
+    background-color: blue;
+    width: 80%;
+    /* height: 24vh; */
+    margin: 0 auto;
+
+}
+.item article{
+    background: brown;
+    width: 2vw;
+    height: 3vh;
+}
+
+.cart-bloc{
+    background: grey;
+    /* display: flex; */
+    width: -webkit-fill-available;
+}
+
+.epicerie-bloc{
+    display: flex;
+    flex-direction: column;
+    background: orangered;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+h5{
+    align-items: baseline;
+}
+.cart-content{
+    display: flex;
+
 }
