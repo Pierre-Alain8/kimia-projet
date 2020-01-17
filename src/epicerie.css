@@ -39,7 +39,7 @@
 .item article{
     background: brown;
     width: 2vw;
-    height: 3vh;
+    /* height: 3vh; */
 }
 
 .cart-bloc{
