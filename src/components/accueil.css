@@ -10,11 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD:src/accueil.css
-    /* height: 66px; */
-=======
     height: 10vh;
->>>>>>> 1d3225d601fe349fb1523ce100dfa1447c594b70:src/components/accueil.css
 }
 
 .main-header {

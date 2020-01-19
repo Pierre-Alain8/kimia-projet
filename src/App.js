@@ -1,9 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-<<<<<<< HEAD
-// import './App.css';
-=======
->>>>>>> 1d3225d601fe349fb1523ce100dfa1447c594b70
 import Accueil from './components/Accueil';
 import Navabar from './components/Navbar';
 import Cantine from './components/Cantine';
