@@ -1,15 +1,15 @@
 import React from 'react';
+import Navevent from './Navevent'
+import './evenement.css'
 
 class Evenments extends React.Component{
     render() {
         return(
-            <div>
+            <section className="component-event">
                 <h1>Evenments</h1>
-                <h1>Evenments</h1>
-                <h1>Evenments</h1>
-                <h1>Evenments</h1>
-                <h1>Evenments</h1>
-            </div>
+                <Navevent />
+                
+            </section>
         )
     }
 }

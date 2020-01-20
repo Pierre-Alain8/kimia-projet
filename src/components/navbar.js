@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 
 class Navabar extends React.Component {
+    // handleScroll = e => {
+    //     let element = e.target
+    //     if (element.scrollHeight - element.scrollTop === element.clientHeight)
+    // }
     render () {
         return(
             <section className="Navbar">

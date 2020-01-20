@@ -22,7 +22,7 @@ class Accueil extends React.Component {
             <section className="pdp">
                 <Instagram />
                 <Pdpcol />
-                <Footer />
+                {/*<Footer />*/}
             </section>
 
              </section>
