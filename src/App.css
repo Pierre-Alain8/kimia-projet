@@ -297,6 +297,7 @@ body {
 
     .title {
         font-family: 'Old Standard TT', serif;
+        font-weight: 400;
         color: #C4C4C4;
         font-size: 1.05em;
     }
@@ -329,7 +330,8 @@ body {
 
     .newsTitle {
         font-family: 'Old Standard TT', serif;
-        font-size: 0.95em;
+        font-weight: 400;
+        font-size: 1.275em;
         /* border-bottom: 20px dotted gray;
         -moz-border-radius-topright: 30px 20px;
         -moz-border-radius-topleft: 30px 20px; */
@@ -340,7 +342,7 @@ body {
         font-family: 'EB Garamond', serif;  
         text-align: center;
         margin-top: 0;
-        font-size: 1.275em;
+        font-size: 0.95em;
         
     }
 
@@ -757,6 +759,8 @@ body {
 
 
 #submit-button {
+    /* border: #696969; */
+    background-color: white;
     height: 19%;
 }
 
