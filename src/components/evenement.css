@@ -1,0 +1,17 @@
+/* dimensions du component */
+.component-event {
+  height: 90vh;
+  width: 100%; 
+  background-color: rgb(42, 110, 236);
+}
+
+.month-list{
+    width: 65%;
+    height: 6vh;
+    background: blanchedalmond;
+    margin: 0 auto;
+}
+
+.list-description ul{
+    margin: 0 auto;
+}

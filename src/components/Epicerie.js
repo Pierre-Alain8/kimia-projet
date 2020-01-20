@@ -37,27 +37,27 @@ class Epicerie extends React.Component{
                             <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
-                            <img src={epicerie5} alt="epicerie-5.jpg" />      
+                            <img src={epicerie5} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
-                            <img src={epicerie3} alt="epicerie-3.jpg" />      
+                            <img src={epicerie3} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
-                            <img src={epicerie1} alt="epicerie-1.jpg" />      
+                            <img src={epicerie1} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
-                            <img src={epicerie2} alt="epicerie-2.jpg" />      
+                            <img src={epicerie2} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                         <div className="empty"></div>
                     </figure>
                     <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie-6.jpg" />      
+                        <img src={epicerie6} alt="epicerie" />      
                             <figcaption className="glocery">Confiserie</figcaption>
                         <div className="empty"></div>
                     </figure>

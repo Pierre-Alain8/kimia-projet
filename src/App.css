@@ -1154,8 +1154,9 @@ h5{
 figcaption{
   z-index: 2;
   position: absolute;
-  width: 5%;
-  top: 84%;
+  font-size: 0.9em;
+  /* width: 5%; */
+  /* top: 84%; */
   background: gray;
   border-radius: 12%;
   padding: 0;
@@ -1168,7 +1169,7 @@ figcaption{
   position: absolute;
   border-radius: 12%;
   background: white;
-  bottom: 10%;
+  /* bottom: 10%; */
 }
 
 img figure{
