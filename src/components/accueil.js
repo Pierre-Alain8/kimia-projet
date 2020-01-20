@@ -4,7 +4,6 @@ import Header from './Header';
 import Pdpcol from './Pdp_col';
 import Instagram from './Instagram';
 import Actualite from './Actualite';
-import Footer from './Footer';
 import '../index';
 
 
@@ -22,7 +21,6 @@ class Accueil extends React.Component {
             <section className="pdp">
                 <Instagram />
                 <Pdpcol />
-                {/*<Footer />*/}
             </section>
 
              </section>
