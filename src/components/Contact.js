@@ -120,7 +120,7 @@ class Contact extends React.Component{
                     <div className="contact-horaire">
                         <h2>HORAIRES </h2>
 
-                        <p>De 8h à 20h tous les jours </p>
+                        <p>De 8h à 20h tous les jours </p>
 
                         <span className="horaire-content-1">Brunch </span>
                         <p> Samedi et dimanche de 11h à 15h </p>
