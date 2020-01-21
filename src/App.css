@@ -187,6 +187,16 @@ body {
     height: 90%;
   }
 
+  .padding {
+    padding: 7px;
+  }
+
+  .justify {
+    text-align: justify;
+  }
+
+
+
   /* navbar */
   
   .Navbar {
