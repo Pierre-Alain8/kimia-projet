@@ -86,13 +86,14 @@ body {
   
   /* dimensions titre */
   .col-text-section {
+    font-family: 'Old Standard TT';
     height: 10%;
     width: 100%;
   }
   
   /* dimensions sous-titre + pavé texte */
   .col-text-pavtext{
-    height: 30%;
+    height: 40%;
     width: 100%;
     justify-content: space-evenly;
     text-align: justify;
@@ -100,7 +101,7 @@ body {
   
   /* dimensions des petites colonnes dans les components */
   .col-text-tableau {
-    height: 50%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -180,6 +181,10 @@ body {
   
   .width80 {
     width: 80%;
+  }
+
+  .height90 {
+    height: 90%;
   }
 
   /* navbar */
