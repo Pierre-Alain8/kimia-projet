@@ -451,16 +451,6 @@ h1 {
 
 /*-------------- Cantine ----------------*/
 
-.component {
-  height: 90vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
 /* navbar */
 
 .Navbar {
@@ -523,11 +513,6 @@ font-family: 'EB Garamond', serif;
 text-align: center;
 font-weight: 400;
 }
-
-
-
-/*-------------- Cantine ----------------*/
-
 
 
 /*-------------- Equipe ----------------*/
@@ -821,15 +806,13 @@ text-align: justify;
 border-right: 0.05rem black solid;
 padding: 0.9rem;
 }
-h2{
+/* h2{
 text-align: center;
 text-transform: capitalize;
-/* font-family: 'EB Garamond', serif; */
 font-weight: 400;
 font-family: 'Old Standard TT', serif;
-/* color: #C4C4C4; */
 font-size: 1.275em;
-}
+} */
 
 .item3 p{
 border-style: none;
