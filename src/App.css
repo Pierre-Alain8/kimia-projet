@@ -1,460 +1,188 @@
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
-  
-  /* GESTION DES BOX */
-  
-  /* dimensions du component */
-  .component {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    /* background-color: red; */
-  }
-
-  /* dimensions du component en full height 100vh */
-   .component-full-height {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    /* background-color: red; */
-  }
-  
-  /* dimensions du conteneur dans le component */
-  .component-conteneur {
-    display: flex;
-    height: 90%;
-    width: 80%; 
-  }
-  
-  /* centrer une box dans une autre  */
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* conteneur de colonnes */
-  .cols {
-    display: flex;
-    width: 100%;
-  }
-  
-  /* créér un espace entre les box/colonnes */
-  .cols-space {
-    justify-content: space-between;
-  }
-  
-  /* dimensions de 2 box/colonnes séparées par un espace */
-  .deux-cols-space {
-    height: 100%;
-    width: 45%;
-  }
-  
-  /* dimensions de 3 box/colonnes séparées par un espace */
-  .trois-cols-space {
-    height: 100%;
-    width: 30%;
-  }
-  
-  /* dimensions de 2 box/colonnes non séparées par un espace */
-  .deux-cols {
-    height: 100%;
-    width: 50%;
-  }
-  
-  /* dimensions de 3 box/colonnes non séparées par un espace */
-  .trois-cols {
-    height: 100%;
-    width: 33%;
-    margin: 0;
-  }
-  
-  /* adapter la taille d'une image à son conteneur */
-  .deux-cols-space-img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /* aligner en colonne */
-  .col-text {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* dimensions titre */
-  .col-text-section {
-    font-family: 'Old Standard TT';
-    height: 10%;
-    width: 100%;
-  }
-  
-  /* dimensions sous-titre + pavé texte */
-  .col-text-pavtext{
-    height: 40%;
-    width: 100%;
-    justify-content: space-evenly;
-    text-align: justify;
-  }
-  
-  /* dimensions des petites colonnes dans les components */
-  .col-text-tableau {
-    height: 40%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  /* dimensions de l'onglet "découvrir l'équipe" */
-  .col-text-onglet {
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  
-  /* gérer un contenu image et texte  */
-  .col-text-content {
-    display: flex;
-    width: 100%;
-    height: 90%;
-    justify-content: space-between;
-  }
-  
-  /* gérer image + titre + texte, dans le cas EQUIPE et ACTUALITE  */
-  .col-text-itt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  /* dimensions de l'image dans .col-text-itt */
-  .col-text-itt img{
-    height: 34vh;
-    margin-bottom: 10px;
-    width: 90%;
-  }
-  
-  /* gérer le titre sous l'image  */
-  .col-text-itt h2 {
-      font-family: 'Old Standard TT', serif;
-      font-size: 0.95em;
-  }
-  
-  /* gérer le paragraphe sous le titre  */
-  .col-text-itt p {
-    color: #C4C4C4;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    margin-top: 0;
-    font-size: 1.275em;
-  }
-  
-  /* ajouter une border sur le côté droit, dans le cas de 2 box/colonnes */
-  .add-border-right {
-    border-right: 1px solid;
-    }
-  
-  /* ajouter une border côté droit et gache, dans le cas de 3 box/colonnes */
-  .add-border-lr {
-    border-right: 1px solid;
-    border-left: 1px solid;
-    }
-
-  .quote {
-    height: 30%;
-    width: 100%;
-  }
-
-  .quote h1 {
-    font-size: 3em;
-  }
-
-  .instagram {
-    height: 30%;
-    width: 100%;
-  }
-  
-  .width80 {
-    width: 80%;
-  }
-
-  .height90 {
-    height: 90%;
-  }
-
-  /* navbar */
-  
-  .Navbar {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-  }
-  
-  .main-header {
-    
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-  }
-  
-  .header-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
-  
-  
-  .navbar-brand{
-    width: 10%;
-    margin-top: 0.1rem;
-  }
-  
-  ul{
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    width: 90%;
-  }
-  
-  li{
-   
-    font-family: 'EB Garamond', serif;
-    font-size: 19.4px;
-    padding: 0.5rem;
-  }
-  
-  a{
-    text-decoration: none;
-    color: grey;
-  }
-  
-  h3{
-    /* font-family: 'Old Standard TT'; */
-    font-family: 'EB Garamond', serif;
-    /* font-style: italic; */
-    font-weight: bold;
-    font-size: 20.4px;
-  }
-  h1 {
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    font-weight: 400;
-  }
-
-    
-/*--------------- header ----------------*/
-
-    .header {
-        display: flex;
-        position: relative;
-        /* align-items: center; */
-        height: 100vh;
-        width: 100%;
-    }
-
-    .headertrois {
-        display: inline-flex;
-    }
-
-    .titre {
-        text-align: center;
-    }
-
-    .taillelogo {
-        width: 18%;
-        height: 21%;
-        position: absolute;
-        right: 21%;
-        bottom: 47%;
-    }
-
-    .logo img {
-        height: 100%;
-        width: 100%;
-    }
-
-    .blocun {
-        height: 100%;
-        width: 70%;
-    }
-
-    .blocun img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .blocdeux {
-        /* position: relative; */
-        height: 100%;
-        width: 30%;
-        /* background-color: red; */
-    }
-
-    .blocdeux p {
-        bottom: 30%;
-        position: absolute;
-        right: 0%;
-        left: 78%;
-        color: #696969;
-        font-family: 'Bree Serif', serif;
-        font-weight: 400;
-        font-display: swap;
-        font-size: 25px;
-    }
-
-    .blocdeux img {
-        width: 15%;
-        height: 15%;
-    }
-
-/*--------------- actualité----------------*/
-
-/*--------------- instagram ----------------*/
-
-.instagramContainer {
-    width: 100%;
-}
-
-.instagramFeed {
-    height: 100%;
-    width: 100%;
-}
-
-.lightwidget-widget {
-    width:100%;
-    border:0;
-    overflow:hidden;
-    display: flex;
-}
-
-.lightwidget--image-format-square .lightwidget__image {
-  
-    -o-object-fit: cover;
-    object-fit: cover;
-   
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.lightwidget--image-format-square .lightwidget__image-wrapper {
-    height: 89vh;
-    /* position: relative; */
-    width: 100%;
-}
-
-/*--------------- pied de page ----------------*/
-
-.pdp {
-    height: 60vh;
-}
-
-.pdpcol {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
-    width: 100%;
-    font-family: 'EB Garamond', serif;
-    /* background-color: red; */
-}
-
-.divpdp {
-    display: flex;  
-    height: 50%;
-    width: 80%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 
 
-.pdpcolun {
-    display: flex;
-    justify-content: space-evenly;
-    /* background-color: lightblue; */
-    width: 100%;
-    flex-direction: column;
-}
-
-.pdpcolun p {
-    text-align: center;
-    margin: 0;
-}
-
-.divinput {
-    display: flex;
-    justify-content: center;
-}
-
-.divinput button {
-    border: none;
-    height: 86%;
-}
-
-.pdpcoldeux {
-    /* background-color: grey; */
-    width: 100%;
-    border-left: 1px solid;
-    border-right: 1px solid;
-}
-
-.pdpcoldeux p {
-    padding: 8px;
-    text-align: center;
-}
-
-.pdpcoltrois {
-    /* background-color: pink; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.pdpcoltrois p {
-    margin: 0;
-    text-align: center;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-}
-
-
-/*--------------- Footer ----------------*/
-  
-  .footer-kimia {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 10%;
-    margin: 0 auto;
-    /* background: goldenrod; */
-    border-top: 1px solid #696969;
-  }
-
-/*-------------- Cantine ----------------*/
-
+/* dimensions du component */
 .component {
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
 }
+
+/* dimensions du component en full height 100vh */
+ .component-full-height {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+}
+
+/* dimensions du conteneur dans le component */
+.component-conteneur {
+  display: flex;
+  height: 90%;
+  width: 80%; 
+}
+
+/* centrer une box dans une autre  */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* conteneur de colonnes */
+.cols {
+  display: flex;
+  width: 100%;
+}
+
+/* créér un espace entre les box/colonnes */
+.cols-space {
+  justify-content: space-between;
+}
+
+/* dimensions de 2 box/colonnes séparées par un espace */
+.deux-cols-space {
+  height: 100%;
+  width: 45%;
+}
+
+/* dimensions de 3 box/colonnes séparées par un espace */
+.trois-cols-space {
+  height: 100%;
+  width: 30%;
+}
+
+/* dimensions de 2 box/colonnes non séparées par un espace */
+.deux-cols {
+  height: 100%;
+  width: 50%;
+}
+
+/* dimensions de 3 box/colonnes non séparées par un espace */
+.trois-cols {
+  height: 100%;
+  width: 33%;
+  margin: 0;
+}
+
+/* adapter la taille d'une image à son conteneur */
+.deux-cols-space-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* aligner en colonne */
+.col-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* dimensions titre */
+.col-text-section {
+  height: 10%;
+  width: 100%;
+}
+
+/* dimensions sous-titre + pavé texte */
+.col-text-pavtext{
+  height: 30%;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+/* dimensions des petites colonnes dans les components */
+.col-text-tableau {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* dimensions de l'onglet "découvrir l'équipe" */
+.col-text-onglet {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* gérer un contenu image et texte  */
+.col-text-content {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: space-between;
+}
+
+/* gérer image + titre + texte, dans le cas EQUIPE et ACTUALITE  */
+.col-text-itt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* dimensions de l'image dans .col-text-itt */
+.col-text-itt img{
+  height: 34vh;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+/* gérer le titre sous l'image  */
+.col-text-itt h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 0.95em;
+}
+
+/* gérer le paragraphe sous le titre  */
+.col-text-itt p {
+  color: #C4C4C4;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.275em;
+}
+
+/* ajouter une border sur le côté droit, dans le cas de 2 box/colonnes */
+.add-border-right {
+  border-right: 1px solid;
+  }
+
+/* ajouter une border côté droit et gache, dans le cas de 3 box/colonnes */
+.add-border-lr {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  }
+
+
+.quote {
+  height: 30%;
+  width: 100%;
+}
+
+.quote h1 {
+  font-size: 3em;
+}
+
+.instagram {
+  height: 30%;
+  width: 100%;
+}
+
+.width80 {
+  width: 80%;
+}
+
 /* navbar */
 
 .Navbar {
@@ -465,7 +193,13 @@ body {
   height: 10vh;
 }
 
-.main-header {
+
+  .height90 {
+    height: 90%;
+  }
+
+  /* navbar */
+
   
   width: 100%;
   display: flex;
@@ -518,353 +252,592 @@ h1 {
   font-weight: 400;
 }
 
+  
+/*--------------- header ----------------*/
+
+  .header {
+      display: flex;
+      position: relative;
+      /* align-items: center; */
+      height: 100vh;
+      width: 100%;
+  }
+
+  .headertrois {
+      display: inline-flex;
+  }
+
+  .titre {
+      text-align: center;
+  }
+
+  .taillelogo {
+      width: 18%;
+      height: 21%;
+      position: absolute;
+      right: 21%;
+      bottom: 47%;
+  }
+
+  .logo img {
+      height: 100%;
+      width: 100%;
+  }
+
+  .blocun {
+      height: 100%;
+      width: 70%;
+  }
+
+  .blocun img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .blocdeux {
+      /* position: relative; */
+      height: 100%;
+      width: 30%;
+      /* background-color: red; */
+  }
+
+  .blocdeux p {
+      bottom: 30%;
+      position: absolute;
+      right: 0%;
+      left: 78%;
+      color: #696969;
+      font-family: 'Bree Serif', serif;
+      font-weight: 400;
+      font-display: swap;
+      font-size: 25px;
+  }
+
+  .blocdeux img {
+      width: 15%;
+      height: 15%;
+  }
+
+/*--------------- actualité----------------*/
+
+/*--------------- instagram ----------------*/
+
+.instagramContainer {
+  width: 100%;
+}
+
+.instagramFeed {
+  height: 100%;
+  width: 100%;
+}
+
+.lightwidget-widget {
+  width:100%;
+  border:0;
+  overflow:hidden;
+  display: flex;
+}
+
+.lightwidget--image-format-square .lightwidget__image {
+
+  -o-object-fit: cover;
+  object-fit: cover;
+ 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.lightwidget--image-format-square .lightwidget__image-wrapper {
+  height: 89vh;
+  /* position: relative; */
+  width: 100%;
+}
+
+/*--------------- pied de page ----------------*/
+
+.pdp {
+  height: 60vh;
+}
+
+.pdpcol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
+  font-family: 'EB Garamond', serif;
+  /* background-color: red; */
+}
+
+.divpdp {
+  display: flex;  
+  height: 50%;
+  width: 80%;
+}
+
+
+
+.pdpcolun {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: lightblue; */
+  width: 100%;
+  flex-direction: column;
+}
+
+.pdpcolun p {
+  text-align: center;
+  margin: 0;
+}
+
+.divinput {
+  display: flex;
+  justify-content: center;
+}
+
+.divinput button {
+  border: none;
+  height: 86%;
+}
+
+.pdpcoldeux {
+  /* background-color: grey; */
+  width: 100%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.pdpcoldeux p {
+  padding: 8px;
+  text-align: center;
+}
+
+.pdpcoltrois {
+  /* background-color: pink; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pdpcoltrois p {
+  margin: 0;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+
+/*--------------- Footer ----------------*/
+
+.footer-kimia {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 10%;
+  margin: 0 auto;
+  /* background: goldenrod; */
+  border-top: 1px solid #696969;
+}
+
+/*-------------- Cantine ----------------*/
+
+.component {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+/* navbar */
+
+.Navbar {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh;
+}
+
+.main-header {
+
+width: 100%;
+display: flex;
+justify-content: center;
+height: 100%;
+}
+
+.header-nav {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+}
+
+
+.navbar-brand{
+width: 10%;
+margin-top: 0.1rem;
+}
+
+ul{
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
+width: 90%;
+}
+
+li{
+
+font-family: 'EB Garamond', serif;
+font-size: 19.4px;
+padding: 0.5rem;
+}
+
+a{
+text-decoration: none;
+color: grey;
+}
+
+h3{
+/* font-family: 'Old Standard TT'; */
+font-family: 'EB Garamond', serif;
+/* font-style: italic; */
+font-weight: bold;
+font-size: 20.4px;
+}
+h1 {
+font-family: 'EB Garamond', serif;
+text-align: center;
+font-weight: 400;
+}
+
 
 
 .section-cantine {
-    height: 85%;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+  height: 85%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cantine-content{
 
-    height: 100%;
-    width: 45%;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cantine-title{
-    font-family: 'Old Standard TT';
-    height: 10%;
-    width: 100%;
+  font-family: 'Old Standard TT';
+  height: 10%;
+  width: 100%;
 
 }
 
 .cantine-text p {
-    font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .cantine-title h1 {
-    margin: 0
+  margin: 0
 }
 
 .cantine-description h2 {
 
-    font-family: 'Old Standard TT';
-    font-weight: 400;
+  font-family: 'Old Standard TT';
+  font-weight: 400;
 }
 
 
 .cantine-description {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: justify;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
 
 
 }
 
 .cantine-description p {
-   text-align: center;
-    word-break: break-all;
+ text-align: center;
+  word-break: break-all;
 }
 
 .cantine-description h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .col-cantine-mots-cles{
-    height: 30%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-   
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
 
 .col-cantine-1{
 
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
 
 .col-cantine-1 p {
 
-    font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
 
 }
 
 .col-cantine-2 {
-    height: 50%;
-    width: 40%;
-    display: flex;
-    align-items: center;
+  height: 50%;
+  width: 40%;
+  display: flex;
+  align-items: center;
 }
 
 .col-cantine-2 p {
 
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    height: 100%;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  height: 100%;
 
 }
 
 .col-tab {
-    height: 100%;
-    width: 1px;
-    background-color: #696969
+  height: 100%;
+  width: 1px;
+  background-color: #696969
 }
 
 .cantine-cover {
-    height: 100%;
-    width: 40%;
+  height: 100%;
+  width: 40%;
 
 }
 
 .cantine-cover img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .onglet-epicerie{
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 /*-------------- Equipe ----------------*/
 
-.kimiaTeam {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
- }
- 
- .titleTeam{
-     font-size: 1.2em;
-     font-family: 'Old Standard TT', serif;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 10vh;
- }
- 
- 
- .teamContent{
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     flex-wrap: wrap;
-     width: 90%;
-     height: 100%;
- 
- }
- 
- .teamArticle{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin-top: 5px;
-     height: 90%;
-     width: 29%;
- }
- 
- .teamDescription {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: justify;
-     width: 77%;
- }
- 
- .teamDescription p {
-     font-family: 'EB Garamond', serif;  
-     font-size: 1.050em;
-     margin-top: 15px;
-     object-fit: contain;
- }
- 
- .teamArticle img {
-     height: 40%;
-     width: 74%;
- }
- 
- .teamFooter{
- 
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
- }
- 
- .teamFooter h3 {
-     font-family: 'Old Standard TT', serif;
-     font-size: 1.275em;
-     font-weight: 400;
- }
- 
+#col-team-kimia {
+height: 100%;
+width: 35%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
+
+}
+
+#col-team-kimia img {
+  height: 38vh;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#col-team-kimia-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+#col-team-kimia-2 img {
+  height: 38vh;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#col-team-kimia-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+#col-team-kimia-3 img {
+  height: 38vh;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 /*-------------- Contact ----------------*/
 .component{
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .component-contenair {
-    /* background-color: orange; */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-    height: 100%;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
 }
 
 
 .contact-content-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: mediumpurple; */
-    width: 33%;
-    height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: mediumpurple; */
+  width: 33%;
+  height: 80%;
 }
 
 .contact-content-1 h2 {
-    font-family: 'Old Standard TT', serif;
-    font-size: 1.275em;
-    font-weight: 400;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.275em;
+  font-weight: 400;
 }
 
 .contact-form-kimia {
-    display: flex;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .contact-form-kimia form {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 80%;
 }
 
 #submit-contact {
 
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 
 #submit-button {
-    height: 19%;
+  height: 19%;
 }
 
 .contact-content-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: mediumpurple; */
-    border-right: 1px solid;
-    border-left: 1px solid;
-    width: 33%;
-    height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: mediumpurple; */
+  border-right: 1px solid;
+  border-left: 1px solid;
+  width: 33%;
+  height: 80%;
 }
 
 .contact-content-2 h2 {
-    font-family: 'Old Standard TT', serif;
-    font-size: 1.275em;
-    font-weight: 400;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.275em;
+  font-weight: 400;
 }
 
 .contact-adresse {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .contact-adresse p {
-    font-family: 'EB Garamond', serif;
-    font-size: 0,95em;
-    text-align: center;
-    margin: 0;
-    width: 80%;
-   
+  font-family: 'EB Garamond', serif;
+  font-size: 0,95em;
+  text-align: center;
+  margin: 0;
+  width: 80%;
+ 
 }
 
 #adresse-2 {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .adresse-map{
-    height: 60%;
-    width: 60%;
+  height: 60%;
+  width: 60%;
 }
 
 .adresse-map img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-content-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: mediumpurple; */
-    width: 33%;
-    height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: mediumpurple; */
+  width: 33%;
+  height: 80%;
 }
 
 .contact-content-3 h2 {
-    font-family: 'Old Standard TT', serif;
-    font-size: 1.275em;
-    font-weight: 400;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.275em;
+  font-weight: 400;
 }
 
 .contact-horaire{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-horaire p {
-    font-family: 'EB Garamond', serif;
-    font-size: 0,95em;
+  font-family: 'EB Garamond', serif;
+  font-size: 0,95em;
 }
 
 .horaire-content-1 , .horaire-content-2 {
-    margin: 0;
+  margin: 0;
 }
 
 
 .contact-recrutement{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .recrutement-content {
-    margin: 0;
-    text-align: center;
-    width: 55%;
+  margin: 0;
+  text-align: center;
+  width: 55%;
 }
 
 
@@ -874,98 +847,98 @@ h1 {
 
 
 .component{
-  display: flex;
-  /* background: goldenrod; */
-  width: 80%;
-  /* height: 100%; */
-  margin: 0 auto;
+display: flex;
+/* background: goldenrod; */
+width: 80%;
+/* height: 100%; */
+margin: 0 auto;
 }
 
 .item{
 
-  /* background: pink; */
-  width: 8vw;
-  height: 20vh;
-  text-align: center;
-  border: 0.15em white solid;
-  margin:0.1rem;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  
+/* background: pink; */
+width: 8vw;
+height: 20vh;
+text-align: center;
+border: 0.15em white solid;
+margin:0.1rem;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
 }
 
 .img-content{
-  width: 40vw;
-  height: 78vh;
-  background: purple;
-  border-radius: 2%;
+width: 40vw;
+height: 78vh;
+background: purple;
+border-radius: 2%;
 }
 .title-bloc{
- 
-  /* background-color: blue; */
-  width: 80%;
-  /* height: 24vh; */
-  margin: 0 auto;
-  text-align: justify;
+
+/* background-color: blue; */
+width: 80%;
+/* height: 24vh; */
+margin: 0 auto;
+text-align: justify;
 
 }
 .item article{
-  background: brown;
-  width: 2vw;
-  /* height: 3vh; */
+background: brown;
+width: 2vw;
+/* height: 3vh; */
 }
 
 .cart-bloc{
-  /* background: grey; */
-  /* display: flex; */
-  width: -webkit-fill-available;
+/* background: grey; */
+/* display: flex; */
+width: -webkit-fill-available;
 }
 
 
 
 .wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  width: 88%;
-  justify-content: space-evenly;
-  margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+width: 88%;
+justify-content: space-evenly;
+margin: 0 auto;
 }
 h5{
-  margin-bottom: auto;
-  border: 1px white solid;
-  padding: 0.4rem;
-  border-bottom-width: thick;
-  border-radius: 12%;
-  background: gray
+margin-bottom: auto;
+border: 1px white solid;
+padding: 0.4rem;
+border-bottom-width: thick;
+border-radius: 12%;
+background: gray
 }
 .cart-content{
-  display: flex;
+display: flex;
 
 }
 figcaption{
-  z-index: 2;
-  position: absolute;
-  font-size: 0.9em;
-  /* width: 5%; */
-  /* top: 84%; */
-  background: gray;
-  border-radius: 12%;
-  padding: 0;
+z-index: 2;
+position: absolute;
+font-size: 0.9em;
+/* width: 5%; */
+/* top: 84%; */
+background: gray;
+border-radius: 12%;
+padding: 0;
 }
 .empty{
-  z-index: 1;
-  width: 5%;
-  height: 1%;
-  padding: 0.8rem;
-  position: absolute;
-  border-radius: 12%;
-  background: white;
-  /* bottom: 10%; */
+z-index: 1;
+width: 5%;
+height: 1%;
+padding: 0.8rem;
+position: absolute;
+border-radius: 12%;
+background: white;
+/* bottom: 10%; */
 }
 
 img figure{
-  position: relative;
+position: relative;
 }
 
 
@@ -975,63 +948,63 @@ img figure{
 
 
 .bloc-content{
-  width: 100%;
-  display:flex;
-  margin: 0 auto;
+width: 100%;
+display:flex;
+margin: 0 auto;
 }
 
 .wrap-bloc{
-  font-family: 'EB Garamond', serif;
-  /* font-size: 1.275em; */
-  font-size: 0.95em;
-  display: flex;
-  flex-direction: column;
-  /* width: 43vw; */
+font-family: 'EB Garamond', serif;
+/* font-size: 1.275em; */
+font-size: 0.95em;
+display: flex;
+flex-direction: column;
+/* width: 43vw; */
 }
 
 .bloc_1{
-  width:83%;
-  padding: 2rem;
-  text-align: justify;
-  margin: 0 auto;
+width:83%;
+padding: 2rem;
+text-align: justify;
+margin: 0 auto;
 }
 
 .bloc_2{
-  display: flex;
-  /* width: 44vw; */
+display: flex;
+/* width: 44vw; */
 }
 .bloc_3{
- 
- height: 90%;
+
+height: 90%;
 }
 
 .text-content p{
-  text-align: justify;
-  border-right: 0.05rem black solid;
-  padding: 0.9rem;
+text-align: justify;
+border-right: 0.05rem black solid;
+padding: 0.9rem;
 }
 h2{
-  text-align: center;
-  text-transform: capitalize;
-  /* font-family: 'EB Garamond', serif; */
-  font-weight: 400;
-  font-family: 'Old Standard TT', serif;
-  /* color: #C4C4C4; */
-  font-size: 1.275em;
+text-align: center;
+text-transform: capitalize;
+/* font-family: 'EB Garamond', serif; */
+font-weight: 400;
+font-family: 'Old Standard TT', serif;
+/* color: #C4C4C4; */
+font-size: 1.275em;
 }
 
 .item3 p{
-  border-style: none;
+border-style: none;
 } 
 
 .pic-img, img{
-  
-      /* min-inline-size: -webkit-fill-available; */
-      width: 100%;
-      height: 100%;
+
+    /* min-inline-size: -webkit-fill-available; */
+    width: 100%;
+    height: 100%;
 }
 .event{
-  text-align: center;
+text-align: center;
 }
 
 
@@ -1039,15 +1012,11 @@ h2{
 /* ************************ Enfant ***************************** */
 
 .bloc-container{
-  display: flex;
-  width: 80%;
-  align-items: center;
-  margin: 0 auto;
+display: flex;
+width: 80%;
+align-items: center;
+margin: 0 auto;
 }
-
-
-
-
 
 
 

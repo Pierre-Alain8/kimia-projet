@@ -31,70 +31,82 @@ class Epicerie extends React.Component{
                     <div className="wrapper">
 
                     <div className="cart-content">
+
                         <figure className="text-content item">
                             <img src={epicerie4} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
+
                         <figure className="text-content item">
                             <img src={epicerie5} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
+
                         <figure className="text-content item">
                             <img src={epicerie3} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
+
                         <figure className="text-content item">
                             <img src={epicerie1} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
+
                         <figure className="text-content item">
                             <img src={epicerie2} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
                         <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
+                        </figure>
+
+                        <figure className="text-content item">
+                            <img src={epicerie6} alt="epicerie" />      
+                                <figcaption className="glocery">Confiserie</figcaption>
+                            <div className="empty"></div>
+                        </figure>
                     </div>
                 
                 
                     <div className="cart-content">
+
                         <figure className="text-content item">
                             <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
+                                <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
                         </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie5} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
+
+                        <figure className="text-content item">
+                            <img src={epicerie5} alt="epicerie" />      
+                                <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
-                    </figure>
+                        </figure>
+
                         <figure className="text-content item">
                             <img src={epicerie3} alt="epicerie" />      
-                        <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie1} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
+                                <figcaption className="glocery">Confiserie</figcaption>
                             <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie2} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
+                         </figure>
+
+                        <figure className="text-content item">
+                            <img src={epicerie1} alt="epicerie" />      
+                                <figcaption className="glocery">Confiserie</figcaption>
+                            <div className="empty"></div>
+                        </figure>
+
+                        <figure className="text-content item">
+                            <img src={epicerie2} alt="epicerie" />      
+                                <figcaption className="glocery">Confiserie</figcaption>
+                            <div className="empty"></div>
+                        </figure>
+
+                        <figure className="text-content item">
+                            <img src={epicerie6} alt="epicerie" />      
+                                <figcaption className="glocery">Confiserie</figcaption>
+                            <div className="empty"></div>
+                        </figure>
                     </div>
 
                     </div>
