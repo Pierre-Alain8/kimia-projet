@@ -10,11 +10,9 @@ class Pdpcol extends React.Component {
 
         return(
 
-            <div className="pdpcol">
+            <div className="component-pdp">
 
-                <article className="divpdp">
-
-                    <section className="trois-cols center col-text" >
+                    <article className="trois-cols center col-text" >
                             
                             <div className="width80">
                                 <p>Restez informés de notre actualité</p>
@@ -29,16 +27,16 @@ class Pdpcol extends React.Component {
                                 </div>
                             </div>
                       
-                    </section>
+                    </article>
 
-                    <section className="trois-cols add-border-lr center">
+                    <article className="trois-cols add-border-lr center">
                     <   div className="width80">
                             <p id="devise" >Cultivons le vivre et le faire ensemble dans le respect de l'autre et de l'environnement.</p>
                         </div>
-                    </section>
+                    </article>
 
-                    <section className="trois-cols center col-text">
-                        <div className="width80">
+                    <article className="trois-cols center col-text">
+                        <div className="width80 col-text center">
                             <p>Ne manquez rien de l'envers du décor</p>
                             <div className="icons">
                                 <div><FontAwesomeIcon icon={faFacebook} /></div>
@@ -46,9 +44,7 @@ class Pdpcol extends React.Component {
                                 <div><FontAwesomeIcon icon={faEnvelope} /></div>
                             </div>
                         </div>
-                    </section>
-
-                </article>
+                    </article>
 
             </div>
 
