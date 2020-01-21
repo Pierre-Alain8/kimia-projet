@@ -642,6 +642,10 @@ font-weight: 400;
 #col-team-kimia {
 height: 100%;
 width: 35%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
 
 }
 
@@ -655,6 +659,7 @@ width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
 }
 
 #col-team-kimia-2 img {
@@ -667,6 +672,7 @@ width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
 }
 
 #col-team-kimia-3 img {
