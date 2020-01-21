@@ -22,21 +22,21 @@ class Actualite extends React.Component {
 
     render() {
         return (
-            <section id="news">
+            <section className="component-full-height center">
+                <div className="component-conteneur cols-space col-text center">
 
-                <div className="newsContenair">
-                        
+                    <div className="col-text-section center">
                         <h1 className="title">ACTUALITÉ</h1>
+                    </div>
 
-                    <div className="articlesContenair">
-
+                    <div className="cols col-text-content">
                         {
                             this.state.articleNews
                                 
                                 .map((article) => (
 
                             
-                                    <Article
+                                    <Article 
 
                                         key={article.id}
                                         articleId={article.id}
@@ -45,16 +45,10 @@ class Actualite extends React.Component {
                                         articleContent={article.content}
 
                                     />
-                                
                                 ))
                         }
-
-
-
                     </div>
-                    
                 </div>
-
             </section>
                 
             
