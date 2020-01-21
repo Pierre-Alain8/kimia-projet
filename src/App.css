@@ -39,6 +39,7 @@ body {
 /* conteneur de colonnes */
 .cols {
   display: flex;
+  height: 100%;
   width: 100%;
 }
 
@@ -525,127 +526,9 @@ font-weight: 400;
 
 
 
-.section-cantine {
-  height: 85%;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.cantine-content{
-
-  height: 100%;
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-}
-
-.cantine-title{
-  font-family: 'Old Standard TT';
-  height: 10%;
-  width: 100%;
-
-}
-
-.cantine-text p {
-  font-family: 'EB Garamond', serif;
-}
-
-.cantine-title h1 {
-  margin: 0
-}
-
-.cantine-description h2 {
-
-  font-family: 'Old Standard TT';
-  font-weight: 400;
-}
+/*-------------- Cantine ----------------*/
 
 
-.cantine-description {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align: justify;
-
-
-}
-
-.cantine-description p {
- text-align: center;
-  word-break: break-all;
-}
-
-.cantine-description h2 {
-  text-align: center;
-}
-
-.col-cantine-mots-cles{
-  height: 30%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
- 
-}
-
-
-.col-cantine-1{
-
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-
-.col-cantine-1 p {
-
-  font-family: 'EB Garamond', serif;
-
-}
-
-.col-cantine-2 {
-  height: 50%;
-  width: 40%;
-  display: flex;
-  align-items: center;
-}
-
-.col-cantine-2 p {
-
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  height: 100%;
-
-}
-
-.col-tab {
-  height: 100%;
-  width: 1px;
-  background-color: #696969
-}
-
-.cantine-cover {
-  height: 100%;
-  width: 40%;
-
-}
-
-.cantine-cover img {
-  height: 100%;
-  width: 100%;
-}
-
-.onglet-epicerie{
-  height: 10%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
 
 /*-------------- Equipe ----------------*/
 
@@ -693,37 +576,11 @@ text-align: justify;
 
 
 /*-------------- Contact ----------------*/
-.component{
-  height: 90vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.component-contenair {
-  /* background-color: orange; */
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 80%;
-  height: 100%;
-}
 
 
-.contact-content-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: mediumpurple; */
-  width: 33%;
-  height: 80%;
-}
-
-.contact-content-1 h2 {
-  font-family: 'Old Standard TT', serif;
-  font-size: 1.275em;
-  font-weight: 400;
+ 
+#cols-kimia-contact {
+  height: 85%;
 }
 
 .contact-form-kimia {
@@ -741,33 +598,25 @@ text-align: justify;
 
 #submit-contact {
 
-  height: 100%;
+  height: 28%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
+#submit-border {
+  border: 1px solid #C4C4C4;
+  height: 30%;
+  width: 35%;
 
+}
 #submit-button {
-  height: 19%;
+  background-color: white;
+  border: none;
+  height: 100%;
+  width: 100%;
 }
 
-.contact-content-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: mediumpurple; */
-  border-right: 1px solid;
-  border-left: 1px solid;
-  width: 33%;
-  height: 80%;
-}
-
-.contact-content-2 h2 {
-  font-family: 'Old Standard TT', serif;
-  font-size: 1.275em;
-  font-weight: 400;
-}
 
 .contact-adresse {
   display: flex;
@@ -799,22 +648,6 @@ text-align: justify;
   width: 100%;
   height: 100%;
 }
-
-.contact-content-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: mediumpurple; */
-  width: 33%;
-  height: 80%;
-}
-
-.contact-content-3 h2 {
-  font-family: 'Old Standard TT', serif;
-  font-size: 1.275em;
-  font-weight: 400;
-}
-
 .contact-horaire{ 
   display: flex;
   flex-direction: column;
@@ -824,10 +657,12 @@ text-align: justify;
 .contact-horaire p {
   font-family: 'EB Garamond', serif;
   font-size: 0,95em;
+  margin: 0;
 }
 
 .horaire-content-1 , .horaire-content-2 {
-  margin: 0;
+  font-weight: bold;
+  margin: 5px;
 }
 
 
