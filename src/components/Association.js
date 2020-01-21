@@ -5,13 +5,13 @@ class Association extends React.Component{
     render() {
         return(
             
-            <div className="component center" >
-                <div className="component-conteneur cols-space"> 
+            <div className="component-full-height center" >
+                <div className="component-conteneur cols-space center"> 
                     <section className="deux-cols-space">
                         <img alt="solidarité" className="deux-cols-space-img" src={assopic} />              
                     </section>
 
-                    <section className="deux-cols-space col-text">
+                    <section className="deux-cols-space col-text height90">
                         
                             <div className="col-text-section" >
                                 <h1>L'ASSOCIATION</h1>

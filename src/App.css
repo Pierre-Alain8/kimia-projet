@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-/* GESTION DES BOX */
+
 
 /* dimensions du component */
 .component {
@@ -164,6 +164,7 @@ body {
   border-left: 1px solid;
   }
 
+
 .quote {
   height: 30%;
   width: 100%;
@@ -192,7 +193,13 @@ body {
   height: 10vh;
 }
 
-.main-header {
+
+  .height90 {
+    height: 90%;
+  }
+
+  /* navbar */
+
   
   width: 100%;
   display: flex;
