@@ -10,7 +10,7 @@ export default class Footer extends Component {
             
             <section className="footer component-full-height center">
 
-                <article className="component-conteneur center col-text">
+                <article className="component-conteneur center col-text" id="dims-footer">
             
                     <Quote />
                     <Instagram />
