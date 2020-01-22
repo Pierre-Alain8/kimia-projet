@@ -16,7 +16,7 @@ class Association extends React.Component{
                     <section className="deux-cols-space col-text height90">
                         
                         <div className="col-text-section" >
-                            <h1 className="no-margin">L'ASSOCIATION</h1>
+                            <h1 className="no-margin">L'association</h1>
                         </div>
                         <div className="col-text-pavtext col-text" id="col-text-pavtext-cantine">
                             <h2>Remettre l'humain et la nature au centre de nos intérêts</h2>

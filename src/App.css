@@ -152,7 +152,6 @@ body {
 
 /* gérer le paragraphe sous le titre  */
 .col-text-itt p {
-  width: 90%;
   color: black;
   font-family: 'EB Garamond', serif;
   text-align: justify;
@@ -727,6 +726,10 @@ justify-content: center;
 }
 
 #dims-bloc-texte h2 p {
+  margin: 0;
+}
+
+.margin-null {
   margin: 0;
 }
 
