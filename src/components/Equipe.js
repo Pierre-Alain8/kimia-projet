@@ -39,7 +39,7 @@ class Equipe extends React.Component{
                                 <div className="" >
 
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium!
                                     </p>
                                 </div>
 
