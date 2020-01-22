@@ -5,6 +5,9 @@ body {
 }
 
 
+
+  /* *******************CSS COMMUN***************** */
+
 /* dimensions du component */
 .component {
   height: 90vh;
@@ -51,7 +54,7 @@ body {
 /* dimensions de 2 box/colonnes séparées par un espace */
 .deux-cols-space {
   height: 100%;
-  width: 45%;
+  width: 47%;
 }
 
 /* dimensions de 3 box/colonnes séparées par un espace */
@@ -109,7 +112,7 @@ body {
 
 /* dimensions de l'onglet "découvrir l'équipe" */
 .col-text-onglet {
-  height: 10%;
+  height: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -149,9 +152,10 @@ body {
 
 /* gérer le paragraphe sous le titre  */
 .col-text-itt p {
+  width: 90%;
   color: black;
   font-family: 'EB Garamond', serif;
-  text-align: center;
+  text-align: justify;
   margin-top: 0;
   font-size: 1.05em;
 }
@@ -166,7 +170,6 @@ body {
   border-right: 1px solid;
   border-left: 1px solid;
   }
-
 
 .quote {
   height: 30%;
@@ -202,6 +205,11 @@ body {
   text-align: justify;
 }
 
+.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  
 
 /*--------------- header ----------------*/
 
@@ -376,15 +384,28 @@ body {
 }
 
 /*-------------- Cantine ----------------*/
+#col-text-pavtext-cantine {
+  height: 45%;
+}
+
+#col-text-tableau {
+  height: 35%;
+}
+
+#col-text-onglet {
+  height: 10%;
+}
+
 
 /* font component cantine */
 .component-cantine h1 {
-
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
   font-size: 1.30em;
   color: black;
   text-align: center;
+
+/* ***************Navbar************** */
 
 }
 
@@ -525,6 +546,10 @@ text-align: justify;
   height: 38vh;
   width: 100%;
   margin-bottom: 10px;
+}
+
+.margin-top {
+  margin-top: 0;
 }
 
 
@@ -688,6 +713,27 @@ justify-content: center;
 
 }
 
+#dims-bloc-titre {
+  height: 5%;
+}
+
+#dims-bloc-titre h1 {
+  margin-bottom: 0;
+}
+
+
+#dims-bloc-texte {
+  height: 25%;
+}
+
+#dims-bloc-texte h2 p {
+  margin: 0;
+}
+
+#dims-wrapper {
+  height: 60%;
+}
+
 .wrapper{
 display: flex;
 justify-content: space-between;
@@ -713,6 +759,10 @@ width: 100%;
 }
 
 figcaption {
+height: 23px;
+display: flex;
+align-items: center;
+color: white;
 z-index: 2;
 position: absolute;
 font-size: 0.9em;
@@ -731,12 +781,16 @@ padding: 0;
   width: 50%;
 }
 
+#dims-col-ep {
+  height: 100%;
+}
+
 .vignette-row-un {
-  bottom: 28%;
+  bottom: 36%;
 }
 
 .vignette-row-deux {
-  bottom: 8%;
+  bottom: 14%;
 }
 
 
@@ -775,6 +829,7 @@ padding: 0;
     height: 90%;
 }
 
+
 /*-------------- Associations ----------------*/
 
 /* font component associations */
@@ -802,4 +857,11 @@ padding: 0;
   color: black;
   font-family: 'EB Garamond', serif;;
   font-size: 1.05em;
+  
+#margin-h2 {
+  margin-bottom: 0;
+}
+
+#no-mg-top {
+  margin-top: 0;
 }
