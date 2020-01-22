@@ -12,9 +12,10 @@ class Epicerie extends React.Component{
 
     render() {
         return(
+
             <section className="component center">
-                <div className="component-conteneur cols-space center">
-                
+                <div className="component-conteneur cols-space center component-epicerie">
+
                 {/* Colonne 1 */}
                     <article className="col-img-ep">
                         <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>

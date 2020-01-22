@@ -5,9 +5,10 @@ class Association extends React.Component{
     render() {
         return(
             
+
             <div className="component center" >
-                <div className="component-conteneur cols-space center"> 
-                
+                <div className="component-conteneur cols-space center component-associations"> 
+          
                     <section className="deux-cols-space">
                         <img alt="solidarité" className="deux-cols-space-img" src={assopic} />              
                     </section>
