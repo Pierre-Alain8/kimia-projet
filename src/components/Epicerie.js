@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import epicerie from '../img/Silos_epicerie.jpg'
 import  epicerie1 from '../img/epicerie-2.jpg'
 import  epicerie2 from '../img/epicerie-2.jpg';
@@ -106,7 +107,7 @@ class Epicerie extends React.Component{
                         </div>
 
                         <div className="col-text-onglet" id="col-text-onglet" >
-                            <p>Découvrir l'épicerie</p>
+                            <p><Link to="/Enfants">Découvrir la prise en charge des enfants</Link></p>
                         </div>
                     </article>
 

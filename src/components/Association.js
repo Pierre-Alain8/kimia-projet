@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import assopic from '../../src/img/journée-internationale-personnes-âgées.jpg';
 
 class Association extends React.Component{
@@ -33,7 +34,7 @@ class Association extends React.Component{
                             </article>
                         </div>
                         <div className="col-text-onglet" id="col-text-onglet">
-                            <p>Découvrir l'équipe</p>
+                            <p><Link to="/Contact">Découvrir l'équipe</Link></p>
                         </div>
 
 
