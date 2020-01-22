@@ -12,6 +12,9 @@ h2{
   font-size: 1.275em;
   }
 
+
+  /* *******************CSS COMMUN***************** */
+
 /* dimensions du component */
 .component {
   height: 90vh;
@@ -172,7 +175,6 @@ h2{
   border-right: 1px solid;
   border-left: 1px solid;
   }
-
 
 .quote {
   height: 30%;
@@ -380,14 +382,7 @@ h2{
 
 
 
-
-
-
-
-
-
-
-/* navbar */
+/* ***************Navbar************** */
 
 .Navbar {
 width: 100%;
