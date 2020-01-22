@@ -5,9 +5,10 @@ class Association extends React.Component{
     render() {
         return(
             
-            <div className="component-full-height center" >
-                <div className="component-conteneur cols-space center"> 
-                
+
+            <div className="component center" >
+                <div className="component-conteneur cols-space center component-associations"> 
+          
                     <section className="deux-cols-space">
                         <img alt="solidarité" className="deux-cols-space-img" src={assopic} />              
                     </section>
@@ -15,13 +16,13 @@ class Association extends React.Component{
                     <section className="deux-cols-space col-text height90">
                         
                         <div className="col-text-section" >
-                            <h1>L'ASSOCIATION</h1>
+                            <h1 className="no-margin">L'ASSOCIATION</h1>
                         </div>
-                        <div className="col-text-pavtext col-text" >
+                        <div className="col-text-pavtext col-text" id="col-text-pavtext-cantine">
                             <h2>Remettre l'humain et la nature au centre de nos intérêts</h2>
                                 <p> en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de  en magasin sont tous formés aux spécificités des produits biologiques afin de </p>
                         </div>
-                        <div className="cols col-text-tableau" >
+                        <div className="cols col-text-tableau" id="col-text-tableau" >
                             <article className="deux-cols center col-text" >
                                 <p>Produits locaux</p>
                                 <p>Produits revalorisés</p>
@@ -31,7 +32,7 @@ class Association extends React.Component{
                                 <p>Envie de bien manger dans un cadre design ? Au sein du très branché concept-store Merci, La Cantine sert tous les jours un déjeuner sain et équilibré. La carte qui varie au fil des saisons propose des salades et des produits frais  .</p>
                             </article>
                         </div>
-                        <div className="col-text-onglet" >
+                        <div className="col-text-onglet" id="col-text-onglet">
                             <p>Découvrir l'équipe</p>
                         </div>
 

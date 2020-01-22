@@ -12,28 +12,29 @@ class Epicerie extends React.Component{
 
     render() {
         return(
-            <section className="component-full-height center">
-                <div className="component-conteneur cols-space center">
-                
+
+            <section className="component center">
+                <div className="component-conteneur cols-space center component-epicerie">
+
                 {/* Colonne 1 */}
                     <article className="col-img-ep">
                         <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
                     </article>
 
                     {/* Colonnes 2 */}
-                    <article className="col-text-ep" >
+                    <article className="col-text-ep" id="dims-col-ep" >
                         
-                        <div className="col-text-section" >
+                        <div className="col-text-section" id="dims-bloc-titre">
                             <h1>EPICERIE</h1>
                         </div>
 
-                        <div className="col-text-pavtext col-text">
+                        <div className="col-text-pavtext col-text dims-bloc-texte">
                             <h2>des bons produits locaux pour le quotidient</h2>
                                 <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
                         </div>
                     
 
-                        <div className="wrapper col-text">
+                        <div className="wrapper col-text dims-wrapper">
 
                             <div className="cart-content">
 
@@ -104,7 +105,7 @@ class Epicerie extends React.Component{
 
                         </div>
 
-                        <div className="col-text-onglet" >
+                        <div className="col-text-onglet" id="col-text-onglet" >
                             <p>Découvrir l'épicerie</p>
                         </div>
                     </article>
