@@ -17,7 +17,7 @@ class Article extends React.Component{
                 </h2>
 
                 <div className="article-content">
-                    <p> 
+                    <p className="margin-null"> 
                         {articleContent}
                     </p>
                 </div>
