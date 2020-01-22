@@ -11,7 +11,7 @@ class Cantine extends React.Component {
 
           
             <div className="component-full-height center" >
-                <div className="component-conteneur cols-space center"> 
+                <div className="component-conteneur cols-space center component-cantine"> 
 
                     <section className="deux-cols-space col-text height90">
                         

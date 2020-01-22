@@ -13,7 +13,7 @@ class Epicerie extends React.Component{
     render() {
         return(
             <section className="component-full-height center">
-                <div className="component-conteneur cols-space center">
+                <div className="component-conteneur cols-space center component-epicerie">
                 
                 {/* Colonne 1 */}
                     <article className="col-img-ep">

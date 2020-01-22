@@ -4,13 +4,6 @@ body {
   margin: 0;
 }
 
-h2{
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: 400;
-  font-family: 'Old Standard TT', serif;
-  font-size: 1.275em;
-  }
 
 /* dimensions du component */
 .component {
@@ -121,6 +114,8 @@ h2{
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  font-family: 'Old standart TT' serif;
+  font-size: 1.20em;
 }
 
 /* gérer un contenu image et texte  */
@@ -154,11 +149,11 @@ h2{
 
 /* gérer le paragraphe sous le titre  */
 .col-text-itt p {
-  color: #C4C4C4;
+  color: black;
   font-family: 'EB Garamond', serif;
   text-align: center;
   margin-top: 0;
-  font-size: 1.275em;
+  font-size: 1.05em;
 }
 
 /* ajouter une border sur le côté droit, dans le cas de 2 box/colonnes */
@@ -179,7 +174,11 @@ h2{
 }
 
 .quote h1 {
-  font-size: 3em;
+  color: black;
+  font-family: 'Old standart TT' serif;
+  font-weight: 400;
+  font-size: 2em;
+  
 }
 
 .instagram {
@@ -202,7 +201,8 @@ h2{
 .justify {
   text-align: justify;
 }
-  
+
+
 /*--------------- header ----------------*/
 
   .header {
@@ -256,11 +256,11 @@ h2{
       position: absolute;
       right: 0%;
       left: 78%;
-      color: #696969;
+      color: black;
       font-family: 'Bree Serif', serif;
       font-weight: 400;
       font-display: swap;
-      font-size: 25px;
+      font-size: 1.563em;
   }
 
   .blocdeux img {
@@ -269,6 +269,16 @@ h2{
   }
 
 /*--------------- actualité----------------*/
+  .cols-article h2 {
+    color: black;
+    font-size: 1.10em; 
+    font-family: 'Old standart TT' serif;
+
+  }
+
+  .article-content {
+      width: 90%;
+  }
 
 /*--------------- instagram ----------------*/
 
@@ -315,8 +325,14 @@ h2{
   justify-content: center;
   height: 15%;
   width: 100%;
-  font-family: 'EB Garamond', serif;
   /* background-color: red; */
+}
+
+.component-pdp p {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: black;
+  font-size: 1.05em;
 }
 
 .divpdp {
@@ -361,71 +377,113 @@ h2{
 
 /*-------------- Cantine ----------------*/
 
+/* font component cantine */
+.component-cantine h1 {
+
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+
+}
+
+.component-cantine h2 {
+
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.component-cantine p {
+
+  color: black;
+  font-family: 'EB Garamond', serif;;
+  font-size: 1.05em;
+
+}
+
+
 
 /* navbar */
 
 .Navbar {
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 10vh;
-}
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  }
+  
+  .main-header {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  }
+  
+  .header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  }
+  
+  
+  .navbar-brand{
+  width: 10%;
+  margin-top: 0.1rem;
+  }
 
-.main-header {
-
-width: 100%;
-display: flex;
-justify-content: center;
-height: 100%;
-}
-
-.header-nav {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 80%;
-}
-
-
-.navbar-brand{
-width: 10%;
-margin-top: 0.1rem;
-}
-
-ul{
-display: flex;
-justify-content: flex-end;
-list-style-type: none;
-width: 90%;
-}
-
-li{
-
-font-family: 'EB Garamond', serif;
-font-size: 19.4px;
-padding: 0.5rem;
-}
-
-a{
-text-decoration: none;
-color: grey;
-}
-
-h3{
-/* font-family: 'Old Standard TT'; */
-font-family: 'EB Garamond', serif;
-/* font-style: italic; */
-font-weight: bold;
-font-size: 20.4px;
-}
-h1 {
-font-family: 'EB Garamond', serif;
-text-align: center;
-font-weight: 400;
-}
+  .navbar-brand h3{ 
+      font-family: 'Old Standard TT', serif;
+      font-size: 1.20em;
+      color: black;
+  }
+  
+  ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 90%;
+  }
+  
+  li{
+  
+  font-family: 'EB Garamond', serif;
+  font-size: 1.10em;
+  padding: 0.5rem;
+  }
+  
+  a{
+  text-decoration: none;
+  color: black;
+  }
+  
 
 /*-------------- Equipe ----------------*/
+
+/* font component equipe */
+.component-equipe h1 {
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+
+}
+
+.component-equipe p {
+  color: black;
+  font-family: 'EB Garamond', serif;;
+  font-size: 1.05em;
+}
+
 
 #col-team-kimia {
 height: 100%;
@@ -472,11 +530,23 @@ text-align: justify;
 
 /*-------------- Contact ----------------*/
 
+.component-contact h2 {
+   color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.10em;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
 #cols-kimia-contact {
   height: 85%;
 }
 
 .contact-form-kimia {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.05em;
   display: flex;
   height: 100%;
   width: 100%;
@@ -521,7 +591,7 @@ text-align: justify;
 
 .contact-adresse p {
   font-family: 'EB Garamond', serif;
-  font-size: 0,95em;
+  font-size: 1.05em;
   text-align: center;
   margin: 0;
   width: 80%;
@@ -549,12 +619,14 @@ text-align: justify;
 
 .contact-horaire p {
   font-family: 'EB Garamond', serif;
-  font-size: 0,95em;
+  font-size: 1.05em;
   margin: 0;
 }
 
 .horaire-content-1 , .horaire-content-2 {
+  font-family: 'EB Garamond', serif;
   font-weight: bold;
+  font-size: 1.05em;
   margin: 5px;
 }
 
@@ -576,6 +648,33 @@ text-align: justify;
 
 
 /******************** Epicerie ***************************/
+
+
+/* font component epicerie */
+.component-epicerie h1 {
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+
+}
+
+.component-epicerie h2 {
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.10em;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.component-epicerie p {
+  color: black;
+  font-family: 'EB Garamond', serif;;
+  font-size: 1.05em;
+}
 
 .item{
 /* background: pink; */
@@ -643,9 +742,64 @@ padding: 0;
 
 /* ********************************* Enfant ******************************************/
 
+/* font component enfants */
+.component-enfants h1 {
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+
+}
+
+.component-enfants h2 {
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.10em;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.component-enfants p {
+  color: black;
+  font-family: 'EB Garamond', serif;;
+  font-size: 1.05em;
+}
+
 .pic-img-dims{
 
     /* min-inline-size: -webkit-fill-available; */
     width: 100%;
     height: 90%;
+}
+
+/*-------------- Associations ----------------*/
+
+/* font component associations */
+
+.component-associations h1 {
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  color: black;
+  text-align: center;
+
+}
+
+.component-associations h2 {
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.10em;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.component-associations p {
+  color: black;
+  font-family: 'EB Garamond', serif;;
+  font-size: 1.05em;
 }

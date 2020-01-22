@@ -23,7 +23,7 @@ class Contact extends React.Component{
            
         <section className="component-full-height center">
             
-        <section className="component-conteneur cols-space col-text center" >
+        <section className="component-conteneur cols-space col-text center component-contact" >
 
             <section className="cols" id="cols-kimia-contact">
 

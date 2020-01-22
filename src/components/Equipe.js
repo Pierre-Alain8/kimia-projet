@@ -9,7 +9,7 @@ class Equipe extends React.Component{
 
             <section className="component-full-height center">
                 
-                <div className="component-conteneur cols-space col-text center">
+                <div className="component-conteneur cols-space col-text center component-equipe">
 
                     <div className="col-text-section center">
 
@@ -63,7 +63,7 @@ class Equipe extends React.Component{
 
                     <div className="col-text-onglet">
                         {/* teamFooter */}
-                        <h3>Nous contacter</h3>
+                        <p>Nous contacter</p>
                     </div>
 
                 </div>

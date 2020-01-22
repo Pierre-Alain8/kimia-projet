@@ -7,7 +7,7 @@ class Enfants extends React.Component{
         return(
             <section className="component-full-height center">
                     
-                <article className="component-conteneur cols-space center">  
+                <article className="component-conteneur cols-space center component-enfants ">  
 
                 <div className="deux-cols-space col-text height90">
 
@@ -35,7 +35,7 @@ class Enfants extends React.Component{
                         </div>
                         
                     </div>
-                    <div><h2 className="col-text-onglet">découvrir les événements</h2></div>
+                    <div><p className="col-text-onglet">Découvrir les événements</p></div>
                     </div>
 
                     <div className="deux-cols-space">

@@ -6,7 +6,7 @@ class Association extends React.Component{
         return(
             
             <div className="component-full-height center" >
-                <div className="component-conteneur cols-space center"> 
+                <div className="component-conteneur cols-space center component-associations"> 
                 
                     <section className="deux-cols-space">
                         <img alt="solidarité" className="deux-cols-space-img" src={assopic} />              
