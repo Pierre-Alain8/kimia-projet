@@ -12,13 +12,13 @@ class Header extends React.Component {
         return (
             <section className="header">
 
-                    <div className="headertrois">
+                    <div className="headertrois slide-down">
 
                         <div className="blocun">
                             <img src={imgun} alt="image_kimia" />
                         </div>
                         <div className="blocdeux">
-                            <p>BIENVENUE CHEZ VOUS</p>
+                            <p>BIENVENUE CHEZ<br/>VOUS</p>
                         </div>
                     
                     </div>
