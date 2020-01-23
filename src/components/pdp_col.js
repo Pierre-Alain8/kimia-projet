@@ -10,40 +10,43 @@ class Pdpcol extends React.Component {
 
         return(
 
-            <section className="pdpcol">
+            <div className="component-pdp">
 
-                <div className="divpdp">
-
-                    <div className="pdpcolun" >
-                   
-                            <p>Restez informés de notre actualité</p>
-    
-                            <div className="divinput">
-                                <div>
-                                    <input type="text" name="email" placeholder="email"></input>
-                                </div>
-                                <div>
-                                    <button type="submit" name="submit">OK</button>
+                    <article className="trois-cols center col-text" >
+                            
+                            <div className="width80">
+                                <p>Restez informés de notre actualité</p>
+        
+                                <div className="divinput center">
+                                    <div>
+                                        <input type="text" name="email" placeholder="email"></input>
+                                    </div>
+                                    <div>
+                                        <button type="submit" name="submit">OK</button>
+                                    </div>
                                 </div>
                             </div>
                       
-                    </div>
+                    </article>
 
-                    <div className="pdpcoldeux">
-                        <p>Cultivons le vivre et le faire ensemble dans le respect de l'autre et de l'environnement.</p>
-                    </div>
-                    <div className="pdpcoltrois">
-                        <p>Ne manquez rien de l'envers du décor</p>
-                        <div className="icons">
-                            <div><FontAwesomeIcon icon={faFacebook} /></div>
-                            <div><FontAwesomeIcon icon={faInstagram} /></div>
-                            <div><FontAwesomeIcon icon={faEnvelope} /></div>
+                    <article className="trois-cols add-border-lr center">
+                    <   div className="width80">
+                            <p id="devise" >Cultivons le vivre et le faire ensemble dans le respect de l'autre et de l'environnement.</p>
                         </div>
-                    </div>
+                    </article>
 
-                </div>
+                    <article className="trois-cols center col-text">
+                        <div className="width80 col-text center">
+                            <p>Ne manquez rien de l'envers du décor</p>
+                            <div className="icons">
+                                <div><FontAwesomeIcon icon={faFacebook} /></div>
+                                <div><FontAwesomeIcon icon={faInstagram} /></div>
+                                <div><FontAwesomeIcon icon={faEnvelope} /></div>
+                            </div>
+                        </div>
+                    </article>
 
-            </section>
+            </div>
 
         )
     }

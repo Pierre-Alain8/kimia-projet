@@ -1,106 +1,105 @@
 import React from 'react';
-import epicerie from '../img/Silos_epicerie.jpg'
-import  epicerie1 from '../img/epicerie-2.jpg'
-import  epicerie2 from '../img/epicerie-2.jpg';
-import  epicerie3 from '../img/epicerie-2.jpg';
-import  epicerie4 from '../img/epicerie-2.jpg';
-import  epicerie5 from '../img/epicerie-2.jpg';
-import  epicerie6 from '../img/epicerie-2.jpg';
+import { Link } from 'react-router-dom';
+import categoriesProduits from '../epicerie';
+import categoriesProduitsBis from '../epicerieBis';
+import Vignettes from './Vignettes';
+import VignettesBis from './VignettesBis';
+import epicerie from '../img/Silos_epicerie.jpg';
 
 
 class Epicerie extends React.Component{
 
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            categoriesProduits:[],
+            categoriesProduitsBis:[]
+        }
+    }
+    
+    componentDidMount() {
+        this.setState({
+            categoriesProduits,
+            categoriesProduitsBis
+        }) 
+        
+    }
+
     render() {
         return(
-            <section className="component">
-                
-                <div className="img-content">
-                    <img src={epicerie} alt="epicerie" />
-                </div>
-                
-                <article className="cart-bloc" >
+
+            <section className="component center">
+                <div className="component-conteneur cols-space center component-epicerie">
+
+                {/* Colonne 1 */}
+                    <article className="col-img-ep">
+                        <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
+                    </article>
+
+                {/* Colonnes 2 */}
+                    <article className="col-text-ep" id="dims-col-ep" >
                         
-                    <div className="title-bloc" >
-                        
-                        <h1>EPICERIE</h1>
-                        <h2>des bons produits locaux pour le quotidient</h2>
-                        <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
-                    </div>
-                
 
-                    <div className="wrapper">
+                        <div className="col-text-section" id="dims-bloc-titre">
+                            <h1>EPICERIE</h1>
+                        </div>
 
-                    <div className="cart-content">
-                        <figure className="text-content item">
-                            <img src={epicerie4} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie5} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie3} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie1} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie2} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                    </div>
-                
-                
-                    <div className="cart-content">
-                        <figure className="text-content item">
-                            <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                        </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie5} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie3} alt="epicerie" />      
-                        <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie1} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie2} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    </div>
-
-                    </div>
+                        <div className="col-text-pavtext col-text dims-bloc-texte">
+                            <h2>des bons produits locaux pour le quotidien</h2>
+                                <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
+                        </div>
                     
-                </article>
 
+                        <div className="wrapper col-text dims-wrapper">
+
+                            <div className="cart-content">
+                                {
+                                    this.state.categoriesProduits
+                                    
+                                        .map((vignette) => (
+
+                                            <Vignettes 
+
+                                                key={vignette.id}
+                                                vignetteId={vignette.id}
+                                                vignetteImg={vignette.img}
+                                                vignetteLegend={vignette.legend}
+
+                                            />
+                                        ))
+                                }
+                                
+                            </div>
+                                        
+                            <div className="cart-content">
+                                
+                            {
+                                    this.state.categoriesProduitsBis
+                                    
+                                        .map((vignette) => (
+
+                                            <VignettesBis 
+
+                                                key={vignette.id}
+                                                vignetteBisId={vignette.id}
+                                                vignetteBisImg={vignette.img}
+                                                vignetteBisLegend={vignette.legend}
+
+                                            />
+                                        ))
+                                }
+                                
+                            </div>
+
+                        </div>
+
+                        <div className="col-text-onglet" id="col-text-onglet" >
+                            <p><Link to="/Enfants">Découvrir l'épicerie</Link></p>
+                        </div>
+                    </article>
+
+                </div>
             </section>
         )
     }
