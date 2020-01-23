@@ -18,10 +18,10 @@ class Accueil extends React.Component {
                 <Header />
                 <Actualite />
 
-            <section className="pdp">
+            
                 <Instagram />
                 <Pdpcol />
-            </section>
+         
 
              </section>
             

@@ -34,32 +34,32 @@ class Epicerie extends React.Component{
                         <figure className="text-content item">
                             <img src={epicerie4} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
+                                <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
                             <img src={epicerie5} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
+                                <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
                             <img src={epicerie3} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
+                                <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
                             <img src={epicerie1} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
+                                <div className="empty"></div>
                         </figure>
                         <figure className="text-content item">
                             <img src={epicerie2} alt="epicerie" />      
                                 <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
+                                <div className="empty"></div>
+                        </figure>
+                        <figure className="text-content item">
                         <img src={epicerie6} alt="epicerie" />      
                             <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
+                            <div className="empty"></div>
                     </figure>
                     </div>
                 
