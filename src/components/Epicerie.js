@@ -25,82 +25,14 @@ class Epicerie extends React.Component{
                     {/* Colonnes 2 */}
                     <article className="col-text-ep" id="dims-col-ep" >
                         
-                        <h1>EPICERIE</h1>
-                        <h2>des bons produits locaux pour le quotidient</h2>
-                        <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
-                    </div>
-                
+                        <div className="col-text-section" id="dims-bloc-titre">
+                            <h1>EPICERIE</h1>
+                        </div>
 
-                    <div className="wrapper">
-
-                    <div className="cart-content">
-                        <figure className="text-content item">
-                            <img src={epicerie4} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie5} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie3} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie1} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie2} alt="epicerie" />      
-                                <figcaption className="glocery">Confiserie</figcaption>
-                                <div className="empty"></div>
-                        </figure>
-                        <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                    </div>
-                
-                
-                    <div className="cart-content">
-                        <figure className="text-content item">
-                            <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                        </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie5} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                        <figure className="text-content item">
-                            <img src={epicerie3} alt="epicerie" />      
-                        <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie1} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                            <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie2} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    <figure className="text-content item">
-                        <img src={epicerie6} alt="epicerie" />      
-                            <figcaption className="glocery">Confiserie</figcaption>
-                        <div className="empty"></div>
-                    </figure>
-                    </div>
-
-                    </div>
+                        <div className="col-text-pavtext col-text dims-bloc-texte">
+                            <h2>des bons produits locaux pour le quotidient</h2>
+                                <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
+                        </div>
                     
 
                         <div className="wrapper col-text dims-wrapper">
