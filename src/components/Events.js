@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 
 class Events extends React.Component{
 
@@ -14,8 +13,8 @@ class Events extends React.Component{
                 <h2 className="eventsTitle">
                     {eventsTitle}
                 </h2>
-                <img src={eventsImg} alt={eventsTitle}/> 
                 
+                <img src={`img/${eventsImg}`} alt={eventsTitle} />
                 
                 <p className="eventsContent">
                     {eventsContent}

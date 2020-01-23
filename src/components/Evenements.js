@@ -3,7 +3,7 @@ import SliderEvents from './SliderEvents';
 import './evenement.css'
 import 'slick-carousel/slick/slick.css'; 
 import "slick-carousel/slick/slick-theme.css";
-import Events from './Events';
+
 
 class Evenments extends React.Component{
     
@@ -11,9 +11,6 @@ class Evenments extends React.Component{
         return(
             <section className="component-event">
                 <SliderEvents /> 
-                <Events />
-
-                
             </section>
         )
     }

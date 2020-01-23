@@ -1,8 +1,9 @@
 import React from 'react';
 import events from '../events'
+import Events from './Events'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -29,10 +30,14 @@ class SliderEvents extends React.Component{
     
         const settings = {
             dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 6,
-            slidesToScroll: 12
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+      pauseOnHover: true,
           };
           
           return (
@@ -42,25 +47,25 @@ class SliderEvents extends React.Component{
               
                 {/*<article className="container-events">*/}
                 
-                    {
-                        this.state.events
-                         .map((events) => (
-                         
-                            <Slider {...settings} key={events.id}>
-                            
-                              <div  key={events.id}>
-                               
-                                <h2>{events.title}</h2>
-                                <img src={events.img} alt={events.title}/>
-                                <p>{events.content}</p>
-                    
-                              </div>
-                            </Slider>
-                         ))
-                        
-                    }
-                
                    
+                        
+                         
+                            <Slider {...settings} >
+                            
+                            {  this.state.events.map (event => 
+                            
+                              <Events 
+                              key={event.id}
+                              eventsId ={event.id}
+                              eventsTitle={event.title}
+                              eventsImg={event.img}
+                              eventsContent={event.content}
+                              
+                              />
+                            
+                            )}
+                            </Slider>
+   
                 {/*</article>*/}
             </section>
           );
@@ -70,3 +75,4 @@ class SliderEvents extends React.Component{
 
 
 export default (SliderEvents)
+
