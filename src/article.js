@@ -18,7 +18,7 @@ const articleNews = [
         id: 3, 
         img: "kimia-produits-menagers.jpg",
         title: "Fabrication de produits ménagers",
-        content: " Et  si pour consommer plus sainement en faisant des économies et en gagnant du temps, vous faisiez vous même vos produits ménagers? Nous vous proposons des astuces simples, rapides et efficaces à tous les coups!"
+        content: " Et si pour consommer plus sainement en faisant des économies et en gagnant du temps, vous faisiez vous même vos produits ménagers? Nous vous proposons des astuces simples, rapides et efficaces à tous les coups!"
     }
 
 

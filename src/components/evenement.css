@@ -5,25 +5,23 @@ slider {
   background-color: rgb(42, 110, 236);
 }
 
-.month-list{
+/* .month-list{
     width: 65%;
     height: 6vh;
     background: blanchedalmond;
     margin: 0 auto;
     justify-content: center;
-}
+} */
 
 /* .list-description ul{
     margin: 0 auto;
 } */
 
- /* .slider-component {
-background: blueviolet;
-display: flex;
-  width: 90%;
+ .component-event {
+  width: 80%;
   min-height: 55vh;
   margin: 0 auto;
-} */
+}
 
 /*
 .contenair-event{ 

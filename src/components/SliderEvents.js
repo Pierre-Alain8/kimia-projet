@@ -24,20 +24,23 @@ class SliderEvents extends React.Component{
         
     }
     
+    
+    
 
 
     render() {
     
         const settings = {
             dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 2,
-      autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-      pauseOnHover: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            autoplay: true,
+            speed: 3000,
+            autoplaySpeed: 2000,
+            cssEase: "linear",
+            pauseOnHover: true,
+    
           };
           
           return (
