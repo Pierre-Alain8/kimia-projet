@@ -1,4 +1,3 @@
-
 const categoriesProduits = [
     {
         id: 1, 
@@ -9,80 +8,37 @@ const categoriesProduits = [
     {
         id: 2, 
         img: "epicerie-2.jpg",
-        legend: "Confiserie"
+        legend: "Thé"
         
     },
 
     {
         id: 3, 
         img: "epicerie-2.jpg",
-        legend: "Confiserie"
+        legend: "Café"
         
     },
 
     {
         id: 4, 
         img: "epicerie-2.jpg",
-        legend: "Confiserie",
+        legend: "Pâtes",
     },
 
     {
         id: 5, 
         img: "epicerie-2.jpg",
-        legend: "Confiserie"
+        legend: "Riz"
         
     },
 
     {
         id: 6, 
         img: "epicerie-2.jpg",
-        legend: "Confiserie"
-        
-    },
-
-    {
-        id: 7, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie",
-    },
-
-    {
-        id: 8, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie"
-        
-    },
-
-    {
-        id: 9, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie"
-        
-    },
-
-    {
-        id: 10, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie",
-    },
-
-    {
-        id: 11, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie"
-        
-    },
-
-    {
-        id: 12, 
-        img: "epicerie-2.jpg",
-        legend: "Confiserie"
+        legend: "Légumes"
         
     }
-
-
-
 ]
 
 
-export default (categoriesProduits )
+export default (categoriesProduits)
