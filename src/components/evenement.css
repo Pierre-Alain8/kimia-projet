@@ -1,5 +1,5 @@
 /* dimensions du component */
-.component-event {
+slider {
   height: 90vh;
   width: 100%; 
   background-color: rgb(42, 110, 236);
@@ -10,8 +10,25 @@
     height: 6vh;
     background: blanchedalmond;
     margin: 0 auto;
+    justify-content: center;
 }
 
 /* .list-description ul{
     margin: 0 auto;
+} */
+
+ /* .slider-component {
+background: blueviolet;
+display: flex;
+  width: 90%;
+  min-height: 55vh;
+  margin: 0 auto;
+} */
+
+/*
+.contenair-event{ 
+display: flex;
+width: 65%;
+height:70%;
+background: orange;
 } */

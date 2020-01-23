@@ -12,14 +12,17 @@ class Accueil extends React.Component {
     render() {
         return (
 
-            <section className="section-accueil">
-                <div className="intro">
-                    <Header />
-                </div>
-                <div className="contenu-accueil">
-                    <Actualite />
-                </div>
-            </section>               
+            <section id="Accueil">
+                <Header />
+                <Actualite />
+
+            
+                <Instagram />
+                <Pdpcol />
+         
+
+             </section>
+            
 
         )
     }
