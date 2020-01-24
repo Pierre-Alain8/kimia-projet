@@ -19,16 +19,16 @@ class App extends React.Component {
           <BrowserRouter>
                 <div>
                     <Navabar />
-                    <Switch>
-                        <Route exact path="/" component={Accueil}/>
-                        <Route path="/Cantine" component={Cantine}  />
-                        <Route path="/Epicerie" component={Epicerie}/>
-                        <Route path="/Enfants" component={Enfants}/>
-                        <Route path="/Association" component={Association}/>
-                        <Route path="/Evénements" component={Evenements}/>
-                        <Route path="/Equipe" component={Equipe}/>
-                        <Route path="/Contact" component={Contact}/>
-                    </Switch>
+                        <Switch>
+                            <Route exact path="/" component={Accueil}/>
+                            <Route path="/Cantine" component={Cantine}  />
+                            <Route path="/Epicerie" component={Epicerie}/>
+                            <Route path="/Enfants" component={Enfants}/>
+                            <Route path="/Association" component={Association}/>
+                            <Route path="/Evénements" component={Evenements}/>
+                            <Route path="/Equipe" component={Equipe}/>
+                            <Route path="/Contact" component={Contact}/>
+                        </Switch>
                     <Footer />
                 </div>
           </BrowserRouter>

@@ -13,9 +13,9 @@ class Instagram extends React.Component {
 
         return (
 
-        <section className="instagram">
+        <div className="instagram center">
 
-            <div className="instagramContainer">
+            <article className="instagramContainer">
 
                 <div className="instagramFeed">
 
@@ -26,9 +26,9 @@ class Instagram extends React.Component {
                 </iframe>
 
                 </div>
-            </div>
+            </article>
 
-        </section>
+        </div>
 
         );
     }

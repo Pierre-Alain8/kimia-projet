@@ -1,64 +1,74 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import kimiaTeam1 from '../img/kimiaTeam1.jpeg'
-// import kimiaTeam2 from '../img/kimiaTeam1.jpg'
 import kimiaTeam3 from '../img/kimiaTeam3.jpg'
 
 class Equipe extends React.Component{
     render() {
         return(
 
-            <section className="kimiaTeam">
+            <section className="component center">
+                
+                <div className="component-conteneur cols-space col-text center component-equipe">
 
-                <article className="titleTeam">
+                    <div className="col-text-section center">
 
-                    <h1>L'EQUIPE</h1>
-
-                </article>
-
-                <article className="teamContent">
-
-                    <div className="teamArticle">
-
-                        <img src={kimiaTeam1} alt=""/> 
-
-                        <div className="teamDescription">
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium, at vel harum expedita magni accusantium excepturi incidunt voluptate perferendis reprehenderit unde officiis quis cum. Maxime delectus ullam, deserunt consequuntur quae nihil accusantium, quasi magni magnam porro similique est!
-                            </p>
-                        </div>
+                        <h1 className="title margin-top">L'EQUIPE</h1>
 
                     </div>
 
-                    <div className="teamArticle">
+                    <div className="cols col-text-content">
 
-                        <img src={kimiaTeam1} alt=""/> 
+                            <div id="col-team-kimia">
 
-                        <div className="teamDescription" >
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium, at vel harum expedita magni accusantium excepturi incidunt voluptate perferendis reprehenderit unde officiis quis cum. Maxime delectus ullam, deserunt consequuntur quae nihil accusantium, quasi magni magnam porro similique est!
-                            </p>
-                        </div>
+                                <img src={kimiaTeam1} alt=""/> 
+
+                                <div className="">
+                                        {/* teamDescription */}
+                                    <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div className="trois-cols-space" id="col-team-kimia-2">
+
+                                <img clasName=" "src={kimiaTeam1} alt=""/> 
+
+                                <div className="" >
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium!
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div className="trois-cols-space" id="col-team-kimia-3">
+
+                                <img src={kimiaTeam3} alt=""/> 
+
+                                <div className="">
+                                    {/* teamDescription */}
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium.
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                           
+                    </div>
+
+                    <div className="col-text-onglet">
+                        {/* teamFooter */}
+
+                        <p className="no-margin"><Link to="/Contact">Nous contacter</Link></p>
 
                     </div>
 
-                    <div className="teamArticle">
-
-                        <img src={kimiaTeam3} alt=""/> 
-
-                        <div className="teamDescription">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium, at vel harum expedita magni accusantium excepturi incidunt voluptate perferendis reprehenderit unde officiis quis cum. Maxime delectus ullam, deserunt consequuntur quae nihil accusantium, quasi magni magnam porro similique est!
-                            </p>
-                        </div>
-                        
-                    </div>
-
-                    <div className="teamFooter">
-                        <h3>Nous contacter</h3>
-                    </div>
-
-                </article>
-
+                </div>
 
             </section>
         )
