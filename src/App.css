@@ -356,6 +356,7 @@ body {
 .divinput button {
   border: none;
   height: 86%;
+  padding: 3px;
 }
 
 .icons {
@@ -432,12 +433,18 @@ body {
 /* navbar */
 
 .Navbar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: white;
+  z-index: 1;
   height: 10vh;
-  }
+  width: 100%;
+  position: fixed;
+  top: -72px;
+  transition: top 0.6s
+}
+
+.Navbar--hidden{
+  top: 0px;
+}
   
   .main-header {
   
@@ -451,8 +458,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  }
+  height: 100%;
+  width: 100%;
+  } 
   
   
   .navbar-brand{
@@ -461,6 +469,7 @@ body {
   }
 
   .navbar-brand h3{ 
+      margin: 0;
       font-family: 'Old Standard TT', serif;
       font-size: 1.20em;
       color: black;
@@ -766,7 +775,6 @@ height: 23px;
 display: flex;
 align-items: center;
 color: white;
-z-index: 2;
 position: absolute;
 font-size: 0.9em;
 background: gray;

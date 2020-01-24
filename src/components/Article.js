@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 class Article extends React.Component{
 
 
@@ -9,10 +8,9 @@ class Article extends React.Component{
         const {articleId, articleImg, articleTitle, articleContent} = this.props
 
         return (
-        
-             <article id={articleId} className="newsArticles">
+             <article id={articleId} className="trois-cols-space col-text-itt cols-article">
 
-             <img src={require(`../img/${articleImg}`)} alt="actualité" /> 
+                <img src={require(`../img/${articleImg}`)} alt="actualité" />
 
                 <h2> 
                     {articleTitle}
