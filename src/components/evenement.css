@@ -1,17 +1,24 @@
 /* dimensions du component */
-.component-event {
-  height: 90vh;
-  width: 100%; 
-  background-color: rgb(42, 110, 236);
+.center .component-slider {
+  width: 90%; 
+  /* min-height: 10vh; */
+  text-align: center;
+  margin: 0 auto;
+  
+  /* background-color: rgb(42, 110, 236); */
+}
+.component-slider h2 {
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 500;
+  font-size: 1.30em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.month-list{
-    width: 65%;
-    height: 6vh;
-    background: blanchedalmond;
-    margin: 0 auto;
-}
 
-/* .list-description ul{
-    margin: 0 auto;
-} */
+img {
+  width: 100%;
+  border: 0.3rem solid white;
+  /* height: 100%; */
+}
