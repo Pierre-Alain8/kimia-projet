@@ -1,65 +1,57 @@
-/* dimensions du component */
-.center .component-slider {
+.component-conteneur{
+  height: 50%;
+}
+.conteneur-slider {
   width: 90%; 
-  /* min-height: 10vh; */
   text-align: center;
   margin: 0 auto;
-  
-  /* background-color: rgb(42, 110, 236); */
 }
-.component-slider h1, h2 {
+  h1, h2 {
   color: black;
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
   font-size: 1.30em;
-  /* text-align: center; */
   text-transform: capitalize;
+} 
+
+.center-evenement {
+  flex-direction: column;
+  text-align: center;
+  /* margin-top: 8vh; */
+  line-height: 1;
 }
 
-
- /* slider{
-  border: 3rem solid grey;
-  margin-top: 5vh;
-}  */
 .eventsTitle{
   font-size: 1em;
-}
+} 
 
 img {
   width: 100%;
+  /* height: 50%; */
   border: 0.3rem solid white;
-  /* height: 100%; */
 }
 
-/* .slick-dots {
-  top: -3vh;
-} */
+
 .slick-slider {
+  width: 100%;
   border: 0.1rem solid rgb(241, 236, 236);
-  /* padding: 1rem;  */
   box-shadow: 0rem 0rem 1.3875rem 0rem rgba(0, 0, 0, 0.35);
-  
 }
 
 .slick-prev:before,
 .slick-next:before, .slick-arrow {
   color: grey;
-  background: white!important;
+  background: transparent!important;
 }
-/* .slick-prev, .slick-next{
-  -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-} */
 
-.eventsItem{
+
+/* .eventsItem{
   border:0.3rem solid transparent;
-}
+}  */
 
 .slick-slider slick-initialized{
-
-padding: 0.1rem;
+  padding: 0.1rem;
 }
-.discover-link{
+/* .discover-link{
   margin-top: 3rem;
-}
+} */

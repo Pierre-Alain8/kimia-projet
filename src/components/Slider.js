@@ -67,8 +67,8 @@ class SliderEvents extends React.Component{
           };
           
           return (
-            <div className="component-conteneur cols-space col-text center conteneur-slider">
-            {/*<h1>EVENEMENTS</h1>}
+            <section className="component-center component-slider">
+            <h1>EVENEMENTS</h1>
                 {/*<article className="container-events">*/}
                  
                             <Slider {...settings} >
@@ -89,7 +89,7 @@ class SliderEvents extends React.Component{
    
                 {/*</article>*/}
                 {/*<h1 className="discover-link">Découvrir l'association</h1>*/}
-            </div>
+            </section>
           );
         }
        

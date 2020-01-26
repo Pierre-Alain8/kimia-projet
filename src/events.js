@@ -41,7 +41,7 @@ const events = [
             title:"atelier enfant", 
             img:'party-8.jpg', 
             content:"weezevent"
-        },
+        }
 
       
    
