@@ -88,7 +88,7 @@ class SliderEvents extends React.Component{
                             </Slider>
    
                 {/*</article>*/}
-                <h1>Découvrir l'association</h1>
+                <h1 className="discover-link">Découvrir l'association</h1>
             </section>
           );
         }

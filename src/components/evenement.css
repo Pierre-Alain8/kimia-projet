@@ -17,8 +17,12 @@
 }
 
 
-slider{
+ /* slider{
+  border: 3rem solid grey;
   margin-top: 5vh;
+}  */
+.eventsTitle{
+  font-size: 1em;
 }
 
 img {
@@ -27,11 +31,14 @@ img {
   /* height: 100%; */
 }
 
-.slick-dots {
+/* .slick-dots {
   top: -3vh;
-}
+} */
 .slick-slider {
-  border: 0.01rem solid black;
+  border: 0.1rem solid rgb(241, 236, 236);
+  /* padding: 1rem;  */
+  box-shadow: 0rem 0rem 1.3875rem 0rem rgba(0, 0, 0, 0.35);
+  
 }
 
 .slick-prev:before,
@@ -47,4 +54,12 @@ img {
 
 .eventsItem{
   border:0.3rem solid transparent;
+}
+
+.slick-slider slick-initialized{
+
+padding: 0.1rem;
+}
+.discover-link{
+  margin-top: 3rem;
 }
