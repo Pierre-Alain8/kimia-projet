@@ -10,7 +10,7 @@ class Evenments extends React.Component{
     render() {
         return(
             <section className="component center">
-        
+           
                 <SliderEvents /> 
             </section>
         )

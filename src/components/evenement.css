@@ -7,18 +7,29 @@
   
   /* background-color: rgb(42, 110, 236); */
 }
-.component-slider h2 {
+.component-slider h1, h2 {
   color: black;
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
   font-size: 1.30em;
-  text-align: center;
+  /* text-align: center; */
   text-transform: capitalize;
 }
 
+
+slider{
+  margin-top: 5vh;
+}
 
 img {
   width: 100%;
   border: 0.3rem solid white;
   /* height: 100%; */
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+.slick-slider {
+  border: 0.01rem solid black;
 }
