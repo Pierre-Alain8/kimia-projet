@@ -11,7 +11,7 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "red" }}
+        style={{ ...style, display: "block", background: "grey" }}
         onClick={onClick}
       />
     );
@@ -22,7 +22,7 @@ function SampleNextArrow(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "green" }}
+        style={{ ...style, display: "block", background: "grey" }}
         onClick={onClick}
       />
     );
@@ -53,12 +53,12 @@ class SliderEvents extends React.Component{
     
         const settings = {
             dots: true,
-            infinite: true,
+            infinite: false,
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             speed: 3000,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 3000,
             cssEase: "linear",
             pauseOnHover: true,
             nextArrow: <SampleNextArrow />,
@@ -88,6 +88,7 @@ class SliderEvents extends React.Component{
                             </Slider>
    
                 {/*</article>*/}
+                <h1>Découvrir l'association</h1>
             </section>
           );
         }
