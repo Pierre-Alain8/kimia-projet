@@ -1,25 +1,26 @@
-import React from 'react'
-
+import React from 'react';
 
 class Events extends React.Component{
 
 
     render() {
-    
+
         const { eventsId, eventsTitle, eventsImg, eventsContent} = this.props
-        
+
         return (
             <div id={eventsId} className="eventsItem">
-                
+
                 <h2 className="eventsTitle">
                     {eventsTitle}
                 </h2>
-                <img src={eventsImg} alt={eventsTitle}/> 
-                
-                
-                <p className="eventsContent">
+
+                <img src={`img/${eventsImg}`} alt={eventsTitle} />
+
+                <button className="eventsContent" >
+                    <a target="_blank" rel="noopener noreferrer" href="https://weezevent.com/fr/">
                     {eventsContent}
-                </p>
+                    </a>
+                </button>
             </div>
         )
     }

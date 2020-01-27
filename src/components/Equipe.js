@@ -34,7 +34,7 @@ class Equipe extends React.Component{
 
                             <div className="trois-cols-space" id="col-team-kimia-2">
 
-                                <img clasName=" "src={kimiaTeam1} alt=""/> 
+                                <img className=" "src={kimiaTeam1} alt=""/> 
 
                                 <div className="" >
 

@@ -1,72 +1,100 @@
-// import React from 'react';
-// import events from '../events'
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
+import React from 'react';
+import events from '../events'
+import Events from './Events'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "grey" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "grey" }}
+        onClick={onClick}
+      />
+    );
+  }
 
+class SliderEvents extends React.Component{
 
-// class SliderEvents extends React.Component{
-
-//     constructor(props) {
-//         super(props)
+    constructor(props) {
+        super(props)
     
-//         this.state = {
-//              events: []
-//         }
-//     }
+        this.state = {
+             events: []
+        }
+    }
     
-//     componentDidMount() {
-//         this.setState({
-//             events
-//         }) 
+    componentDidMount() {
+        this.setState({
+            events
+        }) 
         
-//     }
+    }
+    
+    
     
 
 
-//     render() {
+    render() {
     
-//         const settings = {
-//             dots: true,
-//             infinite: true,
-//             speed: 500,
-//             slidesToShow: 6,
-//             slidesToScroll: 12
-//           };
+        const settings = {
+            dots: true,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 3000,
+            autoplaySpeed: 3000,
+            cssEase: "linear",
+            pauseOnHover: true,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />
+    
+          };
           
-//           return (
-//             <section className="slider-component">
-            
-//               <h2> Evénements </h2>
-              
-//                 {/*<article className="container-events">*/}
-                
-//                     {
-//                         this.state.events
-//                          .map((events) => (
-                         
-//                             <Slider {...settings} key={events.id}>
+          return (
+            <div className="component-conteneur cols-space center conteneur-slider">
+            {/*<h1>EVENEMENTS</h1>}
+                {/*<article className="container-events">*/}
+                 
+                            <Slider {...settings} >
                             
-//                               <div  key={events.id}>
-                               
-//                                 <h2>{events.title}</h2>
-//                                 <img src={events.img} alt={events.title}/>
-//                                 <p>{events.content}</p>
-                    
-//                               </div>
-//                             </Slider>
-//                          ))
-                        
-//                     }
-                
-                   
-//                 {/*</article>*/}
-//             </section>
-//           );
-//         }
+                            {  events.map (event => 
+                            
+                              <Events 
+                              key={event.id}
+                              eventsId ={event.id}
+                              eventsTitle={event.title}
+                              eventsImg={event.img}
+                              eventsContent={event.content}
+                              
+                              />
+                            
+                            )}
+                            </Slider>
+   
+                {/*</article>*/}
+                {/*<h1 className="discover-link">Découvrir l'association</h1>*/}
+            </div>
+          );
+        }
        
-//     }
+    }
 
 
-// export default (SliderEvents)
+export default (SliderEvents)
+
