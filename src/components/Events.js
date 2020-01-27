@@ -17,7 +17,7 @@ class Events extends React.Component{
                 <img src={`img/${eventsImg}`} alt={eventsTitle} />
 
                 <button className="eventsContent" >
-                    <a target="_blank" href="https://weezevent.com/fr/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://weezevent.com/fr/">
                     {eventsContent}
                     </a>
                 </button>
