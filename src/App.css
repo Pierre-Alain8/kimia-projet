@@ -432,28 +432,43 @@ body {
 
 /* navbar */
 
-.Navbar {
+/* .Navbar {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
-  }
+} */
+
+.Navbar {
+  background-color: white;
+  z-index: 1;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: -72px;
+  transition: top 0.6s
+}
+
+.Navbar--hidden{
+  top: 0px;
+}
   
-  .main-header {
+.main-header {
   
   width: 100%;
   display: flex;
   justify-content: center;
   height: 100%;
-  }
+}
   
   .header-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  }
+  height: 100%;
+  width: 100%;
+  } 
   
   
   .navbar-brand{
@@ -462,6 +477,7 @@ body {
   }
 
   .navbar-brand h3{ 
+      margin: 0;
       font-family: 'Old Standard TT', serif;
       font-size: 1.20em;
       color: black;
