@@ -42,10 +42,8 @@ const events = [
             img:'party-8.jpg', 
             content:"réservation"
         }
-
     
     ]
-
 
 
 
