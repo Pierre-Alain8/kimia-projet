@@ -43,8 +43,6 @@ const events = [
             content:"réservation"
         }
 
-      
-   
     
     ]
 
