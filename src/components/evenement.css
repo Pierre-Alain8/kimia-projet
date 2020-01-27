@@ -1,6 +1,7 @@
 .component-conteneur{
   height: 30%;
 }
+
 .conteneur-slider {
   width: 90%; 
   /* height: 80vh; */
@@ -34,7 +35,6 @@ img {
 /* .col-text-onglet-10{
   background: red;
 } */
-
 
 .slick-slider {
   width: 100%;
