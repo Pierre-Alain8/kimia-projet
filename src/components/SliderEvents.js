@@ -67,7 +67,7 @@ class SliderEvents extends React.Component{
           };
           
           return (
-            <div className="component-conteneur cols-space col-text center conteneur-slider">
+            <div className="component-conteneur cols-space center conteneur-slider">
             {/*<h1>EVENEMENTS</h1>}
                 {/*<article className="container-events">*/}
                  

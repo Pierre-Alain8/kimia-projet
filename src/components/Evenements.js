@@ -20,7 +20,7 @@ class Evenments extends React.Component{
         
                 <SliderEvents /> 
                         
-                <div className="col-text-onglet"  >
+                <div className="col-text-onglet-10"  >
                     <p><Link to="/Association">Découvrir l'association</Link></p>
                 </div>
                 
