@@ -432,6 +432,14 @@ body {
 
 /* navbar */
 
+/* .Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+} */
+
 .Navbar {
   background-color: white;
   z-index: 1;
@@ -446,13 +454,13 @@ body {
   top: 0px;
 }
   
-  .main-header {
+.main-header {
   
   width: 100%;
   display: flex;
   justify-content: center;
   height: 100%;
-  }
+}
   
   .header-nav {
   display: flex;
