@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import kimiaTeam1 from '../img/kimiaTeam1.jpeg'
-// import kimiaTeam2 from '../img/kimiaTeam1.jpg'
 import kimiaTeam3 from '../img/kimiaTeam3.jpg'
 
 class Equipe extends React.Component{
@@ -64,7 +64,7 @@ class Equipe extends React.Component{
                     <div className="col-text-onglet">
                         {/* teamFooter */}
 
-                        <p className="no-margin">Nous contacter</p>
+                        <p className="no-margin"><Link to="/Contact">Nous contacter</Link></p>
 
                     </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Enfant from '../img/enfant.jpg'
 
 
@@ -23,19 +24,19 @@ class Enfants extends React.Component{
                     <div className="cols col-text-tableau">
                         <div className="trois-cols">
                             <h2 id="no-mg-top">aire de jeux</h2>
-                                <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat. Aliquam erat volutpat.</p>
+                                <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         <div className="trois-cols">
                             <h2 id="no-mg-top">atelier et stage</h2>
-                                <p className="add-border-lr padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat. Aliquam erat volutpat.</p>
+                                <p className="add-border-lr padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         <div className="trois-cols">
                             <h2 id="no-mg-top">anniversaire</h2>
-                                <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismodlorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat. Aliquam erat volutpat.</p>
+                                <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismodlorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         
                     </div>
-                    <div className="col-text-onglet"><p className="no-margin">Découvrir les événements</p></div>
+                    <div className="col-text-onglet" id="col-text-onglet"><p><Link to="/Evénements">Découvrir les événements</Link></p></div>
 
                     </div>
 

@@ -1,14 +1,30 @@
 import React from 'react';
-import epicerie from '../img/Silos_epicerie.jpg'
-import  epicerie1 from '../img/epicerie-2.jpg'
-import  epicerie2 from '../img/epicerie-2.jpg';
-import  epicerie3 from '../img/epicerie-2.jpg';
-import  epicerie4 from '../img/epicerie-2.jpg';
-import  epicerie5 from '../img/epicerie-2.jpg';
-import  epicerie6 from '../img/epicerie-2.jpg';
+import { Link } from 'react-router-dom';
+import categoriesProduits from '../epicerie';
+import categoriesProduitsBis from '../epicerieBis';
+import Vignettes from './Vignettes';
+import VignettesBis from './VignettesBis';
+import epicerie from '../img/Silos_epicerie.jpg';
 
 
 class Epicerie extends React.Component{
+
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            categoriesProduits:[],
+            categoriesProduitsBis:[]
+        }
+    }
+    
+    componentDidMount() {
+        this.setState({
+            categoriesProduits,
+            categoriesProduitsBis
+        }) 
+        
+    }
 
     render() {
         return(
@@ -21,7 +37,7 @@ class Epicerie extends React.Component{
                         <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
                     </article>
 
-                    {/* Colonnes 2 */}
+                {/* Colonnes 2 */}
                     <article className="col-text-ep" id="dims-col-ep" >
                         
                         <div className="col-text-section" id="dims-bloc-titre">
@@ -29,7 +45,7 @@ class Epicerie extends React.Component{
                         </div>
 
                         <div className="col-text-pavtext col-text dims-bloc-texte">
-                            <h2>des bons produits locaux pour le quotidient</h2>
+                            <h2>des bons produits locaux pour le quotidien</h2>
                                 <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
                         </div>
                     
@@ -37,76 +53,49 @@ class Epicerie extends React.Component{
                         <div className="wrapper col-text dims-wrapper">
 
                             <div className="cart-content">
+                                {
+                                    this.state.categoriesProduits
+                                    
+                                        .map((vignette) => (
 
-                                <figure className="item">
-                                    <img src={epicerie4} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
+                                            <Vignettes 
 
-                                <figure className="item">
-                                    <img src={epicerie5} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
+                                                key={vignette.id}
+                                                vignetteId={vignette.id}
+                                                vignetteImg={vignette.img}
+                                                vignetteLegend={vignette.legend}
 
-                                <figure className="item">
-                                    <img src={epicerie3} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie1} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie2} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie6} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-un">Confiserie</figcaption>
-                                </figure>
+                                            />
+                                        ))
+                                }
+                                
                             </div>
                     
                     
                             <div className="cart-content">
+                                
+                            {
+                                    this.state.categoriesProduitsBis
+                                    
+                                        .map((vignette) => (
 
-                                <figure className="item">
-                                    <img src={epicerie6} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
+                                            <VignettesBis 
 
-                                <figure className="item">
-                                    <img src={epicerie5} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
+                                                key={vignette.id}
+                                                vignetteBisId={vignette.id}
+                                                vignetteBisImg={vignette.img}
+                                                vignetteBisLegend={vignette.legend}
 
-                                <figure className="item">
-                                    <img src={epicerie3} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie1} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie2} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
-
-                                <figure className="item">
-                                    <img src={epicerie6} alt="epicerie" className="pic-img-dims"/>      
-                                        <figcaption className="glocery vignette-row-deux">Confiserie</figcaption>
-                                </figure>
+                                            />
+                                        ))
+                                }
+                                
                             </div>
 
                         </div>
 
                         <div className="col-text-onglet" id="col-text-onglet" >
-                            <p>Découvrir l'épicerie</p>
+                            <p><Link to="/Enfants">Découvrir l'épicerie</Link></p>
                         </div>
                     </article>
 
