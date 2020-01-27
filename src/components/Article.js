@@ -8,7 +8,7 @@ class Article extends React.Component{
         const {articleId, articleImg, articleTitle, articleContent} = this.props
 
         return (
-             <article id={articleId} className="trois-cols-space col-text-itt cols-article">
+             <article id={articleId} className="new-actu trois-cols-space col-text-itt cols-article">
 
                 <img src={require(`../img/${articleImg}`)} alt="actualité" />
 

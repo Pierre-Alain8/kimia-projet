@@ -22,14 +22,14 @@ class Actualite extends React.Component {
 
     render() {
         return (
-            <section className="component-full-height center">
+            <section className="section-actu component-full-height center">
                 <div className="component-conteneur cols-space col-text center">
 
                     <div className="col-text-section center">
                         <h1 className="title">ACTUALITÉ</h1>
                     </div>
 
-                    <div className="cols col-text-content">
+                    <div className="colonnes-actu cols col-text-content">
                         {
                             this.state.articleNews
                                 

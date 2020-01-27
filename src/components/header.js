@@ -18,7 +18,7 @@ class Header extends React.Component {
                             <img src={imgun} alt="image_kimia" />
                         </div>
                         <div className="blocdeux">
-                            <p>BIENVENUE CHEZ<br/>VOUS</p>
+                            <p>BIENVENUE CHEZ VOUS</p>
                         </div>
                     
                     </div>
