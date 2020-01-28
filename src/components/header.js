@@ -12,7 +12,7 @@ class Header extends React.Component {
         return (
             <section className="header">
 
-                    <div className="headertrois">
+                    <div className="headertrois slide-down">
 
                         <div className="blocun">
                             <img src={imgun} alt="image_kimia" />
