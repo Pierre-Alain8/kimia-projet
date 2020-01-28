@@ -1,17 +1,62 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import classnames from "classnames";
+import { Link } from 'react-router-dom'; 
 
 
 class Navabar extends React.Component {
-    // handleScroll = e => {
-    //     let element = e.target
-    //     if (element.scrollHeight - element.scrollTop === element.clientHeight)
-    // }
+    
+    
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          
+           prevScrollpos: window.pageYOffset,
+            visible: true
+        };
+      
+
+    }
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+
+    }
+    
+    handleScroll = () => {
+        const { prevScrollpos } = this.state;
+      
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+
+        if (currentScrollPos > 550) {
+
+            this.setState({
+                prevScrollpos: currentScrollPos,
+                visible
+              });
+            
+        } 
+
+    };
+
+    
+
+  
+    
     render () {
+        
         return(
-            <section className="Navbar">
-                <header id="nav" role="banner" className="main-header">
-                    <nav className="header-nav">
+        
+            <section className={classnames("Navbar", {
+                "Navbar--hidden": !this.state.visible
+            })}>
+
+                <nav className="header-nav">
                     <div className="navbar-brand"><h3>Kimia</h3></div>
                         <ul>
                             <li><Link to="/">Accueil</Link></li>
@@ -23,8 +68,8 @@ class Navabar extends React.Component {
                             <li><Link to="/Equipe">Equipe</Link></li>
                             <li><Link to="/Contact">Contact</Link></li>
                         </ul>
-                    </nav>
-                </header>
+                </nav>
+            
             </section>
      
 
@@ -33,3 +78,22 @@ class Navabar extends React.Component {
 }
 
 export default Navabar
+
+
+
+
+//      // const debounce = (func, wait = 10, immediate = true) => {
+        //     let timeOut
+        //     return () => {
+        //       let context = this,
+        //         args = arguments
+        //       const later = () => {
+        //         timeOut = null
+        //         if (!immediate) func.apply(context, args)
+        //       }
+        //       const callNow = immediate && !timeOut
+        //       clearTimeout(timeOut)
+        //       timeOut = setTimeout(later, wait)
+        //       if (callNow) func.apply(context, args)
+        //     }
+        //   }

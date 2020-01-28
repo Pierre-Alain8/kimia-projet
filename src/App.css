@@ -118,7 +118,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   font-family: 'Old standart TT' serif;
-  font-size: 1.20em;
+  font-size: .9em;
 }
 
 /* gérer un contenu image et texte  */
@@ -193,7 +193,7 @@ body {
 }
 
 .height90 {
-  height: 90%;
+  height: 95%;
 }
 
 .padding {
@@ -259,10 +259,13 @@ body {
   }
 
   .blocdeux p {
-      bottom: 30%;
+      height: 100%;
+      bottom: -60%;
+      z-index: 2;
       position: absolute;
+      text-align: center;
       right: 0%;
-      left: 78%;
+      left: 72%;
       color: black;
       font-family: 'Bree Serif', serif;
       font-weight: 400;
@@ -275,10 +278,37 @@ body {
       height: 15%;
   }
 
+  .slide-down {
+    width:100%;
+    overflow:hidden;
+  }
+  
+  .slide-down p {
+    animation: 5s slide-down;
+    margin-top:0%;
+  }
+  
+  @keyframes slide-down {
+    from {
+      margin-top: -100%;
+      height: 157%; 
+    }
+  
+    to {
+      margin-top: 30%;
+      height: 100%;
+    }
+  }
+
+  
 /*--------------- actualité----------------*/
   .cols-article h2 {
+    font-size: 0.8em; 
+  }
+
+  .cols-article h2 {
     color: black;
-    font-size: 1.10em; 
+    font-size: 1em; 
     font-family: 'Old standart TT' serif;
 
   }
@@ -384,32 +414,29 @@ body {
 }
 
 /*-------------- Cantine ----------------*/
-#col-text-pavtext-cantine {
-  height: 45%;
+.col-text-pavtext-cantine {
+  height: 37%;
 }
 
 #col-text-tableau {
   height: 35%;
 }
 
-#col-text-onglet {
+.col-text-onglet-10 {
   height: 10%;
 }
 
 
 /* font component cantine */
-.component-cantine h1 {
+h1 {
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
   font-size: 1.30em;
   color: black;
   text-align: center;
-
-/* ***************Navbar************** */
-
 }
 
-.component-cantine h2 {
+h2 {
 
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
@@ -420,7 +447,7 @@ body {
 
 }
 
-.component-cantine p {
+p {
 
   color: black;
   font-family: 'EB Garamond', serif;;
@@ -432,29 +459,43 @@ body {
 
 /* navbar */
 
-.Navbar {
+/* .Navbar {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
-  }
-  /* test */
+} */
+
+.Navbar {
+  background-color: white;
+  z-index: 1;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: -72px;
+  transition: top 0.6s
+}
+
+.Navbar--hidden{
+  top: 0px;
+}
   
-  .main-header {
+.main-header {
   
   width: 100%;
   display: flex;
   justify-content: center;
   height: 100%;
-  }
+}
   
   .header-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  }
+  height: 100%;
+  width: 100%;
+  } 
   
   
   .navbar-brand{
@@ -463,6 +504,7 @@ body {
   }
 
   .navbar-brand h3{ 
+      margin: 0;
       font-family: 'Old Standard TT', serif;
       font-size: 1.20em;
       color: black;
@@ -869,4 +911,151 @@ padding: 0;
 
 #no-mg-top {
   margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+
+  .component-conteneur {
+    height: fit-content;
+  }
+
+  .component {
+    height: 60vh;
+  }
+
+  .footer {
+    height: fit-content;
+  }
+
+  .headertrois {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .blocun {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .blocdeux {
+    position: static;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blocdeux p {
+    position: static;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .slide-down p {
+    animation: fadein 5s;
+  }
+
+  .taillelogo {
+    width: 22%;
+    height: 18%;
+    right: 76%;
+    bottom: 79%;
+}
+
+.colonnes-actu {
+  flex-direction: column;
+}
+
+.new-actu {
+  height: 90vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.section-actu {
+  height: fit-content;
+}
+
+.col-text-itt img {
+  height: 70%;
+}
+
+.header {
+  height: fit-content;
+}
+
+
+/***********CANTINE**************/
+
+#cc-mq {
+  height: 100%;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+.cantine-tableau-mq {
+  flex-direction: column;
+  height: 45%;
+}
+
+.cantine-tableau-mq article {
+  width: 100%;
+}
+
+.cantine-tableau-2 {
+  
+}
+
+.col-1 {
+  width: 60%;
+}
+
+.col-2 {
+  width: 35%;
+  height: 40%;
+}
+
+/*********PDP*******/
+
+.devise {
+  display: none;
+}
+
+.component-pdp {
+  height: fit-content;
+  flex-direction: column;
+}
+
+.newsletter {
+  height: fit-content;
+  width: 100%;
+}
+
+.div-icons {
+  height: 50px;
+  width: 100%;
+}
+
+.div-icons p {
+  display: none;
+}
+
+.quote {
+  display: none;
+}
 }
