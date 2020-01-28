@@ -12,7 +12,7 @@ class Pdpcol extends React.Component {
 
             <div className="component-pdp">
 
-                    <article className="trois-cols center col-text" >
+                    <article className="newsletter trois-cols center col-text" >
                             
                             <div className="width80">
                                 <p>Restez informés de notre actualité</p>
@@ -29,13 +29,13 @@ class Pdpcol extends React.Component {
                       
                     </article>
 
-                    <article className="trois-cols add-border-lr center">
+                    <article className="devise trois-cols add-border-lr center">
                     <   div className="width80">
-                            <p id="devise" >Cultivons le vivre et le faire ensemble dans le respect de l'autre et de l'environnement.</p>
+                            <p>Cultivons le vivre et le faire ensemble dans le respect de l'autre et de l'environnement.</p>
                         </div>
                     </article>
 
-                    <article className="trois-cols center col-text">
+                    <article className="div-icons trois-cols center col-text">
                         <div className="width80 col-text center">
                             <p>Ne manquez rien de l'envers du décor</p>
                             <div className="icons">
