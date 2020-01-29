@@ -913,18 +913,82 @@ padding: 0;
   margin-top: 0;
 }
 
-@media screen and (max-width: 900px) {
 
-  .component-conteneur {
-    height: fit-content;
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1.1em;
+  }
+
+  .Navbar {
+    height: 5vh;
   }
 
   .component {
-    height: 60vh;
+    height: 65vh;
   }
 
   .footer {
+    height: 30vh;
+  }
+
+  .col-2 {
+    height: 80%;
+  }
+
+  #col-text-tableau {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .devise {
+    display: none;
+  }
+  
+  .component-pdp {
     height: fit-content;
+    flex-direction: column;
+  }
+  
+  .newsletter {
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .div-icons {
+    height: 50px;
+    width: 100%;
+  }
+  
+  .div-icons p {
+    display: none;
+  }
+  
+  .quote {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 1em;
+  }
+
+  .Navbar {
+    height: 5vh;
+  }
+
+  .component {
+    height: 65vh;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+
+  .col-2 {
+    height: 80%;
   }
 
   .headertrois {
@@ -995,7 +1059,7 @@ padding: 0;
   height: 100%;
 }
 
-h1 {
+/* h1 {
   font-size: 1.3em;
 }
 
@@ -1006,7 +1070,7 @@ h2 {
 
 p {
   font-size: 1em;
-}
+} */
 
 .cantine-tableau-mq {
   flex-direction: column;
@@ -1032,30 +1096,34 @@ p {
 
 /*********PDP*******/
 
-.devise {
-  display: none;
+
 }
 
-.component-pdp {
-  height: fit-content;
-  flex-direction: column;
+@media screen and (max-width: 414px) {
+  body {
+    font-size: 0.7em;
+  }
+
+  .component {
+    height: fit-content;
+  }
+
+  #cc-mq {
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+
+  .col-1, .col-2{
+    width: 90%;
 }
 
-.newsletter {
-  height: fit-content;
-  width: 100%;
-}
+  .col-2 {
+    height: 250px;
+    width: 175px;
+  }
 
-.div-icons {
-  height: 50px;
-  width: 100%;
-}
-
-.div-icons p {
-  display: none;
-}
-
-.quote {
-  display: none;
-}
+  .col-2 img {
+    object-fit: contain;
+  }
 }
