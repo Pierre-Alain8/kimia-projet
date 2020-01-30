@@ -78,7 +78,9 @@ body {
 
 /* adapter la taille d'une image à son conteneur */
 .deux-cols-space-img {
-  object-fit: inherit;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 /* aligner en colonne */
