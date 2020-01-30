@@ -427,6 +427,16 @@ body {
   height: 10%;
 }
 
+.col-text-onglet-10 a:hover{
+  background: #2f2f31;
+  color:white;
+}
+ .col-text-onglet-5 a:hover{
+  background:#2f2f31;
+  color:white;
+}
+
+
 
 /* font component cantine */
 h1 {

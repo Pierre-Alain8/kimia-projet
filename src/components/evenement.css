@@ -65,12 +65,17 @@ button{
   border: none;
 }
 
-a{
+.col-text-onglet-10 a:hover{
+  background: #2f2f31;
+  color:white;
+}
+
+/* .a{
    color:black;
    background: white;
-   /* border-radius: 0.03rem; */
+
  }
 a:hover{
   color:white;
   background: black;
-}
+} */
