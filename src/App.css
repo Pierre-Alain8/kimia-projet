@@ -10,7 +10,7 @@ body {
 
 /* dimensions du component */
 .component {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   /* background-color: red; */
@@ -78,8 +78,7 @@ body {
 
 /* adapter la taille d'une image à son conteneur */
 .deux-cols-space-img {
-  width: 100%;
-  height: 100%;
+  object-fit: inherit;
 }
 
 /* aligner en colonne */
@@ -96,7 +95,7 @@ body {
 
 /* dimensions sous-titre + pavé texte */
 .col-text-pavtext{
-  height: 30%;
+  height: fit-content;
   width: 100%;
   justify-content: space-evenly;
   text-align: justify;
@@ -415,11 +414,11 @@ body {
 
 /*-------------- Cantine ----------------*/
 .col-text-pavtext-cantine {
-  height: 37%;
+  height: fit-content;
 }
 
 #col-text-tableau {
-  height: 35%;
+  height: fit-content;
 }
 
 .col-text-onglet-10 {
@@ -556,6 +555,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: justify;
+
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 
 }
 
@@ -916,19 +920,37 @@ padding: 0;
 
 @media screen and (max-width: 1024px) {
   body {
-    font-size: 1.1em;
+    font-size: 1.7em;
   }
 
   .Navbar {
     height: 5vh;
   }
 
+  .component-conteneur {
+    height: fit-content;
+    flex-direction: column;
+  }
+
   .component {
-    height: 65vh;
+    height: fit-content;
+    margin-bottom: 50px;
+  }
+
+  .cols {
+    flex-direction: column;
+  }
+
+  .cols article {
+    width: 100%;
   }
 
   .footer {
-    height: 30vh;
+    height: fit-content;
+  }
+
+  .col-1 {
+    width: 100%;
   }
 
   .col-2 {
@@ -966,32 +988,43 @@ padding: 0;
   .quote {
     display: none;
   }
+
+  /*******ASSO*****/
+
+  .col-asso {
+    width: 100%;
+  }
+
+  .component-associations {
+    flex-direction: column-reverse;
+  }
+
+  /*********EQUIPE*********/
+
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.col-equipe img {
+  object-fit: contain;
+}
+
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 img {
+  object-fit: contain;
+  /* margin-bottom: 50px; */
+}
+
 }
 
 
 @media screen and (max-width: 768px) {
 
   body {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
-  .Navbar {
-    height: 5vh;
-  }
-
-  .component {
-    height: 65vh;
-  }
-
-  .footer {
-    height: 30vh;
-  }
-
-  .col-2 {
-    height: 80%;
-  }
-
-  .headertrois {
+  /* .headertrois {
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -1050,7 +1083,7 @@ padding: 0;
 
 .header {
   height: fit-content;
-}
+} */
 
 
 /***********CANTINE**************/
@@ -1071,7 +1104,7 @@ h2 {
 p {
   font-size: 1em;
 } */
-
+/* 
 .cantine-tableau-mq {
   flex-direction: column;
   height: 45%;
@@ -1079,21 +1112,18 @@ p {
 
 .cantine-tableau-mq article {
   width: 100%;
+} */
+
+
+/*****EQUIPE********/
+
+.col-equipe p {
+  margin-top: 0;
 }
 
-.cantine-tableau-2 {
-  
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
+  margin-bottom: 30px;
 }
-
-.col-1 {
-  width: 60%;
-}
-
-.col-2 {
-  width: 35%;
-  height: 40%;
-}
-
 /*********PDP*******/
 
 
@@ -1101,7 +1131,7 @@ p {
 
 @media screen and (max-width: 414px) {
   body {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .component {
@@ -1126,4 +1156,23 @@ p {
   .col-2 img {
     object-fit: contain;
   }
-}
+
+  /*******EQUIPE*******/
+
+  #col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
+    margin-bottom: 0;
+  }
+
+  #col-team-kimia img {
+    margin-bottom: 0;
+  }
+
+  #col-team-kimia-2 img {
+    margin-bottom: 0;
+  }
+
+  #col-team-kimia-3 img {
+    margin-bottom: 0;
+  }
+
+} 
