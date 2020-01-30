@@ -33,7 +33,7 @@ class Navabar extends React.Component {
         const currentScrollPos = window.pageYOffset;
         const visible = prevScrollpos > currentScrollPos;
 
-        if (currentScrollPos > 550) {
+        if (currentScrollPos < 550) {
 
             this.setState({
                 prevScrollpos: currentScrollPos,
@@ -41,6 +41,15 @@ class Navabar extends React.Component {
               });
             
         } 
+
+        // if (currentScrollPos < 100) {
+
+        //     this.setState({
+        //         prevScrollpos: currentScrollPos,
+        //         visible
+        //       });
+            
+        // } 
 
     };
 

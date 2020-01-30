@@ -15,7 +15,7 @@ class Evenments extends React.Component{
             <section className="component center center-evenement">
                         
                 <div className="col-text-section">
-                     <h1>EVENEMENT</h1>
+                     <h1>EVENEMENTS</h1>
                 </div>
         
                 <SliderEvents /> 
