@@ -10,7 +10,7 @@ body {
 
 /* dimensions du component */
 .component {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   /* background-color: red; */
@@ -78,8 +78,7 @@ body {
 
 /* adapter la taille d'une image à son conteneur */
 .deux-cols-space-img {
-  width: 100%;
-  height: 100%;
+  object-fit: inherit;
 }
 
 /* aligner en colonne */
@@ -96,7 +95,7 @@ body {
 
 /* dimensions sous-titre + pavé texte */
 .col-text-pavtext{
-  height: 30%;
+  height: fit-content;
   width: 100%;
   justify-content: space-evenly;
   text-align: justify;
@@ -415,11 +414,11 @@ body {
 
 /*-------------- Cantine ----------------*/
 .col-text-pavtext-cantine {
-  height: 37%;
+  height: fit-content;
 }
 
 #col-text-tableau {
-  height: 35%;
+  height: fit-content;
 }
 
 .col-text-onglet-10 {
@@ -560,6 +559,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: justify;
+
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 
 }
 
@@ -917,17 +921,36 @@ padding: 0;
   margin-top: 0;
 }
 
-@media screen and (max-width: 1024px) {
 
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1.7em;
+  }
+  
   .component-conteneur {
     height: fit-content;
+    flex-direction: column;
+    width: 90%;
   }
 
   .component {
-    height: 60vh;
+    height: fit-content;
+    margin-bottom: 50px;
   }
 
-  .footer {
+  /************NAVBAR***********/
+
+   .Navbar {
+    background-color: white;
+    z-index: 1;
+    height: 5vh;
+    width: 100%;
+    position: static;
+  }
+  
+  /********HEADER*********/
+
+  .header {
     height: fit-content;
   }
 
@@ -935,28 +958,20 @@ padding: 0;
     display: flex;
     flex-direction: column;
     height: fit-content;
+    margin: 20px;
   }
 
   .blocun {
-    height: 100vh;
     width: 100%;
-  }
+}
+
+  .blocun img {
+    width: inherit;
+    border: 0;
+}
 
   .blocdeux {
-    position: static;
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .blocdeux p {
-    position: static;
-    text-align: center;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
+    display: none;
   }
 
   .slide-down p {
@@ -964,20 +979,22 @@ padding: 0;
   }
 
   .taillelogo {
-    width: 22%;
-    height: 18%;
-    right: 76%;
-    bottom: 79%;
+    width: 23%;
+    height: 22%;
+    right: 75%;
+    bottom: 75%;
 }
+
+/******ACTUALITE*********/
 
 .colonnes-actu {
   flex-direction: column;
 }
 
 .new-actu {
-  height: 90vh;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  height: fit-content;
+  margin-bottom: 60px;
+  margin-top: 5px;
 }
 
 .section-actu {
@@ -985,222 +1002,113 @@ padding: 0;
 }
 
 .col-text-itt img {
-  height: 70%;
-}
-
-.header {
   height: fit-content;
 }
 
-.Navbar {
-  background-color: white;
-  z-index: 1;
-  height: 5vh;
-  width: 100%;
-  position: static;
-}
 
 
-/***********CANTINE**************/
+/*******CANTINE********/
+  .cols {
+    flex-direction: column;
+  }
 
-#cc-mq {
-  height: 100%;
-}
+  .cols article {
+    width: 100%;
+  }
 
-h1 {
-  font-size: 1.3em;
-}
+  .col-1 {
+    width: 100%;
+  }
 
-h2 {
-  font-size: 1.1em;
-  margin-bottom: 0;
-}
+  .col-2 {
+    height: 80%;
+  }
 
-p {
-  font-size: 1em;
-}
+  #col-text-tableau {
+    justify-content: center;
+    align-items: center;
+  }
 
-.cantine-tableau-mq {
-  flex-direction: column;
-  height: 45%;
-}
+  /***********PDP**********/
 
-.cantine-tableau-mq article {
-  width: 100%;
-}
+  .footer {
+    height: fit-content;
+  }
 
-/* .cantine-tableau-2 {
+  .devise {
+    display: none;
+  }
   
-} */
+  .component-pdp {
+    height: fit-content;
+    flex-direction: column;
+  }
+  
+  .newsletter {
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .div-icons {
+    height: 50px;
+    width: 100%;
+  }
+  
+  .div-icons p {
+    display: none;
+  }
+  
+  .quote {
+    display: none;
+  }
 
-.col-1 {
-  width: 60%;
-}
+  /*******ASSO*****/
 
-.col-2 {
-  width: 35%;
-  height: 40%;
-}
+  .col-asso {
+    width: 100%;
+  }
 
-/*********PDP*******/
+  .component-associations {
+    flex-direction: column-reverse;
+  }
 
-.devise {
-  display: none;
-}
+  /*********EQUIPE*********/
 
-.component-pdp {
-  height: fit-content;
-  flex-direction: column;
-}
-
-.newsletter {
-  height: fit-content;
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
   width: 100%;
+  margin-bottom: 50px;
 }
 
-.div-icons {
-  height: 50px;
-  width: 100%;
-}
 
-.div-icons p {
-  display: none;
-}
-
-.quote {
-  display: none;
-}
-
-/*********Enfants*******/
-
-.component {
-  height: fit-content;
-}
-
-.component-enfants {
-  font-size: 1.7em;
-  line-height: 1.5em;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.component-enfants h2, h1 {
-  font-size: 1.2em;
-}
-
-.deux-cols-space {
-  height: fit-content;
-  width: 100%;
-}
-
-.col-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.col-text-tableau p {
-  text-align: center;
-  margin-bottom: 0;
-  padding: 8px;
-}
-
-.deux-cols-space-img {
-  width: 50%;
+.col-equipe img {
   object-fit: contain;
-  margin-bottom: 20px;
 }
 
-
-
-
-
-/*********Contact*******/
-
-.section-contact{
-  font-size: 1.7em;
-  line-height: 1.5em;
-  height: fit-content;
-  width: 100%;
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 img {
+  object-fit: contain;
+  /* margin-bottom: 50px; */
 }
 
-.contact-form-kimia {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 }
 
-.title-contact-kimia {
-  margin-bottom: 9px;
-}
-
-.component-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cols-kimia-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.col-formulaire {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.col-adresse{
-  border-right: none;
-  border-left: none;
-  display:  flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-.col-horraires {
-  display:  flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-.contact-recrutement {
-  margin-top: 30px
-}
-
-.submit-contact {
-  height: 33%;
-}
-
-.submit-border{
-  height: 58%;
-}
-
-
-
-
-}
 
 @media screen and (max-width: 768px) {
 
-  .Navbar {
-    top: -84px
-  } 
+  body {
+    font-size: 1.2em;
+  }
 
-  /*********Enfants*******/
+/*****EQUIPE********/
+
+.col-equipe p {
+  margin-top: 0;
+}
+
+#col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
+  margin-bottom: 30px;
+}
+  
+   /*********Enfants*******/
 
   .component-enfants {
     font-size: 1.3em;
@@ -1277,11 +1185,87 @@ p {
     margin-top: 20px
   }
 
-
 }
 
 
 @media screen and (max-width: 414px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  .component {
+    height: fit-content;
+  }
+
+  /*********HEADER********/
+
+  .headertrois {
+    margin: 10px;
+  }
+
+  /*******ACTUALITE********/
+
+  .new-actu {
+    margin-bottom: 40px;
+}
+
+.new-actu img {
+  margin-bottom: 0px;
+}
+
+
+/********CANTINE*******/
+
+  .col-1, .col-2{
+    width: 90%;
+}
+
+
+/*********Enfants*******/
+
+.component {
+  height: fit-content;
+}
+
+.component-enfants {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-enfants h2, h1 {
+  font-size: 1.2em;
+}
+
+.deux-cols-space {
+  height: fit-content;
+  width: 100%;
+}
+
+.col-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-text-tableau p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+.deux-cols-space-img {
+  width: 50%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*******NAVBAR*******/
 
   .burgerMenu {
     display: inline-block;
@@ -1347,14 +1331,6 @@ p {
     margin-top: 8px;
   }
 
-
-
-
-  .Navbar {
-    top: -84px
-  }
-  
-
   /*********Contact*******/
 
   .section-contact{
@@ -1404,9 +1380,6 @@ p {
     font-size: 0.9em;
   }
 
-  
 
-
-}
-
+} 
 
