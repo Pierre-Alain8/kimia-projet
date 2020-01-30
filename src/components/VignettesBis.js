@@ -11,7 +11,7 @@ class VignettesBis extends React.Component {
 
                 <img src={require(`../img/${vignetteBisImg}`)} alt="epicerie" className="pic-img-dims"/> 
 
-                    <figcaption className="glocery vignette-row-deux">{vignetteBisLegend}</figcaption>
+                    <figcaption className="glocery vignette-row-un">{vignetteBisLegend}</figcaption>
 
             </figure>
             

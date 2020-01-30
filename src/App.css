@@ -79,6 +79,7 @@ body {
 /* adapter la taille d'une image à son conteneur */
 .deux-cols-space-img {
   object-fit: inherit;
+  border: 0;
 }
 
 /* aligner en colonne */
@@ -721,6 +722,9 @@ display: flex;
 
 /******************** Epicerie ***************************/
 
+.componenent-epicerie {
+  height: fit-content;
+}
 
 /* font component epicerie */
 .component-epicerie h1 {
@@ -750,14 +754,35 @@ display: flex;
 
 .item{
 /* background: pink; */
-width: 8vw;
+    /* background: pink; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 75px;
 height: 100%;
 text-align: center;
 border: 0.15em white solid;
-margin:0.1rem;
-display: flex;
-justify-content: center;
+margin: 0.1rem;
+}
 
+.item img {
+  display: flex;
+  /* width: 100%; */
+  height: 80%;
+  object-fit: inherit;
+  border: 0;
+}
+
+.glocery {
+  background: beige;
+  height: 30%;
+  width: 85%;
+  position: relative;
+  justify-content: center;
+  bottom: 10px;
+  font-size: 0.9em;
+  color: black;
 }
 
 #dims-bloc-titre {
@@ -788,7 +813,7 @@ justify-content: center;
 .wrapper{
 display: flex;
 justify-content: space-between;
-height: 50%;
+height: fit-content;
 width: 100%;
 margin: 0;
 }
@@ -804,7 +829,8 @@ background: gray
 
 .cart-content{
 display: flex;
-height: 45%;
+flex-wrap: wrap;
+height: 50%;
 width: 100%;
 
 }
@@ -815,7 +841,7 @@ display: flex;
 align-items: center;
 color: white;
 position: absolute;
-font-size: 0.9em;
+/* font-size: 0.9em; */
 background: gray;
 border-radius: 12%;
 padding: 0;
@@ -833,14 +859,6 @@ padding: 0;
 
 #dims-col-ep {
   height: 100%;
-}
-
-.vignette-row-un {
-  bottom: 36%;
-}
-
-.vignette-row-deux {
-  bottom: 14%;
 }
 
 

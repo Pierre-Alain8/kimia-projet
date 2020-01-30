@@ -33,7 +33,7 @@ class Epicerie extends React.Component{
                 <div className="component-conteneur cols-space center component-epicerie">
 
                 {/* Colonne 1 */}
-                    <article className="col-img-ep">
+                    <article className="col-img-ep center">
                         <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
                     </article>
 
