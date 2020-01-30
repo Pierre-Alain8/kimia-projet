@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from "classnames";
-// import logo from '../img/logo.jpg';
 import { Link } from 'react-router-dom'; 
 
 
@@ -16,6 +15,7 @@ class Navabar extends React.Component {
            prevScrollpos: window.pageYOffset,
             visible: true, 
             display: "flex", 
+            change : false
         };
       
 
@@ -74,7 +74,6 @@ class Navabar extends React.Component {
             })}>
 
                 <div onClick={this.showMenu } className="burgerMenu">
-                    {/* <div><img src={logo} alt="kimia" /> </div> */}
                     <div className="barMenu">
                         <div className="bar1"></div>
                         <div className="bar2"></div>
