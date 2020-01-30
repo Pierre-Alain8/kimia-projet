@@ -40,7 +40,7 @@ class Enfants extends React.Component{
 
                     </div>
 
-                    <div className="deux-cols-space">
+                    <div className="deux-cols-space center">
                         <img src={Enfant} alt="enfant" className="deux-cols-space-img" />
                     </div>  
 

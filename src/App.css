@@ -479,6 +479,10 @@ p {
 .Navbar--hidden{
   top: 0px;
 }
+
+.burgerMenu {
+  display: none;
+}
   
 .main-header {
   
@@ -503,10 +507,10 @@ p {
   }
 
   .navbar-brand h3{ 
-      margin: 0;
-      font-family: 'Old Standard TT', serif;
-      font-size: 1.20em;
-      color: black;
+    margin: 0;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.20em;
+    color: black;
   }
   
   ul{
@@ -612,7 +616,7 @@ display: flex;
 
 }
 
-#cols-kimia-contact {
+.cols-kimia-contact {
   height: 85%;
 }
 
@@ -631,7 +635,7 @@ display: flex;
   width: 80%;
 }
 
-#submit-contact {
+.submit-contact {
 
   height: 28%;
   display: flex;
@@ -639,13 +643,13 @@ display: flex;
   align-items: flex-end;
 }
 
-#submit-border {
+.submit-border {
   border: 1px solid #C4C4C4;
   height: 30%;
   width: 35%;
 
 }
-#submit-button {
+.submit-button {
   background-color: white;
   border: none;
   height: 100%;
@@ -670,7 +674,7 @@ display: flex;
  
 }
 
-#adresse-2 {
+.adresse-2 {
   margin-bottom: 5%;
 }
 
@@ -922,7 +926,7 @@ padding: 0;
   body {
     font-size: 1.7em;
   }
-
+  
   .component-conteneur {
     height: fit-content;
     flex-direction: column;
@@ -936,8 +940,12 @@ padding: 0;
 
   /************NAVBAR***********/
 
-  .Navbar {
+   .Navbar {
+    background-color: white;
+    z-index: 1;
     height: 5vh;
+    width: 100%;
+    position: static;
   }
   
   /********HEADER*********/
@@ -996,6 +1004,8 @@ padding: 0;
 .col-text-itt img {
   height: fit-content;
 }
+
+
 
 /*******CANTINE********/
   .cols {
@@ -1069,6 +1079,7 @@ padding: 0;
   margin-bottom: 50px;
 }
 
+
 .col-equipe img {
   object-fit: contain;
 }
@@ -1096,6 +1107,83 @@ padding: 0;
 #col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
   margin-bottom: 30px;
 }
+  
+   /*********Enfants*******/
+
+  .component-enfants {
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+
+  .col-text-tableau {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-text-tableau p {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  .trois-cols {
+    width: 100%;
+  }
+
+  .add-border-lr {
+    border-right: none;
+    border-left: none;
+  }
+
+  #margin-h2 {
+    margin-bottom: 10px;
+  }
+
+  #no-mg-top {
+    margin-top: 15px;
+  }
+
+
+
+  /*********Contact*******/
+
+  .section-contact{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .contact-form-kimia {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .title-contact-kimia {
+    margin-bottom: 9px;
+  }
+
+  .component-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cols-kimia-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .submit-border{
+    height: 41%;
+  }
+
+  .contact-recrutement {
+    margin-top: 20px
+  }
 
 }
 
@@ -1132,31 +1220,166 @@ padding: 0;
     width: 90%;
 }
 
-  .col-2 {
-    height: 250px;
-    width: 175px;
+
+/*********Enfants*******/
+
+.component {
+  height: fit-content;
+}
+
+.component-enfants {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-enfants h2, h1 {
+  font-size: 1.2em;
+}
+
+.deux-cols-space {
+  height: fit-content;
+  width: 100%;
+}
+
+.col-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-text-tableau p {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+.deux-cols-space-img {
+  width: 50%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*******NAVBAR*******/
+
+  .burgerMenu {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
   }
 
-  .col-2 img {
-    object-fit: contain;
+  .barMenu{
+    z-index: 1;
+    margin-left: 18px;
   }
 
-  /*******EQUIPE*******/
-
-  #col-team-kimia, #col-team-kimia-2, #col-team-kimia-3 {
-    margin-bottom: 0;
+  .burgerMenu ul {
+    z-index: 1;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
   }
 
-  #col-team-kimia img {
-    margin-bottom: 0;
+  .header-nav{
+    display: none;
   }
 
-  #col-team-kimia-2 img {
-    margin-bottom: 0;
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  } */
+
+  /*********Enfants*******/
+  .component-enfants {
+    font-size: 0.9em;
+    line-height: 1.2em;
   }
 
-  #col-team-kimia-3 img {
-    margin-bottom: 0;
+  #margin-h2 {
+    margin-bottom: 2px;
   }
+
+  #no-mg-top {
+    margin-top: 8px;
+  }
+
+  /*********Contact*******/
+
+  .section-contact{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .title-contact-kimia {
+    margin-bottom: 9px;
+  }
+
+  .component-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cols-kimia-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact-form-kimia {
+    width: 100%;
+  }
+
+  .contact-form-kimia form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 93%;
+  }
+
+
+  .submit-contact {
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+  }
+
+  .component-contact h2 {
+    font-size: 0.9em;
+  }
+
 
 } 
+
