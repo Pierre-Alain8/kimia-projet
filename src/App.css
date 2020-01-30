@@ -480,6 +480,10 @@ p {
 .Navbar--hidden{
   top: 0px;
 }
+
+.burgerMenu {
+  display: none;
+}
   
 .main-header {
   
@@ -504,10 +508,10 @@ p {
   }
 
   .navbar-brand h3{ 
-      margin: 0;
-      font-family: 'Old Standard TT', serif;
-      font-size: 1.20em;
-      color: black;
+    margin: 0;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.20em;
+    color: black;
   }
   
   ul{
@@ -989,7 +993,11 @@ padding: 0;
 }
 
 .Navbar {
-  top: -130px
+  background-color: white;
+  z-index: 1;
+  height: 5vh;
+  width: 100%;
+  position: static;
 }
 
 
@@ -1274,6 +1282,56 @@ p {
 
 
 @media screen and (max-width: 414px) {
+
+  .burgerMenu {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .barMenu{
+    z-index: 1;
+    margin-left: 18px;
+  }
+
+  .burgerMenu ul {
+    z-index: 1;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-nav{
+    display: none;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  } */
 
   /*********Enfants*******/
   .component-enfants {
