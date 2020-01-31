@@ -31,7 +31,7 @@ const events = [
 
         {
             id:5, 
-            title:"cérémonie nuptiale", 
+            title:"Mariage", 
             img:'party-5.jpg', 
             content:"réservation"
         },

@@ -70,48 +70,12 @@ button{
   color:white;
 }
 
-li {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
-  padding: 0.5rem;
-}
+/* .a{
+   color:black;
+   background: white;
 
-/* .col-text-onglet-10, .col-text-onglet-5, .col-text-onglet a{
-  padding: 0.9rem;
-  -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; 
-  transition: all 0.15s ease;
-    background-size: 100% 200%; 
-    background-position: 0 -100%;
-    background-image: linear-gradient(to top, transparent 50%, #2f2f2f 50%); 
-}
-
-.col-text-onglet-10 a:hover, 
-.col-text-onglet-5 a:hover, .col-text-onglet a:hover{
-  color: white;
-  background-position: 0 0;
+ }
+a:hover{
+  color:white;
+  background: black;
 } */
-
-/* .col-text-onglet-5 a:hover{
-  color: white;
-  background-position: 0 0;
-}
-
-.col-text-onglet a:hover{
-  color: white;
-  background-position: 0 0;
-} */
-
-
-
-/*************** Mediaqueries ***********/
-
-@media screen and (min-width:725px) and (max-width: 1024px) {
-
-  h1{
-    font-size: 0.9em;
-  }
-  .eventsTitle{
-    font-size: 0.9em;
-  }
-
-}

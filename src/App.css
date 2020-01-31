@@ -7,6 +7,25 @@ body {
 
 
   /* *******************CSS COMMUN***************** */
+  
+  
+  /* ******************* Hover Link *************** */
+  
+  .col-text-onglet-10,.col-text-onglet-5, .col-text-onglet a{
+    padding: 0.9rem;
+    -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; 
+    transition: all 0.15s ease;
+      background-size: 100% 200%; 
+      background-position: 0 -100%;
+      background-image: linear-gradient(to top, transparent 50%, #2f2f2f 50%); 
+  }
+   .col-text-onglet-10 a:hover, 
+.col-text-onglet-5 a:hover, .col-text-onglet a:hover{
+  color: white;
+  background-position: 0 0;
+}
+
+  
 
 /* dimensions du component */
 .component {
@@ -1103,6 +1122,13 @@ padding: 0;
   /* margin-bottom: 50px; */
 }
 
+/* EVENEMENTS */
+
+.eventTitle{
+  
+  font-size: 0.9em;
+}
+
 }
 
 
@@ -1198,7 +1224,13 @@ padding: 0;
   .contact-recrutement {
     margin-top: 20px
   }
+  
+  /* EVENEMENTS */
 
+.eventTitle{
+  
+  font-size: 0.9em;
+}
 }
 
 
@@ -1396,4 +1428,27 @@ padding: 0;
 
 
 } 
+
+
+/* Effet hover sur les lien */
+
+.col-text-onglet-10 a{
+  padding: 0.8rem;
+  -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; 
+  transition: all 0.15s ease;
+    background-size: 100% 200%; 
+    background-position: 0 -100%;
+    background-image: linear-gradient(to top, transparent 50%, #2f2f2f 50%); 
+}
+
+.col-text-onglet-10 a:hover{
+  color: white;
+  background-position: 0 0;
+}
+
+.col-text-onglet-5 a:hover{
+  color: white;
+  background-position: 0 0;
+}
+
 

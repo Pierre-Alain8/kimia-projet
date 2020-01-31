@@ -9,7 +9,8 @@ import Association from './components/Association';
 import Evenements from './components/Evenements';
 import Equipe from './components/Equipe';
 import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import './evenement.css'
 // import Pdp_col from './components/Pdp_col'
 
 

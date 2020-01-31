@@ -47,10 +47,6 @@ class SliderEvents extends React.Component{
 
     }
 
-
-
-
-
     render() {
         const settings = {
 
@@ -86,21 +82,21 @@ class SliderEvents extends React.Component{
                        arrows: true,
                        infinite: true,
                        slidesToShow: 1,
-                       slidesToScroll: 1,
+                       slidesToScroll: 0,
                        swipeToSlide: true,
-                         cssEase: 'linear'
+                       cssEase: 'linear'
                      }
                    },
                    {
-                    breakpoint: 414,
-                    settings: {
+                    breakpoint: 375,
+                      settings: {
                       dots: false,
                       arrows: true,
                       infinite: true,
                       slidesToShow: 1,
-                      slidesToScroll: 1,
+                      slidesToScroll: 0,
                       swipeToSlide: true,
-                        cssEase: 'linear'
+                      cssEase: 'linear'
                     }
                   },
                    {
