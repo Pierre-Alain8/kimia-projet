@@ -21,13 +21,13 @@ class Contact extends React.Component{
     render() {
         return(
            
-        <section className="component-full-height center">
+        <section className="component-full-height center section-contact">
             
-        <section className="component-conteneur cols-space col-text center component-contact" >
+        <section className="component-conteneur col-text center component-contact" >
 
-            <section className="cols" id="cols-kimia-contact">
+            <section className="cols cols-kimia-contact">
 
-                <article className="trois-cols"> {/* className="trois-cols" */}
+                <article className="trois-cols col-formulaire"> {/* className="trois-cols" */}
 
                     <div className="title-contact-kimia">
 
@@ -40,15 +40,15 @@ class Contact extends React.Component{
                         <form action="mailto:bonjour@kimiacafe.fr" method="post" encType="text/plain" >
 
                             <label>Nom :</label>
-                            <input type="text" name="Nom" id="nameInput" /> 
+                            <input type="text" name="Nom" className="nameInput" /> 
 
                             <label>Prénom :</label>
-                            <input type="text" name="Prenom"  id="prenomInput"/> 
+                            <input type="text" name="Prenom"  className="prenomInput"/> 
                             
                     
 
                             <label>Email :</label>
-                            <input type="email" name="Email"  required  id="emailInput"/> 
+                            <input type="email" name="Email"  required  className="emailInput"/> 
                             
                             
                             <label>Téléphone :</label>
@@ -56,7 +56,7 @@ class Contact extends React.Component{
 
                             <label >Votre message </label>
 
-                            <textarea id="messageInput" type="text" name="Message" rows="10" cols="80"
+                            <textarea className="messageInput" type="text" name="Message" rows="10" cols="80"
                             value={this.state.value } 
                             onChange={this.handleChange}>
 
@@ -64,10 +64,10 @@ class Contact extends React.Component{
 
                             </textarea>
 
-                            <span id="submit-contact">
+                            <span className="submit-contact">
                                 
-                                <span id="submit-border">
-                                    <input type="submit" value="C'est parti" id="submit-button"></input>
+                                <span className="submit-border">
+                                    <input type="submit" value="C'est parti" className="submit-button"></input>
                                 </span>
 
                             </span>
@@ -77,7 +77,7 @@ class Contact extends React.Component{
 
                 </article>
 
-                <article className="trois-cols add-border-lr"> {/* className="trois-cols" */}
+                <article className="trois-cols add-border-lr col-adresse"> {/* className="trois-cols" */}
                     
                     <div className="contact-adresse-title">
 
@@ -115,7 +115,7 @@ class Contact extends React.Component{
 
                 </article>
 
-                <article className="trois-cols"> {/* className="trois-cols" */}
+                <article className="trois-cols col-horraires"> {/* className="trois-cols" */}
 
                     <div className="contact-horaire">
                         <h2>HORAIRES </h2>

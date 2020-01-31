@@ -17,24 +17,24 @@ class Equipe extends React.Component{
 
                     </div>
 
-                    <div className="cols col-text-content">
+                    <div className="cols col-text-content col-equipe center">
 
-                            <div id="col-team-kimia">
+                            <div className="trois-cols-space" id="col-team-kimia-2">
 
                                 <img src={kimiaTeam1} alt=""/> 
 
                                 <div className="">
                                         {/* teamDescription */}
-                                    <p>
+                                    <p>-2
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe magni dolorem perspiciatis necessitatibus dicta alias illum obcaecati ipsum, dolorum deleniti, repudiandae officiis ipsa amet omnis nulla? Explicabo nam quam consequuntur natus quae illum deserunt nulla fugit id libero, tempora excepturi praesentium! Laborum, ea dolorem deserunt neque eligendi voluptatem necessitatibus laudantium.
                                     </p>
                                 </div>
 
                             </div>
 
-                            <div className="trois-cols-space" id="col-team-kimia-2">
+                            <div id="col-team-kimia">
 
-                                <img className=" "src={kimiaTeam1} alt=""/> 
+                                <img src={kimiaTeam1} alt=""/> 
 
                                 <div className="" >
 
