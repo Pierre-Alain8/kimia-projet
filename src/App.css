@@ -1017,9 +1017,7 @@ p {
   width: 100%;
 }
 
-.cantine-tableau-2 {
-  
-}
+
 
 .col-1 {
   width: 60%;
@@ -1059,3 +1057,22 @@ p {
   display: none;
 }
 }
+
+
+/* Effet hover sur les lien */
+
+.col-text-onglet-10 a{
+  padding: 0.9rem;
+  -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; 
+  transition: all 0.15s ease;
+    background-size: 100% 200%; 
+    background-position: 0 -100%;
+    background-image: linear-gradient(to top, transparent 50%, #2f2f2f 50%); 
+}
+
+.col-text-onglet-10 a:hover{
+  color: white;
+  background-position: 0 0;
+}
+
+
