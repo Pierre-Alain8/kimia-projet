@@ -46,7 +46,7 @@ class Cantine extends React.Component {
 
                     </section>
 
-                    <section className="col-2 deux-cols-space">
+                    <section className="col-2 deux-cols-space center">
                         <img alt="solidarité" className="deux-cols-space-img" src={kimiaCantine} />              
                     </section>
 
