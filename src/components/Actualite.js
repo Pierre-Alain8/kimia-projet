@@ -26,7 +26,9 @@ class Actualite extends React.Component {
                 <div className="component-conteneur cols-space col-text center">
 
                     <div className="col-text-section center">
-                        <h1 className="title">Actualité</h1>
+
+                        <h1 className="title">ACTUALITÉS</h1>
+
                     </div>
 
                     <div className="colonnes-actu cols col-text-content">

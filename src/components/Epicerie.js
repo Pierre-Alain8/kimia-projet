@@ -11,25 +11,25 @@ class Epicerie extends React.Component{
 
     constructor(props) {
         super(props)
-    
+
         this.state = {
             categoriesProduits:[],
             categoriesProduitsBis:[]
         }
     }
-    
+
     componentDidMount() {
         this.setState({
             categoriesProduits,
             categoriesProduitsBis
-        }) 
-        
+        })
+
     }
 
     render() {
         return(
 
-            <section className="component center">
+            <section className="component center center-epicerie">
                 <div className="component-conteneur cols-space center component-epicerie">
 
                 {/* Colonne 1 */}
@@ -39,7 +39,7 @@ class Epicerie extends React.Component{
 
                 {/* Colonnes 2 */}
                     <article className="col-text-ep" id="dims-col-ep" >
-                        
+
                         <div className="col-text-section" id="dims-bloc-titre">
                             <h1>Épicerie</h1>
                         </div>
@@ -48,17 +48,17 @@ class Epicerie extends React.Component{
                             <h2>des bons produits locaux pour le quotidien</h2>
                                 <p>lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas.</p>
                         </div>
-                    
+
 
                         <div className="wrapper col-text dims-wrapper">
 
                             <div className="cart-content">
                                 {
                                     this.state.categoriesProduits
-                                    
+
                                         .map((vignette) => (
 
-                                            <Vignettes 
+                                            <Vignettes
 
                                                 key={vignette.id}
                                                 vignetteId={vignette.id}
@@ -68,18 +68,18 @@ class Epicerie extends React.Component{
                                             />
                                         ))
                                 }
-                                
+
                             </div>
-                    
-                    
+
+
                             <div className="cart-content">
-                                
+
                             {
                                     this.state.categoriesProduitsBis
-                                    
+
                                         .map((vignette) => (
 
-                                            <VignettesBis 
+                                            <VignettesBis
 
                                                 key={vignette.id}
                                                 vignetteBisId={vignette.id}
@@ -89,7 +89,7 @@ class Epicerie extends React.Component{
                                             />
                                         ))
                                 }
-                                
+
                             </div>
 
                         </div>

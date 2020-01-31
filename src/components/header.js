@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import logo from '../img/logocoupe.jpg';
+import logo from '../img/logo.jpg';
 import imgun from '../img/headerimg.jpg';
 
 
