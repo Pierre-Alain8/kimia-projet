@@ -94,7 +94,7 @@ class Epicerie extends React.Component{
 
                         </div>
 
-                        <div className="col-text-onglet" id="col-text-onglet" >
+                        <div className="col-text-onglet-10 center" id="col-text-onglet" >
                             <p><Link to="/Enfants">Découvrir l'épicerie</Link></p>
                         </div>
                     </article>
