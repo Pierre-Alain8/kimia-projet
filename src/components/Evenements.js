@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 class Evenments extends React.Component{
+ /* TEST*/
 
 
     render() {
