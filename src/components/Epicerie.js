@@ -33,7 +33,7 @@ class Epicerie extends React.Component{
                 <div className="component-conteneur cols-space center component-epicerie">
 
                 {/* Colonne 1 */}
-                    <article className="col-img-ep center">
+                    <article className="col-img-ep">
                         <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
                     </article>
 
@@ -41,7 +41,7 @@ class Epicerie extends React.Component{
                     <article className="col-text-ep" id="dims-col-ep" >
 
                         <div className="col-text-section" id="dims-bloc-titre">
-                            <h1>Épicerie</h1>
+                            <h1>EPICERIE</h1>
                         </div>
 
                         <div className="col-text-pavtext col-text dims-bloc-texte">
@@ -94,7 +94,7 @@ class Epicerie extends React.Component{
 
                         </div>
 
-                        <div className="col-text-onglet-10 center" id="col-text-onglet" >
+                        <div className="col-text-onglet" id="col-text-onglet" >
                             <p><Link to="/Enfants">Découvrir l'épicerie</Link></p>
                         </div>
                     </article>
