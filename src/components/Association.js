@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import assopic from '../../src/img/journée-internationale-personnes-âgées.jpg';
+// import assopic from '../../src/img/journée-internationale-personnes-âgées.jpg';
 
 class Association extends React.Component{
     render() {
@@ -11,7 +11,7 @@ class Association extends React.Component{
                 <div className="component-conteneur cols-space center component-associations"> 
           
                     <section className="deux-cols-space center">
-                        <img alt="solidarité" className="deux-cols-space-img" src={assopic} />              
+                        <img alt="solidarité" className="deux-cols-space-img" src="img/journee-internationale-personnes-agees.jpg" />              
                     </section>
 
                     <section className="deux-cols-space col-text height90 col-asso">

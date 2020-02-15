@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import kimiaCantine from '../img/kimia-cantine.jpg';
+// import kimiaCantine from '../img/kimia-cantine.jpg';
 
 class Cantine extends React.Component {
 
@@ -47,7 +47,7 @@ class Cantine extends React.Component {
                     </section>
 
                     <section className="col-2 deux-cols-space center">
-                        <img alt="solidarité" className="deux-cols-space-img" src={kimiaCantine} />              
+                        <img alt="solidarité" className="deux-cols-space-img" src="img/kimia-cantine.jpg" />              
                     </section>
 
                 </div>

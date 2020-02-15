@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter} from 'react-router-dom';
-import logo from '../img/logo.jpg';
-import imgun from '../img/headerimg.jpg';
+// import logo from '../img/logo.jpg';
+// import imgun from '../img/headerimg.jpg';
 
 
 class Header extends React.Component {
@@ -15,7 +15,7 @@ class Header extends React.Component {
                     <div className="headertrois slide-down">
 
                         <div className="blocun">
-                            <img src={imgun} alt="image_kimia" />
+                            <img src="img/headerimg.jpg" alt="image_kimia" />
                         </div>
                         <div className="blocdeux">
                             <p>BIENVENUE CHEZ VOUS</p>
@@ -23,7 +23,7 @@ class Header extends React.Component {
                     
                     </div>
 
-                    <img className="taillelogo" src={logo} alt="logo" />
+                    <img className="taillelogo" src="img/logo-kimia.jpg" alt="logo" />
 
             </section>
         )
