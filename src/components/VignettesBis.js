@@ -9,7 +9,7 @@ class VignettesBis extends React.Component {
         return (
             <figure id={vignetteBisId} className="item">
 
-                <img src={require(`../img/${vignetteBisImg}`)} alt="epicerie" className="pic-img-dims"/> 
+                <img src={`img/${vignetteBisImg}`} alt="epicerie" className="pic-img-dims"/> 
 
                     <figcaption className="glocery vignette-row-deux">{vignetteBisLegend}</figcaption>
 
