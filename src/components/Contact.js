@@ -56,7 +56,9 @@ class Contact extends React.Component{
 
                             <label >Votre message </label>
 
-                            <textarea className="messageInput" type="text" name="Message" rows="10" cols="80"
+                            <textarea className="messageInput" type="text" name="Message" 
+// @ts-ignore
+                            rows="10" cols="80"
                             value={this.state.value } 
                             onChange={this.handleChange}>
 

@@ -562,7 +562,19 @@ p {
   a{
   text-decoration: none;
   color: black;
+  /* cursor: pointer; */
   }
+  a[onclick] { 
+  cursor: default; 
+  pointer-events: none;
+  }
+  /* button {
+        cursor: pointer;
+   }
+   li{
+       cursor:pointer;
+   } */
+  
 
 
 /*-------------- Equipe ----------------*/
