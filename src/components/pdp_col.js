@@ -18,10 +18,10 @@ class Pdpcol extends React.Component {
                                 <p>Restez informés de notre actualité</p>
         
                                 <div className="divinput center">
-                                    <div>
-                                        <input type="text" name="email" placeholder="email"></input>
+                                    <div className="divinputun">
+                                        <input className="inputmail" type="text" name="email" placeholder="email"></input>
                                     </div>
-                                    <div>
+                                    <div className="divinputdeux">
                                         <button type="submit" name="submit">OK</button>
                                     </div>
                                 </div>

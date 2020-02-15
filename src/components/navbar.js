@@ -1,8 +1,6 @@
 import React from 'react';
 import classnames from "classnames";
 import { Link } from 'react-router-dom'; 
-import logoNav from '../img/logocoupe.jpg'
-
 
 class Navabar extends React.Component {
     
@@ -94,11 +92,11 @@ class Navabar extends React.Component {
                 </div>
 
                 <div className="logomobile">
-                    <img src={logoNav} alt="logo nav" className="logoimg" />
+                    <img src="img/logocoupe.jpg" alt="logo nav" className="logoimg" />
                 </div>
 
                 <nav className="header-nav">
-                    <div className="navbar-brand"><img src={logoNav} alt="logo nav" /> </div>
+                    <div className="navbar-brand"><img src="img/logocoupe.jpg" alt="logo nav" /> </div>
                         <ul>
                             <li><Link to="/">Accueil</Link></li>
                             <li><Link to="/Cantine">Cantine</Link></li>

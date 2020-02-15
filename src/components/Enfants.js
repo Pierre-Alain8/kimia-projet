@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Enfant from '../img/enfant.jpg'
 
 
 class Enfants extends React.Component{
@@ -41,7 +40,7 @@ class Enfants extends React.Component{
                     </div>
 
                     <div className="deux-cols-space center">
-                        <img src={Enfant} alt="enfant" className="deux-cols-space-img" />
+                        <img src="img/enfant.jpg" alt="enfant" className="deux-cols-space-img" />
                     </div>  
 
                 </article>

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import kimiaTeam1 from '../img/kimiaTeam1.jpeg'
-import kimiaTeam3 from '../img/kimiaTeam3.jpg'
 
 class Equipe extends React.Component{
     render() {
@@ -21,7 +19,7 @@ class Equipe extends React.Component{
 
                             <div className="trois-cols-space" id="col-team-kimia-2">
 
-                                <img src={kimiaTeam1} alt=""/> 
+                                <img src="img/kimiaTeam1.jpeg" alt=""/> 
 
                                 <div className="">
                                         {/* teamDescription */}
@@ -34,7 +32,7 @@ class Equipe extends React.Component{
 
                             <div id="col-team-kimia">
 
-                                <img src={kimiaTeam1} alt=""/> 
+                                <img src="img/kimiaTeam1.jpeg" alt=""/> 
 
                                 <div className="" >
 
@@ -47,7 +45,7 @@ class Equipe extends React.Component{
 
                             <div className="trois-cols-space" id="col-team-kimia-3">
 
-                                <img src={kimiaTeam3} alt=""/> 
+                                <img src="img/kimiaTeam3.jpg" alt=""/> 
 
                                 <div className="">
                                     {/* teamDescription */}
