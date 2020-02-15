@@ -1,7 +1,8 @@
 import React from 'react';
 import classnames from "classnames";
-import { Link } from 'react-router-dom'; 
+import { Link, withRouter } from 'react-router-dom'; 
 import logoNav from '../img/logocoupe.jpg'
+
 
 
 class Navabar extends React.Component {
@@ -10,6 +11,7 @@ class Navabar extends React.Component {
     constructor(props) {
         super(props);
         this.showMenu = this.showMenu.bind(this)
+        this.handleClick = this.handleClick.bind(this)
     
         this.state = {
           
@@ -53,6 +55,7 @@ class Navabar extends React.Component {
 
         }
     };
+    
 
     showMenu = () => {
 
@@ -60,6 +63,11 @@ class Navabar extends React.Component {
             display : !this.state.display
         })
         
+    }; 
+    
+    
+    handleClick = () => {
+        this.props.history.push('/')
     }
 
     
@@ -94,7 +102,7 @@ class Navabar extends React.Component {
                 </div>
 
                 <nav className="header-nav">
-                    <div className="navbar-brand"><img src={logoNav} alt="logo nav" /> </div>
+                    <div className="navbar-brand"><img src={logoNav} alt="logo nav" onClick={this.handleClick} /> </div>
                         <ul>
                             <li><Link to="/">Accueil</Link></li>
                             <li><Link to="/Cantine">Cantine</Link></li>
@@ -114,7 +122,7 @@ class Navabar extends React.Component {
     }
 }
 
-export default Navabar
+export default withRouter(Navabar) 
 
 
 
