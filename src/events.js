@@ -3,42 +3,42 @@ const events = [
     
         {
             id:1, 
-            title:"atelier cuisine", 
+            title:"Atelier cuisine", 
             img:'epicerie-7.jpg', 
             content:"réservation"
         }, 
         
         {
             id:2, 
-            title:"cancert live", 
+            title:"Concert live", 
             img:'party-2.jpg', 
             content:"réservation"
         },
 
         {
             id:3, 
-            title:"meet-up", 
+            title:"Meet-up", 
             img:'party-3.jpg', 
             content:"réservation"
         },
 
         {
             id:4, 
-            title:"after work", 
+            title:"After work", 
             img:'party-4.jpg', 
             content:"réservation"
         },
 
         {
             id:5, 
-            title:"cérémonie nuptiale", 
+            title:"Cérémonie nuptiale", 
             img:'party-5.jpg', 
             content:"réservation"
         },
 
         {
             id:6, 
-            title:"atelier enfant", 
+            title:"Atelier enfant", 
             img:'party-8.jpg', 
             content:"réservation"
         }

@@ -93,6 +93,10 @@ class Navabar extends React.Component {
                     </ul>
                 </div>
 
+                <div className="logomobile">
+                    <img src={logoNav} alt="logo nav" className="logoimg" />
+                </div>
+
                 <nav className="header-nav">
                     <div className="navbar-brand"><img src={logoNav} alt="logo nav" /> </div>
                         <ul>

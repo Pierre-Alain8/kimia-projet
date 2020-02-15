@@ -41,7 +41,7 @@ class Epicerie extends React.Component{
                     <article className="col-text-ep" id="dims-col-ep" >
 
                         <div className="col-text-section" id="dims-bloc-titre">
-                            <h1>EPICERIE</h1>
+                            <h1>Épicerie</h1>
                         </div>
 
                         <div className="col-text-pavtext col-text dims-bloc-texte">

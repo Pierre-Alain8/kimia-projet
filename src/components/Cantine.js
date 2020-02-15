@@ -17,7 +17,7 @@ class Cantine extends React.Component {
                     <section className="col-1 deux-cols-space col-text height90">
                         
                         <div className="col-text-section" >
-                            <h1 className="no-margin">La Cantine</h1>
+                            <h1 className="no-margin">La cantine</h1>
                         </div>
 
                         <div className="col-text-pavtext col-text col-text-pavtext-cantine" >

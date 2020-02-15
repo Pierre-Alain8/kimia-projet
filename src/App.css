@@ -4,7 +4,21 @@ body {
   margin: 0;
 }
 
-
+  /* ******************* Hover Link *************** */
+  
+  .col-text-onglet-10,.col-text-onglet-5, .col-text-onglet a{
+    padding: 0.9rem;
+    -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; 
+    transition: all 0.15s ease;
+      background-size: 100% 200%; 
+      background-position: 0 -100%;
+      background-image: linear-gradient(to top, transparent 50%, #2f2f2f 50%); 
+  }
+   .col-text-onglet-10 a:hover, 
+.col-text-onglet-5 a:hover, .col-text-onglet a:hover{
+  color: white;
+  background-position: 0 0;
+}
 
   /* *******************CSS COMMUN***************** */
 
@@ -455,7 +469,7 @@ h2 {
   font-size: 1.30em;
   color: black;
   text-align: center;
-  text-transform: capitalize;
+  
 
 }
 
@@ -495,6 +509,10 @@ p {
 }
 
 .burgerMenu {
+  display: none;
+}
+
+.logomobile {
   display: none;
 }
   
@@ -626,7 +644,7 @@ display: flex;
   font-weight: 500;
   font-size: 1.30em;
   text-align: center;
-  text-transform: capitalize;
+  
 
 }
 
@@ -694,7 +712,7 @@ display: flex;
 
 .adresse-map{
   height: 60%;
-  width: 60%;
+  width: 80%;
 }
 
 .adresse-map img {
@@ -750,6 +768,7 @@ display: flex;
   font-size: 1.30em;
   color: black;
   text-align: center;
+  
 
 }
 
@@ -759,7 +778,7 @@ display: flex;
   font-weight: 500;
   font-size: 1.30em;
   text-align: center;
-  text-transform: capitalize;
+  
 
 }
 
@@ -780,7 +799,6 @@ width: 74px;
 height: 100%;
 text-align: center;
 margin: 0.1rem;
-box-shadow: 8px -8px 16px grey;
 }
 
 .item img {
@@ -891,6 +909,7 @@ padding: 0;
   font-size: 1.30em;
   color: black;
   text-align: center;
+  
 
 }
 
@@ -900,7 +919,7 @@ padding: 0;
   font-weight: 500;
   font-size: 1.30em;
   text-align: center;
-  text-transform: capitalize;
+  
 
 }
 
@@ -928,7 +947,6 @@ padding: 0;
   font-size: 1.30em;
   color: black;
   text-align: center;
-
 }
 
 .component-associations h2 {
@@ -937,8 +955,6 @@ padding: 0;
   font-weight: 500;
   font-size: 1.30em;
   text-align: center;
-  text-transform: capitalize;
-
 }
 
 .component-associations p {
@@ -976,10 +992,82 @@ padding: 0;
    .Navbar {
     background-color: white;
     z-index: 1;
-    height: 5vh;
+    height: 10vh;
     width: 100%;
     position: static;
   }
+
+  .burgerMenu {
+    height: 89px;
+    display: inline-block;
+    position: fixed;
+    z-index: 4;
+    width: 20%;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .barMenu{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-left: 18px;
+  }
+
+  .burgerMenu ul {
+    z-index: 1;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .header-nav{
+    display: none;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 88px;
+    height: 9px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  } */
+
+
+  .logomobile {
+    z-index: 3; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background: white;
+  }
+
+  .logoimg {
+    width: 50%;
+  }
+
+
   
   /********HEADER*********/
 
@@ -1069,7 +1157,7 @@ padding: 0;
   }
 
   .col-text-ep {
-    width: 80%;
+    width: 100%;
   }
 
   .cart-content {
@@ -1149,6 +1237,16 @@ padding: 0;
     font-size: 1.2em;
   }
 
+  /**********NAV********/
+  .burgerMenu {
+    height: 68px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 70px;
+  height: 8px;
+}
+
    /*********EPICERIE**********/
   
   .item {
@@ -1180,6 +1278,8 @@ padding: 0;
   .col-text-tableau p {
     text-align: justify;
     margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .trois-cols {
@@ -1254,6 +1354,23 @@ padding: 0;
     height: fit-content;
   }
 
+  h1 {
+    font-size: 1.50em;
+  }
+
+  /*************NAVBAR************/
+
+  .burgerMenu {
+    height: 45px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 46px;
+  height: 5px;
+  margin: 0;
+}
+
+  
   /*********HEADER********/
 
   .headertrois {
@@ -1277,11 +1394,7 @@ padding: 0;
     width: 90%;
 }
 
- /*********EPICERIE*********/
 
- .item {
-  width: 91px;
-}
 
 /*********Enfants*******/
 
@@ -1290,17 +1403,17 @@ padding: 0;
 }
 
 .component-enfants {
-  font-size: 1.7em;
-  line-height: 1.5em;
+  font-size: 0.9em;
+  line-height: 1.2em;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.component-enfants h2, h1 {
+/* .component-enfants h2, h1 {
   font-size: 1.2em;
-}
+} */
 
 .deux-cols-space {
   height: fit-content;
@@ -1310,80 +1423,18 @@ padding: 0;
 .col-text {
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
 }
 
-.col-text-tableau p {
-  text-align: center;
-  margin-bottom: 0;
-  padding: 8px;
+.col-text-pavt-text {
+  padding-top: 22px;
 }
 
 .deux-cols-space-img {
-  width: 50%;
+  width: 100%;
   object-fit: contain;
   margin-bottom: 20px;
 }
-
-
-
-
-/*******NAVBAR*******/
-
-  .burgerMenu {
-    display: inline-block;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    background-color: white;
-    cursor: pointer;
-  }
-
-  .barMenu{
-    z-index: 1;
-    margin-left: 18px;
-  }
-
-  .burgerMenu ul {
-    z-index: 1;
-    position: fixed;
-    flex-direction: column;
-    justify-content: flex-end;
-    list-style-type: none;
-    width: 100%;
-    background-color: white;
-    padding: 0;
-    margin: 0;
-  }
-
-  .header-nav{
-    display: none;
-  }
-
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  /* .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  } */
-
-  /*********Enfants*******/
-  .component-enfants {
-    font-size: 0.9em;
-    line-height: 1.2em;
-  }
 
   #margin-h2 {
     margin-bottom: 2px;

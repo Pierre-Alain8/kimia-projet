@@ -13,7 +13,7 @@ class Equipe extends React.Component{
 
                     <div className="col-text-section center">
 
-                        <h1 className="title margin-top">L'EQUIPE</h1>
+                        <h1 className="title margin-top">L'équipe</h1>
 
                     </div>
 

@@ -31,7 +31,7 @@ class Contact extends React.Component{
 
                     <div className="title-contact-kimia">
 
-                        <h2>Contact</h2>
+                        <h1>Contact</h1>
 
                     </div>
 

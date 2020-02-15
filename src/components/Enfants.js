@@ -17,21 +17,21 @@ class Enfants extends React.Component{
                     </div>
 
                     <div className="col-text-pavtext col-text">
-                        <h2 className="no-margin">ils meritent le meilleur, nous leur offrons le meilleur</h2>
+                        <h2 className="no-margin">Ils méritent le meilleur, nous leur offrons le meilleur</h2>
                             <p className="justify">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.Pellentesque euismod ipsum non mi volutpat euismod. Curabitur mollis, velit eu venenatis semper, mi dolor scelerisque nisi, id interdum risus nulla quis ligula. Phasellus tortor sem, tincidunt id tortor fermentum, tincidunt sagittis turpis. </p>
                     </div>
 
                     <div className="cols col-text-tableau">
                         <div className="trois-cols">
-                            <h2 id="no-mg-top">aire de jeux</h2>
+                            <h2 id="no-mg-top">Aire de jeux</h2>
                                 <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod.lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         <div className="trois-cols">
-                            <h2 id="no-mg-top">atelier et stage</h2>
+                            <h2 id="no-mg-top">Ateliers et stages</h2>
                                 <p className="add-border-lr padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismod lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         <div className="trois-cols">
-                            <h2 id="no-mg-top">anniversaire</h2>
+                            <h2 id="no-mg-top">Anniversaires</h2>
                                 <p className="padding">lorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Pellentesque euismod ipsum non mi volutpat euismodlorem ipsum Ut aliquet porta egestas. Aliquam erat volutpat. Aliquam erat volutpat.</p>
                         </div>
                         
