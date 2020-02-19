@@ -10,7 +10,7 @@ class Article extends React.Component{
         return (
              <article id={articleId} className="new-actu trois-cols-space col-text-itt cols-article">
 
-                <img src={require(`../img/${articleImg}`)} alt="actualité" />
+                <img src={`img/${articleImg}`} alt="actualité" />
 
                 <h2> 
                     {articleTitle}

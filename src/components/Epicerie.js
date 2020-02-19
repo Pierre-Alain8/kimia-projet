@@ -4,8 +4,6 @@ import categoriesProduits from '../epicerie';
 import categoriesProduitsBis from '../epicerieBis';
 import Vignettes from './Vignettes';
 import VignettesBis from './VignettesBis';
-import epicerie from '../img/Silos_epicerie.jpg';
-
 
 class Epicerie extends React.Component{
 
@@ -34,14 +32,14 @@ class Epicerie extends React.Component{
 
                 {/* Colonne 1 */}
                     <article className="col-img-ep">
-                        <img src={epicerie} alt="epicerie" className="deux-cols-space-img"/>
+                        <img src="img/Silos_epicerie.jpg" alt="epicerie" className="deux-cols-space-img"/>
                     </article>
 
                 {/* Colonnes 2 */}
                     <article className="col-text-ep" id="dims-col-ep" >
 
                         <div className="col-text-section" id="dims-bloc-titre">
-                            <h1>EPICERIE</h1>
+                            <h1>Épicerie</h1>
                         </div>
 
                         <div className="col-text-pavtext col-text dims-bloc-texte">

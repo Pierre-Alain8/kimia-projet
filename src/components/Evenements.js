@@ -14,9 +14,10 @@ class Evenments extends React.Component{
         return(
 
             <section className="component center center-evenement">
+                <div className="component-conteneur center component-event center-evenement">
 
                 <div className="col-text-section">
-                     <h1>EVENEMENTS</h1>
+                     <h1>Évènements</h1>
                 </div>
 
                 <SliderEvents />
@@ -25,6 +26,7 @@ class Evenments extends React.Component{
                     <p><Link to="/Association">Découvrir l'association</Link></p>
                 </div>
 
+                </div>
             </section>
         )
     }

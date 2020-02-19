@@ -1,5 +1,4 @@
 import React from 'react';
-import kimiaContact from '../img/kimia-contact.jpg';
 
 class Contact extends React.Component{
 
@@ -31,7 +30,7 @@ class Contact extends React.Component{
 
                     <div className="title-contact-kimia">
 
-                        <h2>Contact</h2>
+                        <h1>Contact</h1>
 
                     </div>
 
@@ -108,7 +107,7 @@ class Contact extends React.Component{
                             Bus ligne
                         </p> 
                         <div className="adresse-map">
-                            <img src={kimiaContact} alt="kimia contact"/>
+                            <img src="img/kimia-contact.jpg" alt="kimia contact"/>
                         </div>
 
                     </div>

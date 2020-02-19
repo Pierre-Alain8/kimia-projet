@@ -3,44 +3,44 @@ const events = [
     
         {
             id:1, 
-            title:"atelier cuisine", 
-            img:'epicerie-7.jpg', 
-            content:"réservation"
+            title:"Atelier cuisine", 
+            img:'/epicerie-7.jpg', 
+            content:"Réservation"
         }, 
         
         {
             id:2, 
-            title:"cancert live", 
-            img:'party-2.jpg', 
-            content:"réservation"
+            title:"Concert live", 
+            img:'/party-2.jpg', 
+            content:"Réservation"
         },
 
         {
             id:3, 
-            title:"meet-up", 
-            img:'party-3.jpg', 
-            content:"réservation"
+            title:"Meet-up", 
+            img:'/party-3.jpg', 
+            content:"Réservation"
         },
 
         {
             id:4, 
-            title:"after work", 
-            img:'party-4.jpg', 
-            content:"réservation"
+            title:"After work", 
+            img:'/party-4.jpg', 
+            content:"Réservation"
         },
 
         {
             id:5, 
-            title:"cérémonie nuptiale", 
-            img:'party-5.jpg', 
-            content:"réservation"
+            title:"Cérémonie nuptiale", 
+            img:'/party-5.jpg', 
+            content:"Réservation"
         },
 
         {
             id:6, 
-            title:"atelier enfant", 
-            img:'party-8.jpg', 
-            content:"réservation"
+            title:"Atelier enfant", 
+            img:'/party-8.jpg', 
+            content:"Réservation"
         }
     
     ]

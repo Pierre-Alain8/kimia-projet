@@ -18,10 +18,10 @@ class Pdpcol extends React.Component {
                                 <p>Restez informés de notre actualité</p>
         
                                 <div className="divinput center">
-                                    <div>
-                                        <input type="text" name="email" placeholder="email"></input>
+                                    <div className="divinputun">
+                                        <input className="inputmail" type="text" name="email" placeholder="email"></input>
                                     </div>
-                                    <div>
+                                    <div className="divinputdeux">
                                         <button type="submit" name="submit">OK</button>
                                     </div>
                                 </div>
@@ -39,9 +39,9 @@ class Pdpcol extends React.Component {
                         <div className="width80 col-text center">
                             <p>Ne manquez rien de l'envers du décor</p>
                             <div className="icons">
-                                <div><FontAwesomeIcon icon={faFacebook} /></div>
-                                <div><FontAwesomeIcon icon={faInstagram} /></div>
-                                <div><FontAwesomeIcon icon={faEnvelope} /></div>
+                                <div><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Kimia-caf%C3%A9-592622287462513/"><FontAwesomeIcon icon={faFacebook} /></a></div>
+                                <div><a target="_blank" rel="noopener noreferrer" href="https://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a></div>
+                                <div><a target="_blank" rel="noopener noreferrer" href="mailto:teamkimiacafe@kimiacafe.fr "><FontAwesomeIcon icon={faEnvelope} /></a></div>
                             </div>
                         </div>
                     </article>

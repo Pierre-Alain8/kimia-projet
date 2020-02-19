@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import kimiaCantine from '../img/kimia-cantine.jpg';
 
 class Cantine extends React.Component {
 
@@ -17,7 +16,7 @@ class Cantine extends React.Component {
                     <section className="col-1 deux-cols-space col-text height90">
                         
                         <div className="col-text-section" >
-                            <h1 className="no-margin">La Cantine</h1>
+                            <h1 className="no-margin">La cantine</h1>
                         </div>
 
                         <div className="col-text-pavtext col-text col-text-pavtext-cantine" >
@@ -47,7 +46,7 @@ class Cantine extends React.Component {
                     </section>
 
                     <section className="col-2 deux-cols-space center">
-                        <img alt="solidarité" className="deux-cols-space-img" src={kimiaCantine} />              
+                        <img alt="solidarité" className="deux-cols-space-img" src="img/kimia-cantine.jpg" />              
                     </section>
 
                 </div>
