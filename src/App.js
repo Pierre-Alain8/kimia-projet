@@ -10,7 +10,7 @@ import Evenements from './components/Evenements';
 import Equipe from './components/Equipe';
 import Contact from './components/Contact';
 import Footer from './components/Footer'
-// import Pdp_col from './components/Pdp_col'
+import './App.css';
 
 
 class App extends React.Component {

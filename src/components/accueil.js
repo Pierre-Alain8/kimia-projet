@@ -3,7 +3,7 @@ import { withRouter} from 'react-router-dom';
 import Header from './Header';
 import Actualite from './Actualite';
 import '../index';
-
+import '../accueil.css';
 
 class Accueil extends React.Component {
 

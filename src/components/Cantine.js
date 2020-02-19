@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import '../cantine.css';
 
 class Cantine extends React.Component {
 

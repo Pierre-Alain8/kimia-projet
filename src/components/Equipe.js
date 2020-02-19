@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../equipe.css';
 
 class Equipe extends React.Component{
     render() {

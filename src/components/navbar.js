@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from "classnames";
 import { Link, withRouter } from 'react-router-dom'; 
-
+import '../navbar.css'
 class Navabar extends React.Component {
     
     

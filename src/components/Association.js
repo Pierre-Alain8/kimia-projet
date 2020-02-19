@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../associations.css';
 
 class Association extends React.Component{
     render() {

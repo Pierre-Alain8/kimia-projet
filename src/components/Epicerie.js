@@ -4,6 +4,7 @@ import categoriesProduits from '../epicerie';
 import categoriesProduitsBis from '../epicerieBis';
 import Vignettes from './Vignettes';
 import VignettesBis from './VignettesBis';
+import '../epicerie.css';
 
 class Epicerie extends React.Component{
 
