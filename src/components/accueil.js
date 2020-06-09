@@ -18,6 +18,8 @@ class Accueil extends React.Component {
       </section>
     );
   }
+
+  //   test
 }
 
 export default withRouter(Accueil);
